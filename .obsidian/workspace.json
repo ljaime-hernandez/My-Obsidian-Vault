@@ -1,0 +1,147 @@
+{
+  "main": {
+    "id": "bb3cc7343d8b2185",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e83513580d88f5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76a4a3180a053e57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7ec989c5232ce4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c6da8aa48f84164",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56b8d94bfb5772d8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b1aae2339032a418",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "31e3d57eaca13295",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "2b6450240cf10d06",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebbf5bdcb62d4f5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8e15a0c2e80a4c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTB/Linux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "77f674c277fc3157",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTB/Linux.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8b20eede5167b5f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0bd8310ae746c2a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HTB/Linux.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "56b8d94bfb5772d8",
+  "lastOpenFiles": [
+    "HTB/Containers.md",
+    "HTB/Setting up.md",
+    "HTB/Virtualization.md",
+    "HTB/Linux.md",
+    "2022-12-04.md"
+  ]
+}
