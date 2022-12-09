@@ -50,3 +50,102 @@ Then we can install the most necessary tools we need for our penetration tests. 
 
 #### Tools List
 
+```shell-session
+┌─[cry0l1t3@parrotos]─[~]
+└──╼ $ cat tools.list
+
+netcat
+ncat
+nmap
+wireshark
+tcpdump
+hashcat
+ffuf
+gobuster
+hydra
+zaproxy
+proxychains
+sqlmap
+radare2
+metasploit-framework
+python2.7
+python3
+spiderfoot
+theharvester
+remmina
+xfreerdp
+rdesktop
+crackmapexec
+exiftool
+curl
+seclists
+testssl.sh
+git
+vim
+tmux
+```
+
+For you to install them, type the command:
+
+```shell-session
+┌─[cry0l1t3@parrotos]─[~]
+└──╼ $ sudo apt install netcat ncat (... etc)
+```
+
+As it might be tedious to install one by one and some of the dependencies might get updated every now and then, is best to create a document which you can manipulate as list and we can use the command below to install them all at once:
+
+```shell-session
+┌─[cry0l1t3@parrotos]─[~]
+└──╼ $ sudo apt install $(cat tools.list | tr "\n" " ") -y
+```
+
+### Using Github
+
+We will also come across tools that are not found in the repositories and therefore have to download them manually from Github. For example, we are still missing specific tools for Privilege Escalation and want to download the [Privilege-Escalation-Awesome-Scripts-Suite](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite). We can do that using the following command:
+
+```shell-session
+┌─[cry0l1t3@parrotos]─[~]
+└──╼ $ git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
+```
+
+### Snapshot
+
+After installing all known and relevant packages and repositories, it is highly recommended to take a `VM snapshot`. In the following steps, we will make changes to specific configuration files. If we are not careful, this can make parts of the system or even the entire system unusable. We do not have to repeat all our previous steps, and we should now create a snapshot and name it "`Initial Setup`".
+
+Nevertheless, `before` we create this snapshot, we should shut down the OS. This will significantly reduce the time required to create the snapshot. Otherwise, the snapshot will be taken from a running system that we will return to when we return to it.
+
+If we break the system in some way while performing subsequent configuration steps we can revert back to a good, known, working copy. A snapshot (powered off) should be taken after every major configuration stage. It is also a good idea to periodically take a VM snapshot during a penetration test in case something goes wrong.
+
+![](https://academy.hackthebox.com/storage/modules/87/vm_snapshot.png)
+
+![](https://academy.hackthebox.com/storage/modules/87/vm_snapshot3.png)
+
+### Terminal Adjustment
+
+Now that we have created a snapshot and can work with our configurations, let us look at our terminal environment. Many different terminal emulators emulate the actual command line input we use to enter and execute the system's commands.
+
+A very efficient alternative, which can also be used as an extension, is [Tmux](https://github.com/tmux/tmux/wiki). `Tmux` is a terminal multiplexer that allows creating a whole shell session with multiple windows and subwindows from a single shell window. As we know, started processes abort when the terminal session or SSH connection disappears. Tmux's console keeps the process alive by working with sessions. For example, if we are connected to a constantly running server in this way, we can close the terminal or shut down the computer on the local client without terminating the Tmux session. If we log back into the remote server via SSH, we can view the existing sessions and rejoin the desired session.
+
+Another handy component that we should adapt to our needs is the Bash prompt. The [bashrcgenerator](http://bashrcgenerator.com/) makes it very easy for us to design our bash prompt the way we want it to be displayed. For our penetration tests, it is crucial to have the order of the given commands to configure our Bash prompt to display timestamps.
+
+Customize Bash Prompt
+
+```shell-session
+┌─[cry0l1t3@parrotos]─[~]
+└──╼ $ echo 'export PS1="-[\[$(tput sgr0)\]\[\033[38;5;10m\]\d\[$(tput sgr0)\]-\[$(tput sgr0)\]\[\033[38;5;10m\]\t\[$(tput sgr0)\]]-[\[$(tput sgr0)\]\[\033[38;5;214m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[\033[38;5;196m\]\h\[$(tput sgr0)\]]-\n-[\[$(tput sgr0)\]\[\033[38;5;33m\]\w\[$(tput sgr0)\]]\\$ \[$(tput sgr0)\]"' >> .bashrc
+┌─[cry0l1t3@parrotos]─[~]
+└──╼ $ cp .bashrc .bashrc.bak
+```
+
+Customized Bash Prompt
+
+```shell-session
+-[Tue Mar 23-00:39:51]-[cry0l1t3@parrotos]-
+-[~]$ 
+```
+
+Another advantage of this is that we can filter out our commands by the `minus` (`-`) at the beginning later in our logs and thus see a list with only the date, time, and command specified. There are countless variations on how we can also design the look and feel of our Linux distro
+
+### Automation
+
+The automation process is also an essential part of our preparation for penetration testing. Especially when it comes to internal penetration tests, where we have internet access and can adapt the workstation we are working on to our needs. This should be fast and efficient. For this, we have to create (in the best case) Bash scripts that automatically adjust our settings to the new system. Let us take the configuration and adjustment of our Bash prompt as an example. An example script can consist of the same commands we already configured.

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "21817c0f161a43e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,12 +149,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "56b8d94bfb5772d8",
+  "active": "21817c0f161a43e9",
   "lastOpenFiles": [
+    "HTB/Virtualization.md",
+    "Untitled.md",
+    "HTB/Linux.md",
     "HTB/Containers.md",
     "HTB/Setting up.md",
-    "HTB/Virtualization.md",
-    "HTB/Linux.md",
     "2022-12-04.md"
   ]
 }
