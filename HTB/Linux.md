@@ -149,3 +149,54 @@ Another advantage of this is that we can filter out our commands by the `minus`
 ### Automation
 
 The automation process is also an essential part of our preparation for penetration testing. Especially when it comes to internal penetration tests, where we have internet access and can adapt the workstation we are working on to our needs. This should be fast and efficient. For this, we have to create (in the best case) Bash scripts that automatically adjust our settings to the new system. Let us take the configuration and adjustment of our Bash prompt as an example. An example script can consist of the same commands we already configured.
+
+```bash
+#!/bin/bash
+
+#### Make a backup of the .bashrc file
+cp ~/.bashrc ~/.bashrc.bak
+
+#### Customize bash prompt
+echo 'export PS1="-[\[$(tput sgr0)\]\[\033[38;5;10m\]\d\[$(tput sgr0)\]-\[$(tput sgr0)\]\[\033[38;5;10m\]\t\[$(tput sgr0)\]]-[\[$(tput sgr0)\]\[\033[38;5;214m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[\033[38;5;196m\]\h\[$(tput sgr0)\]]-\n-[\[$(tput sgr0)\]\[\033[38;5;33m\]\w\[$(tput sgr0)\]]\\$ \[$(tput sgr0)\]"' >> ~/.bashrc
+```
+
+If we then host this script on our VPS, we can retrieve it from our customer's Linux workstation and apply it.
+
+Request Prompt.sh
+
+```shell-session
+user@workstation:~$ curl -s http://myvps.vps-provider.net/Prompt.sh | bash
+```
+
+#### Customized Bash Prompt
+
+Customized Bash Prompt
+
+```shell-session
+-[Wed Mar 24-11:27:15]-[user@workstation]-
+-[~]$ 
+```
+
+A simple designation of these scripts is also of great use. For example, suppose we assume that we want to configure our Bash prompt and other operating system components. In that case, we need to name the scripts for this as `understandably` as possible. If we have created several scripts like this, we can write a simple Bash script from memory on the working station, which then does all the configuration. Let us assume we have created the following list of scripts, and we are hosting these on our `Virtual Private Server` (`VPS`):
+
+### Customization Scripts
+
+```shell-session
+user@workstation:~$ cat customization-scripts.txt
+
+Prompt.sh
+Tools.sh
+GUI.sh
+Tmux.sh
+Vim.sh
+```
+
+Now we could write a Bash script that takes care of all these settings for us or even combines them into a single command:
+
+```shell-session
+user@workstation:~$ for script in $(cat customization-scripts.txt); do curl -s http://myvps.vps-provider.net/$script | bash; done
+```
+
+### Final Snapshot
+
+Once we have adjusted all our configurations and settings, we should create a `Final snapshot` again to save our settings. We will want to add all the changes and tasks to the description of the new snapshot.
