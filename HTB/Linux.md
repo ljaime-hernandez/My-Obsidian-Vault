@@ -200,3 +200,10 @@ user@workstation:~$ for script in $(cat customization-scripts.txt); do curl -s h
 ### Final Snapshot
 
 Once we have adjusted all our configurations and settings, we should create a `Final snapshot` again to save our settings. We will want to add all the changes and tasks to the description of the new snapshot.
+
+### VM Encryption
+
+In addition to LVM encryption, we can encrypt the entire VM with another strong password. This gives us an extra layer of protection that will protect our results and any customer data residing on the system. This means that no one will be able to start the VM without the password we set.
+
+Now that we have shut down and powered off the VM, we go to `Edit virtual machine settings` and select the `Options` tab.
+
