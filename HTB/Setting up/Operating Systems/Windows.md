@@ -275,3 +275,50 @@ PS C:\htb> Add-MpPreference -ExclusionPath "C:\Users\your user here\AppData\Loca
 
 Repeat the same steps for each folder we wish to exclude.
 
+
+### Tool Install Automation
+
+Utilizing Chocolatey for package management makes it super easy to automate the initial install of core tools and applications. We can use a simple PowerShell script to pull everything for us in one run. Here is an example of a simple script to install some of our requirements. As usual, before executing any scripts, we need to change the execution policy. Once we have our initial script built, we can modify it as our toolkit changes and reuse it to speed up our setup process.
+
+Choco Build Script
+
+Code: powershell
+
+```powershell
+# Choco build script
+
+write-host "*** Initial app install for core tools and packages. ***"
+
+write-host "*** Configuring chocolatey ***"
+choco feature enable -n allowGlobalConfirmation
+
+write-host "*** Beginning install, go grab a coffee. ***"
+choco upgrade wsl2 python git vscode openssh openvpn netcat nmap wireshark burp-suite-free-edition heidisql sysinternals putty golang neo4j-community openjdk
+
+write-host "*** Build complete, restoring GlobalConfirmation policy. ***"
+choco feature disable -n allowGlobalCOnfirmation
+```
+
+When scripting with Chocolatey, the developers recommend a few rules to follow:
+
+-   always use `choco` or `choco.exe` as the command in your scripts. `cup` or `cinst` tends to misbehave when used in a script
+-   when utilizing options like `-n` it is recommended that we use the extended option like `--name`. 
+-   Do not use `--force` in scripts. It overrides Chocolatey's behavior.
+
+Not all of our packages can be acquired from Chocolatey. Fortunately for us, a majority of what is left resides in Github. We can set up a script for this and download the repositories and binaries we need, then extract them to our scripts folder. 
+
+## Testing VMs
+
+It is common and very relevant to prepare our penetration testing VMs and VMs for the most common operating systems and their patch levels. This is especially necessary if we want to mirror our target machines and test our exploits before applying them to real machines. For example, we can install a Windows 10 VM that is built on different [patches](https://support.microsoft.com/en-us/topic/windows-10-update-history-24ea91f4-36e7-d8fd-0ddb-d79d9d0cdbda) and [releases](https://docs.microsoft.com/en-us/windows/release-health/release-information). This will save us considerable time in the course of our penetration tests to configure them again. These VMs will help us test our approach and exploits to understand better how the interconnected system might react to them because it may be that we will only have one attempt to execute the exploit.
+
+The good thing here is that we do not have to set up 20 VMs for this but can work with snapshots. For example, we can start with Windows 10 version 1607 (OS build 14393) and update our system step by step and create a snapshot of the clean system from each of these updates and patches. Updates and patches can be downloaded from the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4550994). We just need to use the `Kb article` designation, and there we will find the appropriate files to download and patch our systems.
+
+Tools that can be used to install older versions of Windows:
+
+-   [Chocolatey](https://community.chocolatey.org/)
+    
+-   [MediaCreationTool.bat](https://gist.github.com/AveYo/c74dc774a8fb81a332b5d65613187b15)
+    
+-   [Microsoft Windows and Office ISO Download Tool](https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool%EF%BB%BF)
+    
+-   [Rufus](https://rufus.ie/en_US/)
