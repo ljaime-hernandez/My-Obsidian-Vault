@@ -213,3 +213,15 @@ Finally, we can transfer all our resources, scripts, notes, and other components
 
 #### SCP Syntax
 
+```shell-session
+Luis Miguel Jaime Hernandez@htb[/htb]$ scp -i <ssh-private-key> -r <directory to transfer> <username>@<IP/FQDN>:<path>
+```
+
+#### Resources Transfer
+
+```shell-session
+Luis Miguel Jaime Hernandez@htb[/htb]$ scp -i ~/.ssh/vps-ssh -r ~/Pentesting cry0l1t3@VPS:~/
+
+Enter passphrase for key 'cry0l1t3': *************
+Verification code: <Google-Auth Code>
+```
