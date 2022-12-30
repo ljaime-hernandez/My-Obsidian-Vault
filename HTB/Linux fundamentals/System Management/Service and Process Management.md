@@ -190,3 +190,64 @@ Luis Miguel Jaime Hernandez@htb[/htb]$
 [ENTER]
 [1]+  Exit 1                  ping -c 10 www.hackthebox.eu
 ```
+
+## Foreground a Process
+
+After that, we can use the `jobs` command to list all background processes. Backgrounded processes do not require user interaction, and we can use the same shell session without waiting until the process finishes first. Once the scan or process finishes its work, we will get notified by the terminal that the process is finished.
+
+```shell-session
+Luis Miguel Jaime Hernandez@htb[/htb]$ jobs
+
+[1]+  Running                 ping -c 10 www.hackthebox.eu &
+```
+
+If we want to get the background process into the foreground and interact with it again, we can use the `fg <ID>` command.
+
+```shell-session
+Luis Miguel Jaime Hernandez@htb[/htb]$ fg 1
+ping -c 10 www.hackthebox.eu
+
+--- www.hackthebox.eu ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9206ms
+```
+
+---
+
+## Execute Multiple Commands
+
+There are three possibilities to run several commands, one after the other. These are separated by:
+
+-   Semicolon (`;`)
+-   Double `ampersand` characters (`&&`)
+-   Pipes (`|`)
+
+The difference between them lies in the previous processes' treatment and depends on whether the previous process was completed successfully or with errors. The semicolon (`;`) is a command separator and executes the commands by ignoring previous commands' results and errors.
+
+```shell-session
+Luis Miguel Jaime Hernandez@htb[/htb]$ echo '1'; echo '2'; echo '3'
+
+1
+2
+3
+```
+
+For example, if we execute the same command but replace it in second place, the command `ls` with a file that does not exist, we get an error, and the third command will be executed nevertheless.
+
+```shell-session
+Luis Miguel Jaime Hernandez@htb[/htb]$ echo '1'; ls MISSING_FILE; echo '3'
+
+1
+ls: cannot access 'MISSING_FILE': No such file or directory
+3
+```
+
+However, it looks different if we use the double AND characters (`&&`) to run the commands one after the other. If there is an error in one of the commands, the following ones will not be executed anymore, and the whole process will be stopped.
+
+```shell-session
+Luis Miguel Jaime Hernandez@htb[/htb]$ echo '1' && ls MISSING_FILE && echo '3'
+
+1
+ls: cannot access 'MISSING_FILE': No such file or directory
+```
+
+Pipes (`|`) depend not only on the correct and error-free operation of the previous processes but also on the previous processes' results. We will deal with the pipes later in the `File Descriptors and Redirections` section.
