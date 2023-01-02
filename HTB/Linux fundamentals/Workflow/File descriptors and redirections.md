@@ -109,3 +109,4 @@ How many files exist on the system that have the ".log" file extension?
 How many total packages are installed on the target system?
 
 `737`
+
