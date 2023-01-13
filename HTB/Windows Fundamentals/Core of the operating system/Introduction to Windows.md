@@ -102,3 +102,28 @@ Connect via Remote Desktop (RDP) using the following command:
 ```shell-session
 Luis Miguel Jaime Hernandez@htb[/htb]$ xfreerdp /v:<targetIp> /u:htb-student /p:Password
 ```
+
+
+What is the Build Number of the target workstation?
+
+`19041`
+
+Get-WmiObject -Class win32_OperatingSystem
+SystemDirectory : C:\WINDOWS\system32
+Organization    :
+`BuildNumber     : 19041`
+RegisteredUser  : mrb3n
+SerialNumber    : 00329-10280-00000-AA938
+Version         : 10.0.1904
+
+Which Windows NT version is installed on the workstation? (i.e. Windows X - case sensitive)
+
+`Windows 10`
+
+Get-WmiObject -Class win32_OperatingSystem
+SystemDirectory : C:\WINDOWS\system32
+Organization    :
+BuildNumber     : 19041
+RegisteredUser  : mrb3n
+SerialNumber    : 00329-10280-00000-AA938
+`Version         : 10`.0.1904
