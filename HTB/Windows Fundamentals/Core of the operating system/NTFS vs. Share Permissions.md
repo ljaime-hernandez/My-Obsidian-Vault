@@ -190,3 +190,16 @@ We can poke around in `Shares`, `Sessions`, and `Open Files` to get an idea 
 `Event Viewer` is another good place to investigate actions completed on Windows. Almost every operating system has a logging mechanism and a utility to view the logs that were captured. Know that a log is like a journal entry for a computer, where the computer writes down all the actions that were performed and numerous details associated with that action. We can view the logs created for every action we performed when accessing the Windows 10 target box, as well as when creating, editing and accessing the shared folder.
 
 ![event viewer](https://academy.hackthebox.com/storage/modules/49/event_viewer.png)
+
+What protocol discussed in this section is used to share resources on the network using Windows? (Format: case sensitive)
+
+`SMB`
+
+What is the name of the utility that can be used to view logs made by a Windows system? (Format: 2 words, 1 space, not case sensitive)
+
+`Event Viewer`
+
+What is the full directory path to the Company Data share we created?
+
+`C:\Users\htb-student\Desktop\Company Data`
+
