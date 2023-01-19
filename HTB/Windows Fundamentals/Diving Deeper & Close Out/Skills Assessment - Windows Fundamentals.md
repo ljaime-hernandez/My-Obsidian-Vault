@@ -29,7 +29,7 @@ check after creating a folder normally
 What is the name of the tab that allows you to configure NTFS permissions?
 
 `Security`
-after allowing shared permissions on a folder
+after allowing shared permissions on a folde
 
 What is the name of the service associated with Windows Update?
 

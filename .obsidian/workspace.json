@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "01d1d41cea2b30af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Introduction to Web applications/Introduction/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
+                "file": "HTB/Introduction to Web applications/Introduction/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
+                "file": "HTB/Introduction to Web applications/Introduction/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md"
+                "file": "HTB/Introduction to Web applications/Introduction/Introduction.md"
               }
             }
           }
@@ -147,10 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ea24fa746180276",
+  "active": "01d1d41cea2b30af",
   "lastOpenFiles": [
-    "HTB/Windows Fundamentals/Core of the operating system/NTFS vs. Share Permissions.md",
     "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
+    "HTB/Windows Fundamentals/Core of the operating system/NTFS vs. Share Permissions.md",
     "HTB/Windows Fundamentals/Interacting with Windows/Interacting with the Windows Operating System.md",
     "HTB/Windows Fundamentals/Diving Deeper & Close Out/Desktop Experience vs. Server Core.md",
     "HTB/Windows Fundamentals/Diving Deeper & Close Out/Windows Security.md",
