@@ -357,4 +357,10 @@ MachinePolicy       Undefined
 
 What is the alias set for the ipconfig.exe command?
 
+`ifconfig`
+Get-Alias
+
 Find the Execution Policy set for the LocalMachine scope.
+
+`Unrestricted`
+Get-ExecutionPolicy -List

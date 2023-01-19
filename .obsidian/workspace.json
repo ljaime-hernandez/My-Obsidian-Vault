@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b0f9da67788afa1a",
+        "id": "5c33e5144804c859",
         "type": "tabs",
         "children": [
           {
-            "id": "ae373f7cdb6307f1",
+            "id": "6ea24fa746180276",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Windows Fundamentals/Core of the operating system/File System.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "051ae27dc674657d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Windows Fundamentals/Core of the operating system/NTFS vs. Share Permissions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23781a88f2dc18c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Windows Fundamentals/Working with services and processes/Windows Services & Processes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "606f4cedd9b5d079",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Windows Fundamentals/Working with services and processes/Service Permissions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98dafe44e1762e8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Windows Fundamentals/Interacting with Windows/Windows Sessions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc121da67f4348f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Windows Fundamentals/Interacting with Windows/Interacting with the Windows Operating System.md",
+                "file": "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +51,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -126,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Windows Fundamentals/Interacting with Windows/Interacting with the Windows Operating System.md",
+                "file": "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Windows Fundamentals/Interacting with Windows/Interacting with the Windows Operating System.md",
+                "file": "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Windows Fundamentals/Interacting with Windows/Interacting with the Windows Operating System.md"
+                "file": "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md"
               }
             }
           }
@@ -209,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1aae2339032a418",
+  "active": "6ea24fa746180276",
   "lastOpenFiles": [
-    "HTB/Windows Fundamentals/Interacting with Windows/Windows Sessions.md",
-    "HTB/Windows Fundamentals/Working with services and processes/Service Permissions.md",
-    "HTB/Windows Fundamentals/Working with services and processes/Windows Services & Processes.md",
-    "HTB/Windows Fundamentals/Core of the operating system/Introduction to Windows.md",
     "HTB/Windows Fundamentals/Core of the operating system/NTFS vs. Share Permissions.md",
-    "HTB/Windows Fundamentals/Core of the operating system/File System.md",
-    "HTB/Windows Fundamentals/Core of the operating system/Operating System Structure.md",
+    "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
+    "HTB/Windows Fundamentals/Interacting with Windows/Interacting with the Windows Operating System.md",
+    "HTB/Windows Fundamentals/Diving Deeper & Close Out/Desktop Experience vs. Server Core.md",
+    "HTB/Windows Fundamentals/Diving Deeper & Close Out/Windows Security.md",
+    "HTB/Windows Fundamentals/Working with services and processes/Windows Services & Processes.md",
     "HTB/Setting up/Operating Systems/Windows.md",
-    "HTB/Linux fundamentals/Introduction/Linux structure.md",
-    "HTB/Web requests/HTTP Fundamentals/Hypertext Transfer Protocol Secure (HTTPS).md"
+    "HTB/Linux fundamentals/System Management/User Management.md",
+    "HTB/Windows Fundamentals/Further Windows Usage/Microsoft Management Console (MMC).md",
+    "HTB/Windows Fundamentals/Further Windows Usage/Windows Subsystem for Linux (WSL).md"
   ]
 }

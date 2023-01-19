@@ -85,8 +85,6 @@ Note: A server is technically a software function used to service the requests o
 
 #### Using smbclient to Connect to the Share
 
-  Using smbclient to Connect to the Share
-
 ```shell-session
 Luis Miguel Jaime Hernandez@htb[/htb]$ smbclient -L IPaddressOfTarget -U htb-student
 Enter WORKGROUP\htb-student's password: 
@@ -100,8 +98,6 @@ Enter WORKGROUP\htb-student's password:
 ```
 
 What could potentially block us from accessing this share if all our entries are correct and our permissions list has the Everyone group present with at least Read permissions?
-
----
 
 ## Windows Defender Firewall Considerations
 
@@ -133,8 +129,6 @@ Now lets give the Everyone group `Full control` at the share level and test th
 
 #### Mounting to the Share
 
-  Mounting to the Share
-
 ```shell-session
 Luis Miguel Jaime Hernandez@htb[/htb]$ sudo mount -t cifs -o username=htb-student,password=Academy_WinFun! //ipaddoftarget/"Company Data" /home/user/Desktop/
 ```
@@ -142,8 +136,6 @@ Luis Miguel Jaime Hernandez@htb[/htb]$ sudo mount -t cifs -o username=htb-studen
 If this command is not working check the syntax. If the syntax is correct yet the command is still working, `cifs-utils` may need to be installed. This can be done with the following command:
 
 #### Installing CIFS Utilities
-
-  Installing CIFS Utilities
 
 ```shell-session
 Luis Miguel Jaime Hernandez@htb[/htb]$ sudo apt-get install cifs-utils
