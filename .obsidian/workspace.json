@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "747853693af831bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Introduction to Web applications/Introduction/Front End vs. Back End.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Introduction to Web applications/Introduction/Web Application Layout.md",
+                "file": "HTB/Introduction to Web applications/Introduction/Front End vs. Back End.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Introduction to Web applications/Introduction/Web Application Layout.md",
+                "file": "HTB/Introduction to Web applications/Introduction/Front End vs. Back End.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Introduction to Web applications/Introduction/Web Application Layout.md"
+                "file": "HTB/Introduction to Web applications/Introduction/Front End vs. Back End.md"
               }
             }
           }
@@ -172,8 +184,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62deb373fb3dfbf7",
+  "active": "747853693af831bc",
   "lastOpenFiles": [
+    "HTB/Introduction to Web applications/Introduction/Web Application Layout.md",
     "HTB/Introduction to Web applications/Introduction/Introduction.md",
     "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
     "HTB/Windows Fundamentals/Core of the operating system/NTFS vs. Share Permissions.md",
@@ -182,7 +195,6 @@
     "HTB/Windows Fundamentals/Diving Deeper & Close Out/Windows Security.md",
     "HTB/Windows Fundamentals/Working with services and processes/Windows Services & Processes.md",
     "HTB/Setting up/Operating Systems/Windows.md",
-    "HTB/Linux fundamentals/System Management/User Management.md",
-    "HTB/Windows Fundamentals/Further Windows Usage/Microsoft Management Console (MMC).md"
+    "HTB/Linux fundamentals/System Management/User Management.md"
   ]
 }
