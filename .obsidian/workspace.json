@@ -4,167 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "5c33e5144804c859",
+        "id": "836a08b328733106",
         "type": "tabs",
         "children": [
           {
-            "id": "6ea24fa746180276",
+            "id": "33b536941a3734c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
+                "file": "HTB/Introduction to Web Applications/Back End Components/Development Frameworks & APIs.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "01d1d41cea2b30af",
+            "id": "9c1b5f27c2a0e3f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Web applications/Introduction/Introduction.md",
+                "file": "HTB/Introduction to Web Applications/Back End Vulnerabilities/Common Web Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "62deb373fb3dfbf7",
+            "id": "4af32a16032427b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Web applications/Introduction/Web Application Layout.md",
+                "file": "HTB/Introduction to Web Applications/Back End Vulnerabilities/Public Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "747853693af831bc",
+            "id": "6f30a3de0771fe01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Web applications/Introduction/Front End vs. Back End.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "787f573cafc7bcbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web applications/Front End Components/HTML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40df1ca1702a3434",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web applications/Front End Components/Cascading Style Sheets (CSS).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "653fbb5fa845a1b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web applications/Front End Components/JavaScript.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bad2c82fe1348cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web applications/Front End Vulnerabilities/Sensitive Data Exposure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d530739944c904a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web applications/Front End Vulnerabilities/HTML Injection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb4f3f0afa42ab76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web applications/Front End Vulnerabilities/Cross-Site Scripting (XSS).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b07af606adbe5dd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web applications/Front End Vulnerabilities/Cross-Site Request Forgery (CSRF).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "974434c45161d7a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web applications/Back End Components/Back End Servers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0df87efd93a8b4df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web applications/Back End Components/Web Servers.md",
+                "file": "HTB/Introduction to Active Directory/Introduction/Why Active Directory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -214,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 285.5
   },
   "right": {
     "id": "2b6450240cf10d06",
@@ -230,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Introduction to Web applications/Back End Components/Web Servers.md",
+                "file": "HTB/Introduction to Active Directory/Introduction/Why Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Introduction to Web applications/Back End Components/Web Servers.md",
+                "file": "HTB/Introduction to Active Directory/Introduction/Why Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Introduction to Web applications/Back End Components/Web Servers.md"
+                "file": "HTB/Introduction to Active Directory/Introduction/Why Active Directory.md"
               }
             }
           }
@@ -292,17 +184,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0df87efd93a8b4df",
+  "active": "6f30a3de0771fe01",
   "lastOpenFiles": [
-    "HTB/Introduction to Web applications/Back End Components/Back End Servers.md",
-    "HTB/Introduction to Web applications/Front End Vulnerabilities/Cross-Site Request Forgery (CSRF).md",
-    "HTB/Introduction to Web applications/Front End Vulnerabilities/Cross-Site Scripting (XSS).md",
-    "HTB/Introduction to Web applications/Front End Vulnerabilities/HTML Injection.md",
-    "HTB/Introduction to Web applications/Front End Vulnerabilities/Sensitive Data Exposure.md",
-    "HTB/Introduction to Web applications/Front End Components/JavaScript.md",
-    "HTB/Introduction to Web applications/Front End Components/Cascading Style Sheets (CSS).md",
-    "HTB/Introduction to Web applications/Front End Components/HTML.md",
-    "HTB/Introduction to Web applications/Introduction/Front End vs. Back End.md",
-    "HTB/Introduction to Web applications/Introduction/Web Application Layout.md"
+    "HTB/Introduction to Web Applications/Back End Vulnerabilities/Public Vulnerabilities.md",
+    "HTB/Introduction to Web Applications/Back End Vulnerabilities/Common Web Vulnerabilities.md",
+    "HTB/Introduction to Web Applications/Back End Components/Development Frameworks & APIs.md",
+    "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
+    "HTB/Introduction to Web Applications/Back End Components/Databases.md",
+    "HTB/Introduction to Web Applications/Back End Components/Web Servers.md",
+    "HTB/Introduction to Web Applications/Back End Components/Back End Servers.md",
+    "HTB/Introduction to Web Applications/Front End Vulnerabilities/Cross-Site Request Forgery (CSRF).md",
+    "HTB/Introduction to Web Applications/Front End Vulnerabilities/Cross-Site Scripting (XSS).md",
+    "HTB/Introduction to Web Applications/Front End Vulnerabilities/HTML Injection.md"
   ]
 }
