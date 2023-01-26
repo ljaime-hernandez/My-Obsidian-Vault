@@ -18,93 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9c1b5f27c2a0e3f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web Applications/Back End Vulnerabilities/Common Web Vulnerabilities.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4af32a16032427b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web Applications/Back End Vulnerabilities/Public Vulnerabilities.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f30a3de0771fe01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Web Applications/Front End Vulnerabilities/Cross-Site Scripting (XSS).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45d8c4c150aedba1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Active Directory/Introduction/Active Directory Research Over the Years.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab3949e4761060f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Structure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ea8ae326f4c3756",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Terminology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0bf1c9bc4fd8268",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Objects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Objects.md",
+                "file": "HTB/Introduction to Web Applications/Back End Components/Development Frameworks & APIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Objects.md",
+                "file": "HTB/Introduction to Web Applications/Back End Components/Development Frameworks & APIs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Objects.md"
+                "file": "HTB/Introduction to Web Applications/Back End Components/Development Frameworks & APIs.md"
               }
             }
           }
@@ -232,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0bf1c9bc4fd8268",
+  "active": "33b536941a3734c7",
   "lastOpenFiles": [
+    "HTB/Introduction to Active Directory/All About Users/User and Machine Accounts.md",
+    "HTB/Introduction to Active Directory/Active Directory Protocols/NTLM Authentication.md",
+    "HTB/Introduction to Active Directory/Active Directory Protocols/Kerberos, DNS, LDAP, MSRPC.md",
+    "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Functionality.md",
+    "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Objects.md",
     "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Terminology.md",
     "HTB/Introduction to Active Directory/Active Directory Fundamentals/Active Directory Structure.md",
     "HTB/Introduction to Active Directory/Introduction/Active Directory Research Over the Years.md",
     "HTB/Introduction to Web Applications/Front End Vulnerabilities/Cross-Site Scripting (XSS).md",
-    "HTB/Introduction to Active Directory/Introduction/Why Active Directory.md",
-    "HTB/Introduction to Web Applications/Back End Vulnerabilities/Public Vulnerabilities.md",
-    "HTB/Introduction to Web Applications/Back End Vulnerabilities/Common Web Vulnerabilities.md",
-    "HTB/Introduction to Web Applications/Back End Components/Development Frameworks & APIs.md",
-    "HTB/Windows Fundamentals/Diving Deeper & Close Out/Skills Assessment - Windows Fundamentals.md",
-    "HTB/Introduction to Web Applications/Back End Components/Databases.md"
+    "HTB/Introduction to Active Directory/Introduction/Why Active Directory.md"
   ]
 }
