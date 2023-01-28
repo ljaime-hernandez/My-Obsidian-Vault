@@ -1,3 +1,4 @@
+.
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -78,6 +79,8 @@
 │       ├── Navigation.md
 │       ├── Permission Management.md
 │       └── Working with Files and Directories.md
+├── README.md
+├── Second-Brain.md
 ├── Setting up
 │   ├── Introduction
 │   │   ├── Containers.md
