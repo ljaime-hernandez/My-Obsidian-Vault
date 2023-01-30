@@ -13,98 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Active Directory/All About Users/Active Directory Groups.md",
+                "file": "HTB/Penetration Testing Fundamentals/Setup/Infosec Overview.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d9f7b03c59bfd08e",
+            "id": "219703c2f6879cc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Active Directory/Digging in Deeper/Examining Group Policy.md",
+                "file": "HTB/Penetration Testing Fundamentals/Setup/Getting Started with a Pentest Distro.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7c385d4d6c15c99e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e70bff92d7d6cd1f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "886f113cb086c30a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a722ac69c74c902f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f808cf74e124201a",
+            "id": "f0389af82c5af3a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Active Directory/Getting Our Hands Dirty/AD Administration Guided Lab.md",
+                "file": "HTB/Penetration Testing Fundamentals/Setup/Staying Organized.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "05beabf34a221fa9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "638a81fe9f6921c6",
+            "id": "daf8bc2f07f3fe83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Penetration Testing Fundamentals/Setup/Connecting Using VPN.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ec270aacf0da9093",
+            "id": "c38564b65e3b0e14",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Common Terms.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Common Terms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Common Terms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Knowledge Tree.md"
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Common Terms.md"
               }
             }
           }
@@ -232,17 +196,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "638a81fe9f6921c6",
+  "active": "c38564b65e3b0e14",
   "lastOpenFiles": [
-    "Knowledge Tree.md",
-    "HTB/Knowledge Tree.md",
-    "README.md",
+    "HTB/Penetration Testing Fundamentals/Setup/Connecting Using VPN.md",
+    "HTB/Penetration Testing Fundamentals/Setup/Staying Organized.md",
+    "HTB/Penetration Testing Fundamentals/Setup/Getting Started with a Pentest Distro.md",
+    "HTB/Penetration Testing Fundamentals/Setup/Infosec Overview.md",
+    "HTB/Introduction to Active Directory/All About Users/Active Directory Groups.md",
     "HTB/Introduction to Active Directory/Getting Our Hands Dirty/AD Administration Guided Lab II.md",
-    "Pasted image 20230129201434.png",
-    "Pasted image 20230129201438.png",
-    "Pasted image 20230129201621.png",
     "HTB/Introduction to Active Directory/Getting Our Hands Dirty/AD Administration Guided Lab.md",
-    "Pasted image 20230128133951.png",
-    "2..md"
+    "HTB/Knowledge Tree.md",
+    "Knowledge Tree.md",
+    "README.md"
   ]
 }

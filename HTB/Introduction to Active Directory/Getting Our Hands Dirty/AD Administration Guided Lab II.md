@@ -38,7 +38,7 @@ To add the computer to the domain from the localhost GUI is a bit different. Fol
 
 -   From the computer you wish to join the domain, open the `Control Panel` and navigate to "System and Security > System."
 -   Now select the "Change Settings" icon in the `Computer name` section. Another dialog box will pop up asking you for administrator credentials. In the next window, we need to select the change icon next to the portion that says, "To rename this computer or change its domain or workgroup, click change" This will open yet another window for you to modify the computer's name, domain, and workgroup. Check that the computer's name matches the naming standard you wish to use for the domain before joining. Doing so will ease the administrative burden of renaming a domain-joined host later.
--   next, we need to enter the name of the domain we wish to join the computer to (`INLANEFREIGHT.LOCAL`) and click OK. You may receive a warning about NetBIOS name resolution. That is an issue outside the scope of this lab. For now, move forward.
+-   Next, we need to enter the name of the domain we wish to join the computer to (`INLANEFREIGHT.LOCAL`) and click OK. You may receive a warning about NetBIOS name resolution. That is an issue outside the scope of this lab. For now, move forward.
     -   You will be prompted for domain credentials to complete this action. Utilize the domain administrator account you have been given at the beginning of this lab. (`htb-student_adm`).
     -   If all goes well, you will be presented with a prompt welcoming you to the domain. The computer needs to restart to apply changes and new group policy settings it will receive from the domain.
 
