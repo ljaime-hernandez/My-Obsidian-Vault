@@ -236,7 +236,7 @@ Our new OU "Security Analysts" should exist in the IT hive.
 Now that we have our OU, let's create the `Security Group` for our Analysts.  
 Right-click on our new OU `Security Analysts` and select "New > Group" and a popup window should appear.
 
--   Input the name of the group `Security Analysts`
+-   Input the name of the group `Security Group`
 -   Select the Group scope `Domain local`
 -   ensure group type says `Security` not "Distribution".
 -   Once you check the options, hit OK.
@@ -328,17 +328,12 @@ The command above will take the new GPO we created, link it to the OU `Security
 To modify our new policy object:
 
 -   We need to open GPMC and expand the Group Policy Objects hive so we can see what GPOs exist.
-    
 -   Right-click on the policy object we wish to modify and select "Edit. The Group Policy Management Editor should pop up in a new window.
-    
 -   From here, we have several options to enable or disable.
-    
 -   We need to modify the removable media settings and ensure they are set to block any removable media from access. We will expressly allow security analysts to access PowerShell and CMD since their daily duties require it.
-    
     -   location of removable media policy settings = `User Configuration > Policies > Administrative Templates > System > Removable Storage Access.`
     -   Location of Command Prompt settings = `User Configuration > Policies > Windows Settings > Administrative Templates > System.`
 -   For `Computer settings`, we need to ensure the Logon Banner is applied and that the password policy settings for this group are strengthened.
-    
     -   Location of Logon Banner settings = `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options.`
     -   For reference, this setting should already be enabled since the GPO we copied was for a Logon Banner. We are validating the settings and ensuring it is enabled and applied.
     -   Location of Password Policy settings = `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.`
