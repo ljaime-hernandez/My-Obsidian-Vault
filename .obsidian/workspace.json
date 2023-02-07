@@ -4,155 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "836a08b328733106",
+        "id": "6e4491149a3fe66a",
         "type": "tabs",
         "children": [
           {
-            "id": "902dd8c94d3493af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Setup/Infosec Overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "219703c2f6879cc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Setup/Getting Started with a Pentest Distro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0389af82c5af3a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Setup/Staying Organized.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "daf8bc2f07f3fe83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Setup/Connecting Using VPN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c38564b65e3b0e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Common Terms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de4c1f60e8ec1574",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Basic Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "856cf133beee4cd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Service Scanning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "16fb418396d68886",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Web Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11bd29b2ede5c6ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Public Exploits.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1b0271577c62ec5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Common Terms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7a7f81a88f73eb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Types of Shells.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69aa2085d60b30c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Web Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c639569b7c88e412",
+            "id": "f84efd7f5f6a052d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0927e0d243dbf3b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Privilege Escalation.md",
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Privilege Escalation.md",
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Privilege Escalation.md"
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md"
               }
             }
           }
@@ -292,17 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c639569b7c88e412",
+  "active": "0927e0d243dbf3b0",
   "lastOpenFiles": [
+    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Privilege Escalation.md",
+    "HTB/Useful Links.md",
+    "GTFOBins.md",
+    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Public Exploits.md",
+    "HTB/Penetration Testing Fundamentals/Setup/Infosec Overview.md",
     "HTB/Penetration Testing Fundamentals/Pentesting Basics/Web Enumeration.md",
     "HTB/Penetration Testing Fundamentals/Pentesting Basics/Types of Shells.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Privilege Escalation.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Public Exploits.md",
     "HTB/Penetration Testing Fundamentals/Pentesting Basics/Common Terms.md",
     "HTB/Penetration Testing Fundamentals/Pentesting Basics/Basic Tools.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Service Scanning.md",
-    "HTB/Linux Fundamentals/System Management/Service and Process Management.md",
-    "HTB/Windows Fundamentals/Further Windows Usage/Windows Subsystem for Linux (WSL).md",
-    "HTB/Linux Fundamentals/Workflow/File descriptors and redirections.md"
+    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Service Scanning.md"
   ]
 }
