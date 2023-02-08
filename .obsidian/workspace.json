@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md",
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Types of Shells.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md",
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Types of Shells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md",
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Types of Shells.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md"
+                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Types of Shells.md"
               }
             }
           }
@@ -163,14 +163,14 @@
   "active": "0927e0d243dbf3b0",
   "lastOpenFiles": [
     "HTB/Penetration Testing Fundamentals/Pentesting Basics/Privilege Escalation.md",
+    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Types of Shells.md",
+    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md",
     "HTB/Useful Links.md",
     "GTFOBins.md",
     "HTB/Penetration Testing Fundamentals/Pentesting Basics/Public Exploits.md",
     "HTB/Penetration Testing Fundamentals/Setup/Infosec Overview.md",
     "HTB/Penetration Testing Fundamentals/Pentesting Basics/Web Enumeration.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Types of Shells.md",
     "HTB/Penetration Testing Fundamentals/Pentesting Basics/Common Terms.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Basic Tools.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Service Scanning.md"
+    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Basic Tools.md"
   ]
 }
