@@ -84,6 +84,27 @@
 │       ├── Navigation.md
 │       ├── Permission Management.md
 │       └── Working with Files and Directories.md
+├── Penetration Testing Fundamentals
+│   ├── Attacking Your First Box
+│   │   └── Nibbles - Enumeration.md
+│   ├── Cheat Sheet.md
+│   ├── Getting Started with HTB
+│   │   ├── Navigating HTB.md
+│   │   └── Starting Out.md
+│   ├── Pentesting Basics
+│   │   ├── Basic Tools.md
+│   │   ├── Common Terms.md
+│   │   ├── Privilege Escalation.md
+│   │   ├── Public Exploits.md
+│   │   ├── Service Scanning.md
+│   │   ├── Transferring Files.md
+│   │   ├── Types of Shells.md
+│   │   └── Web Enumeration.md
+│   └── Setup
+│       ├── Connecting Using VPN.md
+│       ├── Getting Started with a Pentest Distro.md
+│       ├── Infosec Overview.md
+│       └── Staying Organized.md
 ├── Setting up
 │   ├── Introduction
 │   │   ├── Containers.md
@@ -96,6 +117,7 @@
 │       ├── VPS Hardening.md
 │       ├── VPS Providers.md
 │       └── VPS Setup.md
+├── Useful Links.md
 ├── Web Requests
 │   ├── HTTP Fundamentals
 │   │   ├── HTTP Headers.md
@@ -127,5 +149,3 @@
     └── Working with services and processes
         ├── Service Permissions.md
         └── Windows Services & Processes.md
-
-36 directories, 92 files
