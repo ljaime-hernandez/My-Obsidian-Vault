@@ -124,3 +124,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 19.23 seconds
 ```
+
+Run an nmap script scan on the target. What is the Apache version running on the server? (answer format: X.X.XX)
+
+`2.4.18`
+* whatweb 10.129.42.190

@@ -8,79 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f84efd7f5f6a052d",
+            "id": "a36d5c6231796e53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Privilege Escalation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0927e0d243dbf3b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e70172e0a3a564c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Getting Started with HTB/Starting Out.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b3ab540281641f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Getting Started with HTB/Navigating HTB.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ebab2ffd6b350f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Enumeration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74b7b80faa5f05bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Initial Foothold.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 311.5
   },
   "right": {
     "id": "2b6450240cf10d06",
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Initial Foothold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Initial Foothold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Knowledge Tree.md"
+                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Initial Foothold.md"
               }
             }
           }
@@ -208,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74b7b80faa5f05bd",
+  "active": "a36d5c6231796e53",
   "lastOpenFiles": [
+    "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Web Footprinting.md",
+    "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Initial Foothold.md",
+    "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Enumeration.md",
     "HTB/Useful Links.md",
     "HTB/Knowledge Tree.md",
     "Knowledge Tree.md",
     "HTB/Penetration Testing Fundamentals/Cheat Sheet.md",
-    "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Enumeration.md",
     "HTB/Penetration Testing Fundamentals/Getting Started with HTB/Navigating HTB.md",
     "HTB/Penetration Testing Fundamentals/Getting Started with HTB/Starting Out.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Privilege Escalation.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Public Exploits.md"
+    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Transferring Files.md"
   ]
 }
