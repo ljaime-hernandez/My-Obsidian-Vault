@@ -1,4 +1,12 @@
 .
+├── Images
+│   ├── Pasted image 20230201131402.png
+│   ├── Pasted image 20230201140640.png
+│   ├── Pasted image 20230201140727.png
+│   ├── Pasted image 20230201140747.png
+│   ├── Pasted image 20230201140801.png
+│   ├── Pasted image 20230204151929.png
+│   └── Pasted image 20230204151958.png
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -86,7 +94,10 @@
 │       └── Working with Files and Directories.md
 ├── Penetration Testing Fundamentals
 │   ├── Attacking Your First Box
-│   │   └── Nibbles - Enumeration.md
+│   │   ├── Nibbles - Enumeration.md
+│   │   ├── Nibbles - Initial Foothold.md
+│   │   ├── Nibbles - Privilege Escalation.md
+│   │   └── Nibbles - Web Footprinting.md
 │   ├── Cheat Sheet.md
 │   ├── Getting Started with HTB
 │   │   ├── Navigating HTB.md
@@ -149,3 +160,5 @@
     └── Working with services and processes
         ├── Service Permissions.md
         └── Windows Services & Processes.md
+
+42 directories, 119 files

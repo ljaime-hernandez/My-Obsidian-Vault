@@ -115,3 +115,20 @@ personal.zip  user.txt
 
 
 Gain a foothold on the target and submit the user.txt flag
+
+`79c03865431abf47b90ef24b9695e148`
+
+* check for the ip 10.129.242.191
+* go through the source code, youll find public access to /nibbleblog
+* gobuster dir -u http://10.129.242.191/nibbleblog/ --wordlist /usr/share/dirb/wordlists/common.txt (will give you access to common folders)
+* do same with http://10.129.242.191/nibbleblog/admin/
+* walk through all files and youll find admin as username and nibbles as password (also nibbleblog version 4.0.3, which can be exploited)
+* go to plugins page
+* go to my image page
+* upload a php script to confirm script was posted succesfully
+* replace the script for a reverse shell php script
+* open a port in your pc to listen to a port of your choice (mine was 1234)
+* place your ip and port on the reverse shell script, then upload it
+* from your opened port, use an interactive TTY (as the shell is not fully interactive)
+* go through the home page
+* open the user.txt file
