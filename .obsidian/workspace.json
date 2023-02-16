@@ -13,26 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Initial Foothold.md",
+                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "80e97e124be19d44",
+            "id": "ff1cf4724d3b950a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Useful Links.md",
+                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Initial Foothold.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "python3",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -82,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 311
   },
   "right": {
     "id": "2b6450240cf10d06",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Useful Links.md",
+                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Privilege Escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Useful Links.md",
+                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Privilege Escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Useful Links.md"
+                "file": "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Privilege Escalation.md"
               }
             }
           }
@@ -160,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56b8d94bfb5772d8",
+  "active": "a36d5c6231796e53",
   "lastOpenFiles": [
-    "HTB/Knowledge Tree.md",
-    "HTB/Useful Links.md",
-    "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Privilege Escalation.md",
-    "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Web Footprinting.md",
     "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Initial Foothold.md",
+    "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Privilege Escalation.md",
+    "HTB/Penetration Testing Fundamentals/Next Steps/Knowledge Check.md",
+    "2023-02-16.md",
     "HTB/Penetration Testing Fundamentals/Cheat Sheet.md",
-    "HTB/Penetration Testing Fundamentals/Attacking Your First Box/Nibbles - Enumeration.md",
-    "Knowledge Tree.md",
-    "HTB/Penetration Testing Fundamentals/Getting Started with HTB/Navigating HTB.md",
-    "HTB/Penetration Testing Fundamentals/Getting Started with HTB/Starting Out.md"
+    "HTB/Linux Fundamentals/Workflow/File descriptors and redirections.md",
+    "HTB/Linux Fundamentals/Workflow/Filter Contents.md",
+    "HTB/Linux Fundamentals/System Management/Service and Process Management.md",
+    "HTB/Windows Fundamentals/Further Windows Usage/Windows Subsystem for Linux (WSL).md",
+    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Public Exploits.md"
   ]
 }
