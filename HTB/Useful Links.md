@@ -9,3 +9,11 @@
 
 [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md) Reverse Shell Cheat Sheet
 [HighOn,Coffee](https://highon.coffee/blog/reverse-shell-cheat-sheet/)Reverse Shell Cheat Sheet
+
+[Obfuscator](https://obfuscator.io) JS obfuscator
+[jjencode](https://utf-8.jp/public/jjencode.html)JS obfuscator
+[aaencode](https://utf-8.jp/public/aaencode.html)JS obfuscator
+
+[Prettier](https://prettier.io/playground/) JS basic deobfuscator/beautifier
+[beautifier](https://beautifier.io) JS basic deobfuscator/beautifier
+[jsnice](http://www.jsnice.org)JS advanced deobfuscator/nicifier
