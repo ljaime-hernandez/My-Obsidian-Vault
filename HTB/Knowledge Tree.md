@@ -1,12 +1,4 @@
-.
-├── Images
-│   ├── Pasted image 20230201131402.png
-│   ├── Pasted image 20230201140640.png
-│   ├── Pasted image 20230201140727.png
-│   ├── Pasted image 20230201140747.png
-│   ├── Pasted image 20230201140801.png
-│   ├── Pasted image 20230204151929.png
-│   └── Pasted image 20230204151958.png
+
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -67,6 +59,23 @@
 │       ├── Front End vs. Back End.md
 │       ├── Introduction.md
 │       └── Web Application Layout.md
+├── Javascript Deobfuscation
+│   ├── Deobfuscation Cheat Sheet.md
+│   ├── Deobfuscation Examples
+│   │   ├── Code Analysis.md
+│   │   ├── Decoding.md
+│   │   └── HTTP Requests.md
+│   ├── Introduction
+│   │   ├── Introduction.md
+│   │   └── Source Code.md
+│   ├── Obfuscation
+│   │   ├── Advanced Obfuscation.md
+│   │   ├── Basic Obfuscation.md
+│   │   ├── Code Obfuscation.md
+│   │   └── Deobfuscation.md
+│   └── Skills Assessment
+│       ├── Skills Assessment.md
+│       └── Summary.md
 ├── Knowledge Tree.md
 ├── Linux Fundamentals
 │   ├── Introduction
@@ -94,14 +103,17 @@
 │       └── Working with Files and Directories.md
 ├── Penetration Testing Fundamentals
 │   ├── Attacking Your First Box
+│   │   ├── Nibbles - Alternate User Method - Metasploit.md
 │   │   ├── Nibbles - Enumeration.md
 │   │   ├── Nibbles - Initial Foothold.md
 │   │   ├── Nibbles - Privilege Escalation.md
 │   │   └── Nibbles - Web Footprinting.md
-│   ├── Cheat Sheet.md
 │   ├── Getting Started with HTB
 │   │   ├── Navigating HTB.md
 │   │   └── Starting Out.md
+│   ├── Next Steps
+│   │   ├── Knowledge Check.md
+│   │   └── Next Steps.md
 │   ├── Pentesting Basics
 │   │   ├── Basic Tools.md
 │   │   ├── Common Terms.md
@@ -111,6 +123,10 @@
 │   │   ├── Transferring Files.md
 │   │   ├── Types of Shells.md
 │   │   └── Web Enumeration.md
+│   ├── Pentesting Cheat Sheet.md
+│   ├── Problem Solving
+│   │   ├── Common Pitfalls.md
+│   │   └── Getting Help.md
 │   └── Setup
 │       ├── Connecting Using VPN.md
 │       ├── Getting Started with a Pentest Distro.md
@@ -129,6 +145,11 @@
 │       ├── VPS Providers.md
 │       └── VPS Setup.md
 ├── Useful Links.md
+├── Vulnerability Assessment
+│   └── Security Assessments
+│       ├── Assessment Standards.md
+│       ├── Security Assessments.md
+│       └── Vulnerability Assessment.md
 ├── Web Requests
 │   ├── HTTP Fundamentals
 │   │   ├── HTTP Headers.md
@@ -161,4 +182,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-42 directories, 119 files
+51 directories, 139 files

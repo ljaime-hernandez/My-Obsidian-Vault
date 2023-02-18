@@ -8,30 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5715ae5a2588c2db",
+            "id": "4c5d7097312d7cfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Javascript Deobfuscation/Obfuscation/Deobfuscation.md",
+                "file": "HTB/Vulnerability Assessment/Security Assessments/Vulnerability Assessment.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d755a377040aff2b",
+            "id": "8a211b6effb96020",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Useful Links.md",
+                "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Javascript Deobfuscation/Obfuscation/Deobfuscation.md",
+                "file": "HTB/Knowledge Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Javascript Deobfuscation/Obfuscation/Deobfuscation.md",
+                "file": "HTB/Knowledge Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Javascript Deobfuscation/Obfuscation/Deobfuscation.md"
+                "file": "HTB/Knowledge Tree.md"
               }
             }
           }
@@ -159,17 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5715ae5a2588c2db",
+  "active": "8a211b6effb96020",
   "lastOpenFiles": [
+    "HTB/Vulnerability Assessment/Security Assessments/Assessment Standards.md",
+    "HTB/Vulnerability Assessment/Security Assessments/Vulnerability Assessment.md",
     "HTB/Useful Links.md",
+    "HTB/Vulnerability Assessment/Security Assessments/Security Assessments.md",
+    "HTB/Javascript Deobfuscation/Skills Assessment/Summary.md",
+    "HTB/Javascript Deobfuscation/Skills Assessment/Skills Assessment.md",
+    "HTB/Javascript Deobfuscation/Deobfuscation Examples/Decoding.md",
     "HTB/Javascript Deobfuscation/Obfuscation/Deobfuscation.md",
-    "HTB/Javascript Deobfuscation/Obfuscation/Advanced Obfuscation.md",
-    "HTB/Javascript Deobfuscation/Obfuscation/Code Obfuscation.md",
-    "HTB/Javascript Deobfuscation/Obfuscation/Basic Obfuscation.md",
-    "2023-02-16.md",
-    "HTB/Javascript Deobfuscation/Introduction/Source Code.md",
-    "HTB/Javascript Deobfuscation/Introduction/Introduction.md",
-    "HTB/Penetration Testing Fundamentals/Next Steps/Knowledge Check.md",
-    "HTB/Penetration Testing Fundamentals/Pentesting Basics/Privilege Escalation.md"
+    "HTB/Javascript Deobfuscation/Deobfuscation Cheat Sheet.md",
+    "HTB/Javascript Deobfuscation/Deobfuscation Examples/HTTP Requests.md"
   ]
 }

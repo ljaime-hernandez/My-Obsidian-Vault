@@ -1,4 +1,4 @@
-.
+
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -13,7 +13,11 @@
 │   │   ├── Active Directory Rights and Privileges.md
 │   │   └── User and Machine Accounts.md
 │   ├── Digging in Deeper
+│   │   ├── Examining Group Policy.md
 │   │   └── Security in Active Directory.md
+│   ├── Getting Our Hands Dirty
+│   │   ├── AD Administration Guided Lab II.md
+│   │   └── AD Administration Guided Lab.md
 │   └── Introduction
 │       ├── Active Directory Research Over the Years.md
 │       └── Why Active Directory.md
@@ -55,6 +59,24 @@
 │       ├── Front End vs. Back End.md
 │       ├── Introduction.md
 │       └── Web Application Layout.md
+├── Javascript Deobfuscation
+│   ├── Deobfuscation Cheat Sheet.md
+│   ├── Deobfuscation Examples
+│   │   ├── Code Analysis.md
+│   │   ├── Decoding.md
+│   │   └── HTTP Requests.md
+│   ├── Introduction
+│   │   ├── Introduction.md
+│   │   └── Source Code.md
+│   ├── Obfuscation
+│   │   ├── Advanced Obfuscation.md
+│   │   ├── Basic Obfuscation.md
+│   │   ├── Code Obfuscation.md
+│   │   └── Deobfuscation.md
+│   └── Skills Assessment
+│       ├── Skills Assessment.md
+│       └── Summary.md
+├── Knowledge Tree.md
 ├── Linux Fundamentals
 │   ├── Introduction
 │   │   ├── Introduction to Shell.md
@@ -79,8 +101,37 @@
 │       ├── Navigation.md
 │       ├── Permission Management.md
 │       └── Working with Files and Directories.md
-├── README.md
-├── Second-Brain.md
+├── Penetration Testing Fundamentals
+│   ├── Attacking Your First Box
+│   │   ├── Nibbles - Alternate User Method - Metasploit.md
+│   │   ├── Nibbles - Enumeration.md
+│   │   ├── Nibbles - Initial Foothold.md
+│   │   ├── Nibbles - Privilege Escalation.md
+│   │   └── Nibbles - Web Footprinting.md
+│   ├── Getting Started with HTB
+│   │   ├── Navigating HTB.md
+│   │   └── Starting Out.md
+│   ├── Next Steps
+│   │   ├── Knowledge Check.md
+│   │   └── Next Steps.md
+│   ├── Pentesting Basics
+│   │   ├── Basic Tools.md
+│   │   ├── Common Terms.md
+│   │   ├── Privilege Escalation.md
+│   │   ├── Public Exploits.md
+│   │   ├── Service Scanning.md
+│   │   ├── Transferring Files.md
+│   │   ├── Types of Shells.md
+│   │   └── Web Enumeration.md
+│   ├── Pentesting Cheat Sheet.md
+│   ├── Problem Solving
+│   │   ├── Common Pitfalls.md
+│   │   └── Getting Help.md
+│   └── Setup
+│       ├── Connecting Using VPN.md
+│       ├── Getting Started with a Pentest Distro.md
+│       ├── Infosec Overview.md
+│       └── Staying Organized.md
 ├── Setting up
 │   ├── Introduction
 │   │   ├── Containers.md
@@ -93,6 +144,12 @@
 │       ├── VPS Hardening.md
 │       ├── VPS Providers.md
 │       └── VPS Setup.md
+├── Useful Links.md
+├── Vulnerability Assessment
+│   └── Security Assessments
+│       ├── Assessment Standards.md
+│       ├── Security Assessments.md
+│       └── Vulnerability Assessment.md
 ├── Web Requests
 │   ├── HTTP Fundamentals
 │   │   ├── HTTP Headers.md
@@ -124,3 +181,5 @@
     └── Working with services and processes
         ├── Service Permissions.md
         └── Windows Services & Processes.md
+
+51 directories, 139 files
