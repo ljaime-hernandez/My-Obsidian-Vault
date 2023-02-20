@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerability Scoring System.md",
+                "file": "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerability Scoring System (CVSS).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fedc1799552d09b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerabilities and Exposures (CVE).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerability Scoring System.md",
+                "file": "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerabilities and Exposures (CVE).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerability Scoring System.md",
+                "file": "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerabilities and Exposures (CVE).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerability Scoring System.md"
+                "file": "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerabilities and Exposures (CVE).md"
               }
             }
           }
@@ -172,8 +184,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e76014c49a33fb5",
+  "active": "fedc1799552d09b4",
   "lastOpenFiles": [
+    "HTB/Vulnerability Assessment/Vulnerability Scoring and Reporting/Common Vulnerability Scoring System (CVSS).md",
     "HTB/Knowledge Tree.md",
     "HTB/Vulnerability Assessment/Security Assessments/Assessment Standards.md",
     "HTB/Vulnerability Assessment/Security Assessments/Vulnerability Assessment.md",
@@ -182,7 +195,6 @@
     "HTB/Javascript Deobfuscation/Skills Assessment/Summary.md",
     "HTB/Javascript Deobfuscation/Skills Assessment/Skills Assessment.md",
     "HTB/Javascript Deobfuscation/Deobfuscation Examples/Decoding.md",
-    "HTB/Javascript Deobfuscation/Obfuscation/Deobfuscation.md",
-    "HTB/Javascript Deobfuscation/Deobfuscation Cheat Sheet.md"
+    "HTB/Javascript Deobfuscation/Obfuscation/Deobfuscation.md"
   ]
 }
