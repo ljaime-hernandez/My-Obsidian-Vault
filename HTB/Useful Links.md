@@ -23,3 +23,12 @@
 
 [CVE](https://www.cve.org/About/Overview) Common Vulnerability Exposure DB
 [CVSS](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) Common Vulnerability Score System
+
+#### Pentesting Assessment Standards
+
+[PCI DSS](https://www.pcisecuritystandards.org/pci_security/)Payment Card Industry Data Security Standard (PCI DSS)
+[HIPAA](https://www.hipaa.com/) Health Insurance Portability and Accountability Act (HIPAA)
+[PTES](http://www.pentest-standard.org/index.php/Main_Page) Penetration Testing Execution Standard (PTES)
+[OSSTMM](https://www.isecom.org/OSSTMM.3.pdf) Open Source Security Testing Methodology Manual (OSSTMM)
+[NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) National Institute of Standards and Technology (NIST)
+[OWASP](https://owasp.org/) Open Web Application Security Project (OWASP)
