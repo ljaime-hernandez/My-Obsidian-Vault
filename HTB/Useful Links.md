@@ -32,3 +32,8 @@
 [OSSTMM](https://www.isecom.org/OSSTMM.3.pdf) Open Source Security Testing Methodology Manual (OSSTMM)
 [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) National Institute of Standards and Technology (NIST)
 [OWASP](https://owasp.org/) Open Web Application Security Project (OWASP)
+
+[Nessus Essentials](https://community.tenable.com/s/article/Nessus-Essentials) Free version of the Nessus vulnerability scanner
+[OpenVAS](https://www.openvas.org/) Open source, full-featured vulnerability scanner
+
+[Text2SQL](https://www.text2sql.ai) Turn your thoughts into complex SQL queries
