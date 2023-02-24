@@ -1,5 +1,5 @@
 
-[nmap scripts ref](https://nmap.org/book/man-nse.html) brief reference to nmap scripts 
+[nmap manual](https://nmap.org/book/man-nse.html) brief reference to nmap scripts 
 
 [GTFOBins](https://gtfobins.github.io/) curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.
 [LOLBAS](https://lolbas-project.github.io/#) also contains a list of Windows applications which we may be able to leverage to perform certain functions, like downloading files or executing commands in the context of a privileged user.
