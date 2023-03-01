@@ -146,10 +146,28 @@
 │       └── VPS Setup.md
 ├── Useful Links.md
 ├── Vulnerability Assessment
-│   └── Security Assessments
-│       ├── Assessment Standards.md
-│       ├── Security Assessments.md
-│       └── Vulnerability Assessment.md
+│   ├── Nessus
+│   │   ├── Advanced Settings.md
+│   │   ├── Getting Started with Nessus.md
+│   │   ├── Nessus Scan.md
+│   │   ├── Nessus Skills Assessment.md
+│   │   ├── Scanning Issues.md
+│   │   ├── Vulnerability Scanning Overview.md
+│   │   └── Working with Nessus Scan Output.md
+│   ├── OpenVAS
+│   │   ├── Exporting The Results.md
+│   │   ├── Getting Started with OpenVAS.md
+│   │   ├── OpenVAS Skills Assessment.md
+│   │   └── OpenVas Scan.md
+│   ├── Reporting
+│   │   └── Reporting.md
+│   ├── Security Assessments
+│   │   ├── Assessment Standards.md
+│   │   ├── Security Assessments.md
+│   │   └── Vulnerability Assessment.md
+│   └── Vulnerability Scoring and Reporting
+│       ├── Common Vulnerabilities and Exposures (CVE).md
+│       └── Common Vulnerability Scoring System (CVSS).md
 ├── Web Requests
 │   ├── HTTP Fundamentals
 │   │   ├── HTTP Headers.md
@@ -182,4 +200,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-51 directories, 139 files
+55 directories, 153 files
