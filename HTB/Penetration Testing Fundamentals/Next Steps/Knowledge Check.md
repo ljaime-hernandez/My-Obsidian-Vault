@@ -22,7 +22,7 @@ Spawn the target, gain a foothold and submit the contents of the user.txt flag.
 * `gobuster dir -u http://<ip given> -w /usr/share/dirb/wordlists/common.txt` youll find admin is a valid user
 * `gobuster dir -u http://<ip given>/admin -w /usr/share/dirb/wordlists/common.txt` youll find the hash for admin user
 * decode hash on google, youll find the password is admin and it was coded on SHA1
-* access admin page with user ans pass
+* access admin page with user and pass
 * surfing through the page you can notice the theme files can be modified
 * used a php user id check tag on one of them (my case was sidebar.inc.php)
 * `curl http://10.129.246.183/theme/Innovation/sidebar.inc.php` will return a user id, means the script works

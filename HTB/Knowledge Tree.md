@@ -1,4 +1,3 @@
-
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -145,6 +144,10 @@
 │       ├── VPS Providers.md
 │       └── VPS Setup.md
 ├── Useful Links.md
+├── Using The Metasploit Framework
+│   └── Introduction
+│       ├── Introduction to Metasploit.md
+│       └── Preface.md
 ├── Vulnerability Assessment
 │   ├── Nessus
 │   │   ├── Advanced Settings.md
@@ -200,4 +203,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-55 directories, 153 files
+57 directories, 155 files
