@@ -114,3 +114,12 @@ dev      exploit  memdump   password  recon
 ```
 
 Now that we know all of these locations, it will be easy for us to reference them in the future when we decide to import new modules or even create new ones from scratch.
+
+
+Which version of Metasploit comes equipped with a GUI interface?
+
+`Metasploit Pro`
+
+Which version of Metasploit is free and can be used only through a CLI?
+
+`msfconsole`
