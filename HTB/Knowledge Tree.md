@@ -145,9 +145,14 @@
 │       └── VPS Setup.md
 ├── Useful Links.md
 ├── Using The Metasploit Framework
-│   └── Introduction
-│       ├── Introduction to Metasploit.md
-│       └── Preface.md
+│   ├── Introduction
+│   │   ├── Introduction to MSFconsole.md
+│   │   ├── Introduction to Metasploit.md
+│   │   └── Preface.md
+│   ├── MSF Components
+│   │   ├── Modules.md
+│   │   └── Targets.md
+│   └── MSFconsole Cheat Sheet.md
 ├── Vulnerability Assessment
 │   ├── Nessus
 │   │   ├── Advanced Settings.md
@@ -203,4 +208,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-57 directories, 155 files
+58 directories, 159 files
