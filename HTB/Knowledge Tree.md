@@ -151,6 +151,7 @@
 │   │   └── Preface.md
 │   ├── MSF Components
 │   │   ├── Modules.md
+│   │   ├── Payloads.md
 │   │   └── Targets.md
 │   └── MSFconsole Cheat Sheet.md
 ├── Vulnerability Assessment
@@ -208,4 +209,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-58 directories, 159 files
+58 directories, 160 files
