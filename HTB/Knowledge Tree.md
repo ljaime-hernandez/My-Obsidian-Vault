@@ -150,6 +150,7 @@
 │   │   ├── Introduction to Metasploit.md
 │   │   └── Preface.md
 │   ├── MSF Components
+│   │   ├── Databases.md
 │   │   ├── Encoders.md
 │   │   ├── Modules.md
 │   │   ├── Payloads.md
@@ -210,4 +211,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-58 directories, 161 files
+58 directories, 162 files
