@@ -154,6 +154,7 @@
 │   │   ├── Encoders.md
 │   │   ├── Modules.md
 │   │   ├── Payloads.md
+│   │   ├── Plugins.md
 │   │   └── Targets.md
 │   └── MSFconsole Cheat Sheet.md
 ├── Vulnerability Assessment
@@ -211,4 +212,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-58 directories, 162 files
+58 directories, 163 files
