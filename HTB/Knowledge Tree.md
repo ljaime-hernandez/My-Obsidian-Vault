@@ -156,6 +156,8 @@
 │   │   ├── Payloads.md
 │   │   ├── Plugins.md
 │   │   └── Targets.md
+│   ├── MSF Sessions
+│   │   └── Sessions.md
 │   └── MSFconsole Cheat Sheet.md
 ├── Vulnerability Assessment
 │   ├── Nessus
@@ -212,4 +214,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-58 directories, 163 files
+59 directories, 164 files
