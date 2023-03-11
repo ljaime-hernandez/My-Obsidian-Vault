@@ -157,6 +157,7 @@
 │   │   ├── Plugins.md
 │   │   └── Targets.md
 │   ├── MSF Sessions
+│   │   ├── Meterpreter.md
 │   │   └── Sessions.md
 │   └── MSFconsole Cheat Sheet.md
 ├── Vulnerability Assessment
@@ -214,4 +215,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-59 directories, 164 files
+59 directories, 165 files

