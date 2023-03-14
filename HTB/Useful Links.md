@@ -25,6 +25,9 @@
 [CVE](https://www.cve.org/About/Overview) Common Vulnerability Exposure DB
 [CVSS](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) Common Vulnerability Score System
 
+[Payload article](https://hatching.io/blog/metasploit-payloads2/) Shikata Ga Nai comparisson to other encoders
+[SNG article](https://www.mandiant.com/resources/blog/shikata-ga-nai-encoder-still-going-strong) Shikata Ga Nai article
+
 #### Pentesting Assessment Standards
 
 [PCI DSS](https://www.pcisecuritystandards.org/pci_security/)Payment Card Industry Data Security Standard (PCI DSS)

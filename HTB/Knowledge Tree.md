@@ -145,6 +145,8 @@
 │       └── VPS Setup.md
 ├── Useful Links.md
 ├── Using The Metasploit Framework
+│   ├── Additional Features
+│   │   └── Writing and Importing Modules.md
 │   ├── Introduction
 │   │   ├── Introduction to MSFconsole.md
 │   │   ├── Introduction to Metasploit.md
@@ -215,4 +217,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-59 directories, 165 files
+60 directories, 166 files
