@@ -116,3 +116,20 @@ Jobs
 ```
 
 Next up, we'll work with the extremely powerful `Meterpreter` payload.
+
+
+The target has a specific web application running that we can find by looking into the HTML source code. What is the name of that web application?
+
+`elFinder`
+
+Find the existing exploit in MSF and use it to get a shell on the target. What is the username of the user you obtained a shell with?
+
+`www-data`
+* read the information on how the exploit works from RAPID7 [here](https://www.rapid7.com/db/modules/exploit/linux/http/elfinder_archive_cmd_injection/)
+* another option is to change the payload for a shell reverse one, this will not give you an interactive shell
+* in my case i used the `which python3` command to check for python3 existence
+* run command `python3 -c 'import pty; pty.spawn("/bin/bash")'` to have TTY access
+* type `whoami` and check the username
+
+The target system has an old version of Sudo running. Find the relevant exploit and get root access to the target system. Find the flag.txt file and submit the contents of it as the answer.
+

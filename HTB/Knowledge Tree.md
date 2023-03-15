@@ -146,6 +146,7 @@
 ├── Useful Links.md
 ├── Using The Metasploit Framework
 │   ├── Additional Features
+│   │   ├── Introduction to MSFVenom.md
 │   │   └── Writing and Importing Modules.md
 │   ├── Introduction
 │   │   ├── Introduction to MSFconsole.md
@@ -217,4 +218,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-60 directories, 166 files
+60 directories, 167 files
