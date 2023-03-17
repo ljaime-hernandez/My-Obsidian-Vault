@@ -1,4 +1,3 @@
-├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
 │   │   ├── Active Directory Objects.md
@@ -148,6 +147,7 @@
 │   ├── Additional Features
 │   │   ├── Firewall and IDS-IPS Evasion.md
 │   │   ├── Introduction to MSFVenom.md
+│   │   ├── Metasploit-Framework Updates - August 2020.md
 │   │   └── Writing and Importing Modules.md
 │   ├── Introduction
 │   │   ├── Introduction to MSFconsole.md
@@ -219,4 +219,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-60 directories, 168 files
+60 directories, 169 files
