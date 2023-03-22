@@ -26,6 +26,8 @@
 [CVSS](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) Common Vulnerability Score System
 
 [Payload article](https://hatching.io/blog/metasploit-payloads2/) Shikata Ga Nai comparisson to other encoders
+[Stageless Meterpreter Payload](https://www.rapid7.com/blog/post/2015/03/25/stageless-meterpreter-payloads/) Further article to learn about staged and stageless payloads with Meterpreter
+[Modifying Metasploit x64 template for AV evasion](https://www.blackhillsinfosec.com/modifying-metasploit-x64-template-for-av-evasion/) Modifying Metasploit x64 template for AV evasion
 [SNG article](https://www.mandiant.com/resources/blog/shikata-ga-nai-encoder-still-going-strong) Shikata Ga Nai article
 
 #### Pentesting Assessment Standards
