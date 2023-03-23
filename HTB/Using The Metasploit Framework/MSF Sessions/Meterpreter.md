@@ -556,3 +556,24 @@ Secret  : _SC_WebClient / service 'WebClient' with username : NT AUTHORITY\Local
 ```
 
 From this point, if the machine was connected to a more extensive network, we could use this loot to pivot through the system, gain access to internal resources and impersonate users with a higher level of access if the overall security posture of the network is weak.
+
+Find the existing exploit in MSF and use it to get a shell on the target. What is the username of the user you obtained a shell with?
+
+`NT AUTHORITY\SYSTEM`
+* scan the address running the command `db_nmap -sV -p- -T5 -A <ip given>`
+* reading thru some of the ports, you can notice we have access through port 5000 with HTTP connection, go to `http://<ip given>:5000/` using Firefox
+* on the main page we can see theres a service called Fortilogger, doing a quick search through RAPID7 DB you will find [this](https://www.rapid7.com/db/modules/exploit/windows/http/fortilogger_arbitrary_fileupload/) vulnerability
+* search for the vulnerability on msfconsole and use it
+* set the proper RHOSTS with the ip given
+* set the proper LHOST by looking for it with command `ifconfig`
+* run the exploit
+* run `getuid` command
+
+Retrieve the NTLM password hash for the "htb-student" user. Submit the hash as the answer.
+
+`cf3a5525ee9414229e66279623ed5c58`
+* run command `lsa_dump_sam`
+* an error will be displayed, stating: `The "lsa_dump_sam" command requires the "kiwi" extension to be loaded (run: load kiwi)`
+* run command `load kiwi`
+* once again, run command `lsa_dump_sam`
+* look for user `htb-student`, its NTLM hash should be under the user
