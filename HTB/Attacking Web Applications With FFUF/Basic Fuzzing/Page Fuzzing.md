@@ -89,3 +89,7 @@ We get a couple of hits; both have an HTTP code 200, meaning we can access them.
 
 Try to use what you learned in this section to fuzz the '/blog' directory and find all pages. One of them should contain a flag. What is the flag?
 
+`HTB{bru73_f0r_c0mm0n_p455w0rd5}`
+* go to `/usr/share/seclists/Discovery/Web-Content` and check for the files on it, we can use `common.txt`
+* run command `ffuf -w /usr/share/seclists/Discovery/Web-Content/common.txt:FUZZ -u http://<ip given>:<port given>/blog/FUZZ.php`, have in mind you got to type `:FUZZ` in front of the file path you want to use and type FUZZ on the string space you want the ffuf to start the fuzzing
+* copy the flag from the main page

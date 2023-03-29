@@ -1,7 +1,13 @@
+.
 ├── Attacking Web Applications With FFUF
 │   ├── Basic Fuzzing
 │   │   ├── Directory Fuzzing.md
-│   │   └── Page Fuzzing.md
+│   │   ├── Page Fuzzing.md
+│   │   └── Recursive Fuzzing.md
+│   ├── Domain Fuzzing
+│   │   ├── DNS Records.md
+│   │   ├── Sub-domain Fuzzing.md
+│   │   └── Vhost Fuzzing.md
 │   ├── Ffuf Cheat Sheet.md
 │   └── Introduction
 │       └── Web Fuzzing.md
@@ -227,4 +233,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-63 directories, 173 files
+63 directories, 170 files
