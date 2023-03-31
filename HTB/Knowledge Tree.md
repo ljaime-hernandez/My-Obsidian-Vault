@@ -1,3 +1,4 @@
+.
 ├── Attacking Web Applications With FFUF
 │   ├── Basic Fuzzing
 │   │   ├── Directory Fuzzing.md
@@ -9,8 +10,12 @@
 │   │   ├── Sub-domain Fuzzing.md
 │   │   └── Vhost Fuzzing.md
 │   ├── Ffuf Cheat Sheet.md
-│   └── Introduction
-│       └── Web Fuzzing.md
+│   ├── Introduction
+│   │   └── Web Fuzzing.md
+│   └── Parameter Fuzzing
+│       ├── Parameter Fuzzing - GET.md
+│       ├── Parameter Fuzzing - POST.md
+│       └── Value Fuzzing.md
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -233,4 +238,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-63 directories, 171 files
+64 directories, 174 files

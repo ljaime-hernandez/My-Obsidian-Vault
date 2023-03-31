@@ -66,3 +66,15 @@ We can verify that by visiting the page, and seeing if we can connect to it:
 We see that we can access the page, but we get an empty page, unlike what we got with `academy.htb`, therefore confirming this is indeed a different VHost. We can even visit `https://admin.academy.htb:PORT/blog/index.php`, and we will see that we would get a `404 PAGE NOT FOUND`, confirming that we are now indeed on a different VHost.
 
 Try running a recursive scan on `admin.academy.htb`, and see what pages you can identify.
+
+`http://admin.academy.htb:PORT/admin/admin.php`
+* run command `ffuf -w /usr/share/seclists/Discovery/Web-Content/common.txt:FUZZ -u http://admin.academy.htb:31958/FUZZ -H 'Host: admin.academy.htb' -recursion -recursion-depth 1 -e .php -v`
+
+Try running a VHost fuzzing scan on 'academy.htb', and see what other VHosts you get. What other VHosts did you get?
+
+`test.academy.htb`
+* add the admin host to `/etc/hosts` as `<ip given> admin.academy.htb`
+* using the same command given on the example above, which is `ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://admin.academy.htb:PORT/ -H 'Host: FUZZ.academy.htb' -fs 900` you will get a bunch of `200 ok` responses, which must be filtered
+* to filter the responses we see the common size of them all is 986, we can avoid these responses by changing the HTTP response size filter as `-fs 986`
+* run command `ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u http://admin.academy.htb:<port given>/ -H 'Host: FUZZ.academy.htb' -fs 986`
+* we will get only 2 results which are admin and test, so use test as the Vhost for the answer.
