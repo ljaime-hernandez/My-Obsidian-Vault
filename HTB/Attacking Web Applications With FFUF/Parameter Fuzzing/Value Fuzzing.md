@@ -66,4 +66,11 @@ We see that we get a hit right away. We can finally send another `POST` reques
 
 Try to create the 'ids.txt' wordlist, identify the accepted value with a fuzzing scan, and then use it in a 'POST' request with 'curl' to collect the flag. What is the content of the flag?
 
-
+`HTB{p4r4m373r_fuzz1n6_15_k3y!}`
+* do a bash script to create a file with numbers from 1 to 1000 (i instead looked for the file on google and copied it into a nano file called ids.txt)
+* run command `ffuf -w ids.txt:FUZZ -u http://admin.academy.htb:30840/admin/admin.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded'` where the file to use for fuzzing is ids.txt, it must be a POST request with the proper header content type
+* as you get a lot of results, add the file size filter of `-fs 768`
+* run command `ffuf -w ids.txt:FUZZ -u http://admin.academy.htb:30840/admin/admin.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded' -fs 798`
+* the only answer from ffuf will be `73`, so we are going to use it on our next command
+* run command `curl http://admin.academy.htb:30840/admin/admin.php -X POST -d 'id=73' -H 'Content-Type: application/x-www-form-urlencoded'` the payload will be `-d 'id=73'`, notice we dont have to add additional parameters to the admin url, instead we are going to declare the parameter on the POST request, make sure the header content type is correct as well
+* retrieve the flag from the file received
