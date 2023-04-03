@@ -1,4 +1,3 @@
-.
 ├── Attacking Web Applications With FFUF
 │   ├── Basic Fuzzing
 │   │   ├── Directory Fuzzing.md
@@ -15,6 +14,7 @@
 │   └── Parameter Fuzzing
 │       ├── Parameter Fuzzing - GET.md
 │       ├── Parameter Fuzzing - POST.md
+│       ├── Skills Assessment - Web Fuzzing.md
 │       └── Value Fuzzing.md
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
@@ -50,10 +50,12 @@
 │   │   ├── Networking Topologies.md
 │   │   ├── Networking overview.md
 │   │   └── Proxies.md
-│   └── Networking workflow
-│       ├── Networking Models.md
-│       ├── The OSI Model.md
-│       └── The TCP-IP Model.md
+│   ├── Networking workflow
+│   │   ├── Networking Models.md
+│   │   ├── The OSI Model.md
+│   │   └── The TCP-IP Model.md
+│   └── Protocols & Terminology
+│       └── Networking Key Terminology.md
 ├── Introduction to Web Applications
 │   ├── Back End Components
 │   │   ├── Back End Servers.md
@@ -238,4 +240,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-64 directories, 174 files
+65 directories, 176 files
