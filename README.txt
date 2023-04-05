@@ -1,4 +1,21 @@
-
+├── Attacking Web Applications With FFUF
+│   ├── Basic Fuzzing
+│   │   ├── Directory Fuzzing.md
+│   │   ├── Page Fuzzing.md
+│   │   └── Recursive Fuzzing.md
+│   ├── Domain Fuzzing
+│   │   ├── DNS Records.md
+│   │   ├── Filtering Results.md
+│   │   ├── Sub-domain Fuzzing.md
+│   │   └── Vhost Fuzzing.md
+│   ├── Ffuf Cheat Sheet.md
+│   ├── Introduction
+│   │   └── Web Fuzzing.md
+│   └── Parameter Fuzzing
+│       ├── Parameter Fuzzing - GET.md
+│       ├── Parameter Fuzzing - POST.md
+│       ├── Skills Assessment - Web Fuzzing.md
+│       └── Value Fuzzing.md
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -33,10 +50,14 @@
 │   │   ├── Networking Topologies.md
 │   │   ├── Networking overview.md
 │   │   └── Proxies.md
-│   └── Networking workflow
-│       ├── Networking Models.md
-│       ├── The OSI Model.md
-│       └── The TCP-IP Model.md
+│   ├── Networking workflow
+│   │   ├── Networking Models.md
+│   │   ├── The OSI Model.md
+│   │   └── The TCP-IP Model.md
+│   └── Protocols & Terminology
+│       ├── Common Protocols.md
+│       ├── Networking Key Terminology.md
+│       └── Wireless Networks.md
 ├── Introduction to Web Applications
 │   ├── Back End Components
 │   │   ├── Back End Servers.md
@@ -145,11 +166,50 @@
 │       ├── VPS Providers.md
 │       └── VPS Setup.md
 ├── Useful Links.md
+├── Using The Metasploit Framework
+│   ├── Additional Features
+│   │   ├── Firewall and IDS-IPS Evasion.md
+│   │   ├── Introduction to MSFVenom.md
+│   │   ├── Metasploit-Framework Updates - August 2020.md
+│   │   └── Writing and Importing Modules.md
+│   ├── Introduction
+│   │   ├── Introduction to MSFconsole.md
+│   │   ├── Introduction to Metasploit.md
+│   │   └── Preface.md
+│   ├── MSF Components
+│   │   ├── Databases.md
+│   │   ├── Encoders.md
+│   │   ├── Modules.md
+│   │   ├── Payloads.md
+│   │   ├── Plugins.md
+│   │   └── Targets.md
+│   ├── MSF Sessions
+│   │   ├── Meterpreter.md
+│   │   └── Sessions.md
+│   └── MSFconsole Cheat Sheet.md
 ├── Vulnerability Assessment
-│   └── Security Assessments
-│       ├── Assessment Standards.md
-│       ├── Security Assessments.md
-│       └── Vulnerability Assessment.md
+│   ├── Nessus
+│   │   ├── Advanced Settings.md
+│   │   ├── Getting Started with Nessus.md
+│   │   ├── Nessus Scan.md
+│   │   ├── Nessus Skills Assessment.md
+│   │   ├── Scanning Issues.md
+│   │   ├── Vulnerability Scanning Overview.md
+│   │   └── Working with Nessus Scan Output.md
+│   ├── OpenVAS
+│   │   ├── Exporting The Results.md
+│   │   ├── Getting Started with OpenVAS.md
+│   │   ├── OpenVAS Skills Assessment.md
+│   │   └── OpenVas Scan.md
+│   ├── Reporting
+│   │   └── Reporting.md
+│   ├── Security Assessments
+│   │   ├── Assessment Standards.md
+│   │   ├── Security Assessments.md
+│   │   └── Vulnerability Assessment.md
+│   └── Vulnerability Scoring and Reporting
+│       ├── Common Vulnerabilities and Exposures (CVE).md
+│       └── Common Vulnerability Scoring System (CVSS).md
 ├── Web Requests
 │   ├── HTTP Fundamentals
 │   │   ├── HTTP Headers.md
@@ -182,4 +242,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-51 directories, 139 files
+65 directories, 178 files
