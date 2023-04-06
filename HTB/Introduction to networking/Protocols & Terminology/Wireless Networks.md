@@ -11,6 +11,7 @@ The strength of the RF signal and the distance it can travel are influenced by f
 ## WiFi Connection
 
 The device must also be configured with the correct network settings, such as the network name / [Service Set Identifier](https://www.geeksforgeeks.org/service-set-identifier-ssid-in-computer-network/) (`SSID`) and `password`. So, to connect to the router, the laptop uses a wireless networking protocol called [IEEE 802.11](https://en.wikipedia.org/wiki/IEEE_802.11). This protocol defines the technical details of how wireless devices communicate with each other and with WAPs. When a device wants to join a WiFi network, it sends a request to the WAP to initiate the connection process. This request is known as a `connection request frame` or `association request` and is sent using the `IEEE 802.11` wireless networking protocol. The connection request frame contains various fields of information, including the following but not limited to:
+
 |                                |                                                                                              |
 | ------------------------------ | -------------------------------------------------------------------------------------------- |
 | `MAC address`                  | A unique identifier for the device's wireless adapter.                                       |

@@ -45,6 +45,11 @@
 │   │   ├── MAC Addresses.md
 │   │   ├── Network Layer.md
 │   │   └── Subnetting.md
+│   ├── Connection Establishment
+│   │   ├── Authentication Protocols.md
+│   │   ├── Cryptography.md
+│   │   ├── Key Exchange Mechanisms.md
+│   │   └── TCP-UDP Connectionsed.md
 │   ├── Networking structure
 │   │   ├── Network types.md
 │   │   ├── Networking Topologies.md
@@ -57,6 +62,8 @@
 │   └── Protocols & Terminology
 │       ├── Common Protocols.md
 │       ├── Networking Key Terminology.md
+│       ├── Vendor Specific Information.md
+│       ├── Virtual Private Networks.md
 │       └── Wireless Networks.md
 ├── Introduction to Web Applications
 │   ├── Back End Components
@@ -242,4 +249,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-65 directories, 178 files
+66 directories, 184 files
