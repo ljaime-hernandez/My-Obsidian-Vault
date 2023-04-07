@@ -37,6 +37,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "HTB/Introduction to Networking/Connection Establishment/Cryptography.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c8cbde5cc57a60c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a4a790483847165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -172,17 +196,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e464a8b959e9de6",
+  "active": "4a4a790483847165",
   "lastOpenFiles": [
+    "HTB/Linux Fundamentals/Workflow/Regular Expressions.md",
+    "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
     "HTB/Introduction to Networking/Connection Establishment/Cryptography.md",
-    "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connectionsed.md",
     "HTB/Introduction to Networking/Connection Establishment/Authentication Protocols.md",
+    "HTB/Knowledge Tree.md",
+    "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connectionsed.md",
     "HTB/Introduction to Networking/Connection Establishment/Key Exchange Mechanisms.md",
     "HTB/Introduction to Networking/Protocols & Terminology/Vendor Specific Information.md",
     "HTB/Introduction to Networking/Connection Establishment",
     "HTB/Introduction to Networking/Protocols & Terminology/Virtual Private Networks.md",
     "HTB/Introduction to Networking/Protocols & Terminology/Wireless Networks.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Introduction to Networking/Protocols & Terminology/Common Protocols.md",
     "HTB/Introduction to Networking/Protocols & Terminology/Networking Key Terminology.md",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing/Parameter Fuzzing - GET.md",
@@ -203,10 +229,8 @@
     "HTB/Penetration Testing Fundamentals/Next Steps/Knowledge Check.md",
     "HTB/Attacking Web Applications With FFUF/Ffuf Cheat Sheet.md",
     "HTB/Attacking Web Applications With FFUF/Basic Fuzzing",
-    "HTB/Using The Metasploit Framework/MSF Sessions/Meterpreter.md",
     "HTB/Attacking Web Applications With FFUF/Introduction",
     "HTB/Attacking Web Applications With FFUF",
-    "HTB/Using The Metasploit Framework/MSFconsole Cheat Sheet.md",
     "HTB/Using The Metasploit Framework/Additional Features",
     "HTB/Using The Metasploit Framework/MSF Sessions",
     "HTB/Using The Metasploit Framework/MSF Components"

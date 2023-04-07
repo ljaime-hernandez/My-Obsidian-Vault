@@ -108,6 +108,7 @@
 ├── Linux Fundamentals
 │   ├── Introduction
 │   │   ├── Introduction to Shell.md
+│   │   ├── Linux Distributions.md
 │   │   └── Linux structure.md
 │   ├── System Management
 │   │   ├── Package Management.md
@@ -128,6 +129,7 @@
 │       ├── Find files and directories.md
 │       ├── Navigation.md
 │       ├── Permission Management.md
+│       ├── Regular Expressions.md
 │       └── Working with Files and Directories.md
 ├── Penetration Testing Fundamentals
 │   ├── Attacking Your First Box
@@ -249,4 +251,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-66 directories, 184 files
+66 directories, 186 files
