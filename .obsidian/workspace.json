@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ad5204294693dfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Knowledge Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 297.5
   },
   "right": {
     "id": "2b6450240cf10d06",
@@ -196,13 +208,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a4a790483847165",
+  "active": "3ad5204294693dfe",
   "lastOpenFiles": [
+    "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Linux Fundamentals/Workflow/Regular Expressions.md",
     "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
     "HTB/Introduction to Networking/Connection Establishment/Cryptography.md",
     "HTB/Introduction to Networking/Connection Establishment/Authentication Protocols.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connectionsed.md",
     "HTB/Introduction to Networking/Connection Establishment/Key Exchange Mechanisms.md",
     "HTB/Introduction to Networking/Protocols & Terminology/Vendor Specific Information.md",
@@ -227,7 +240,6 @@
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing/DNS Records.md",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing",
     "HTB/Penetration Testing Fundamentals/Next Steps/Knowledge Check.md",
-    "HTB/Attacking Web Applications With FFUF/Ffuf Cheat Sheet.md",
     "HTB/Attacking Web Applications With FFUF/Basic Fuzzing",
     "HTB/Attacking Web Applications With FFUF/Introduction",
     "HTB/Attacking Web Applications With FFUF",

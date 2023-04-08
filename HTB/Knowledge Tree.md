@@ -113,6 +113,7 @@
 │   ├── System Management
 │   │   ├── Package Management.md
 │   │   ├── Service and Process Management.md
+│   │   ├── Task Scheduling.md
 │   │   ├── User Management.md
 │   │   └── Working with Web Services.md
 │   ├── The Shell
@@ -251,4 +252,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-66 directories, 186 files
+66 directories, 187 files
