@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Networking/Connection Establishment/Authentication Protocols.md",
+                "file": "HTB/Useful Links.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,50 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connectionsed.md",
+                "file": "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connections.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6e464a8b959e9de6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Networking/Connection Establishment/Cryptography.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c8cbde5cc57a60c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a4a790483847165",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Knowledge Tree.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ad5204294693dfe",
+            "id": "6d3e07e9696449eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,15 +172,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ad5204294693dfe",
+  "active": "6d3e07e9696449eb",
   "lastOpenFiles": [
-    "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
+    "HTB/Linux Fundamentals/System Management/Backup and Restore.md",
+    "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connections.md",
+    "HTB/Useful Links.md",
     "HTB/Knowledge Tree.md",
-    "HTB/Linux Fundamentals/Workflow/Regular Expressions.md",
-    "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
-    "HTB/Introduction to Networking/Connection Establishment/Cryptography.md",
+    "HTB/Attacking Web Applications With FFUF/Basic Fuzzing/Directory Fuzzing.md",
+    "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
+    "HTB/Linux Fundamentals/System Management/Service and Process Management.md",
+    "HTB/Linux Fundamentals/System Management/Package Management.md",
     "HTB/Introduction to Networking/Connection Establishment/Authentication Protocols.md",
-    "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connectionsed.md",
+    "HTB/Introduction to Networking/Connection Establishment/Cryptography.md",
+    "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
+    "HTB/Linux Fundamentals/Workflow/Regular Expressions.md",
     "HTB/Introduction to Networking/Connection Establishment/Key Exchange Mechanisms.md",
     "HTB/Introduction to Networking/Protocols & Terminology/Vendor Specific Information.md",
     "HTB/Introduction to Networking/Connection Establishment",
@@ -233,13 +202,8 @@
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing/Filtering Results.md",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing/Vhost Fuzzing.md",
     "HTB/Attacking Web Applications With FFUF/Introduction/Web Fuzzing.md",
-    "HTB/Attacking Web Applications With FFUF/Basic Fuzzing/Page Fuzzing.md",
-    "HTB/Attacking Web Applications With FFUF/Domain Fuzzing/Sub-domain Fuzzing.md",
-    "HTB/Attacking Web Applications With FFUF/Basic Fuzzing/Directory Fuzzing.md",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing",
-    "HTB/Attacking Web Applications With FFUF/Domain Fuzzing/DNS Records.md",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing",
-    "HTB/Penetration Testing Fundamentals/Next Steps/Knowledge Check.md",
     "HTB/Attacking Web Applications With FFUF/Basic Fuzzing",
     "HTB/Attacking Web Applications With FFUF/Introduction",
     "HTB/Attacking Web Applications With FFUF",

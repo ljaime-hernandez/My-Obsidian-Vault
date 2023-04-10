@@ -93,8 +93,6 @@ We see that `ffuf` tested for almost 90k URLs in less than 10 seconds. This sp
 
 We can even make it go faster if we are in a hurry by increasing the number of threads to 200, for example, with `-t 200`, but this is not recommended, especially when used on a remote site, as it may disrupt it, and cause a `Denial of Service`, or bring down your internet connection in severe cases. We do get a couple of hits, and we can visit one of them to verify that it exists:
 
-   
-
 ![](https://academy.hackthebox.com/storage/modules/54/web_fnb_blog.jpg)
 
 We get an empty page, indicating that the directory does not have a dedicated page, but also shows that we do not have access to it, as we do not get an HTTP code `404 Not Found` or `403 Access Denied`. In the next section, we will look for pages under this directory to see whether it is really empty or has hidden files and pages.
