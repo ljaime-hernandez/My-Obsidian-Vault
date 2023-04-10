@@ -118,3 +118,5 @@ Systemd and Cron are both tools that can be used in Linux systems to schedule an
 
 What is the type of the service of the "syslog.service"?
 
+`Notify`
+* run command `systemctl show syslog.service | grep "Type"`

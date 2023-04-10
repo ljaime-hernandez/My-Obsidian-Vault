@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c82dc6cf2cd19851",
+            "id": "b473ed1bf8ebbd78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Useful Links.md",
+                "file": "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b473ed1bf8ebbd78",
+            "id": "08ea0c6d7723cebe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connections.md",
+                "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,14 +172,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d3e07e9696449eb",
+  "active": "08ea0c6d7723cebe",
   "lastOpenFiles": [
-    "HTB/Linux Fundamentals/System Management/Backup and Restore.md",
+    "HTB/Linux Fundamentals/System Management/Network Services.md",
+    "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
     "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connections.md",
     "HTB/Useful Links.md",
     "HTB/Knowledge Tree.md",
+    "HTB/Linux Fundamentals/System Management/Backup and Restore.md",
     "HTB/Attacking Web Applications With FFUF/Basic Fuzzing/Directory Fuzzing.md",
-    "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
     "HTB/Linux Fundamentals/System Management/Service and Process Management.md",
     "HTB/Linux Fundamentals/System Management/Package Management.md",
     "HTB/Introduction to Networking/Connection Establishment/Authentication Protocols.md",
@@ -201,7 +202,6 @@
     "HTB/Introduction to Networking/Protocols & Terminology",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing/Filtering Results.md",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing/Vhost Fuzzing.md",
-    "HTB/Attacking Web Applications With FFUF/Introduction/Web Fuzzing.md",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing",
     "HTB/Attacking Web Applications With FFUF/Basic Fuzzing",
