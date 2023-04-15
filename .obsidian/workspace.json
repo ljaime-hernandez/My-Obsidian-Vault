@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b473ed1bf8ebbd78",
+            "id": "7ef3cd3a6c6e9d9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08ea0c6d7723cebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Linux Fundamentals/System Management/Backup and Restore.md",
+                "file": "HTB/Linux Fundamentals/System Management/Containerization.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,11 +162,13 @@
   },
   "active": "f9e681f9a082d538",
   "lastOpenFiles": [
+    "HTB/Linux Fundamentals/System Management/Containerization.md",
     "HTB/Linux Fundamentals/System Management/File System Management.md",
     "HTB/Linux Fundamentals/System Management/Backup and Restore.md",
+    "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
+    "HTB/Linux Fundamentals/Linux Cheat Sheet.md",
     "HTB/Knowledge Tree.md",
     "HTB/Linux Fundamentals/System Management/Network Services.md",
-    "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
     "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connections.md",
     "HTB/Useful Links.md",
     "HTB/Attacking Web Applications With FFUF/Basic Fuzzing/Directory Fuzzing.md",
@@ -199,9 +189,7 @@
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing/Parameter Fuzzing - POST.md",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing/Value Fuzzing.md",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing/Skills Assessment - Web Fuzzing.md",
-    "HTB/Attacking Web Applications With FFUF/Basic Fuzzing/Recursive Fuzzing.md",
     "HTB/Introduction to Networking/Protocols & Terminology",
-    "HTB/Attacking Web Applications With FFUF/Domain Fuzzing/Filtering Results.md",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing",
     "HTB/Attacking Web Applications With FFUF/Basic Fuzzing",

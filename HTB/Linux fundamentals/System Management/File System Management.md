@@ -140,3 +140,10 @@ Swap space is a crucial aspect of memory management in Linux, and it plays an im
 Swap space can be created either during the installation of the operating system or at any time afterward using the `mkswap` and `swapon` commands. The `mkswap` command is used to set up a Linux swap area on a device or in a file, while the `swapon` command is used to activate a swap area. The size of the swap space is a matter of personal preference and depends on the amount of physical memory installed in the system and the type of usage the system will be subjected to. When creating a swap space, it is important to ensure that it is placed on a dedicated partition or file, separate from the rest of the file system. This helps to prevent fragmentation of the swap space and ensures that the system has adequate swap space available when it is needed. It is also important to ensure that the swap space is encrypted, as sensitive data may be stored in the swap space temporarily.
 
 In addition to being used as an extension of physical memory, swap space can also be used for hibernation, which is a power management feature that allows the system to save its state to disk and then power off instead of shutting down completely. When the system is later powered on, it can restore its state from the swap space, returning to the state it was in before it was powered off.
+
+
+What is the size in GiB of the "/dev/vda" disk in our Pwnbox? (Format: 000)
+
+`160`
+* run command `sudo fdisk -l`. This command will show you the actual size of the disk / HDD or Virtual Disk / Bunch of disks you have on your Linux machine, the other commands are mainly for checking the usage of the files on the filesystem
+* first line should say `Disk /dev/vda: 160 GiB, 171798691840 bytes, 335544320 sectors`
