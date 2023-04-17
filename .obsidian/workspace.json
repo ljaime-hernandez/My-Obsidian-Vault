@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "HTB/Linux Fundamentals/System Management/Containerization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c47c51ced36e0c0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,14 +172,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9e681f9a082d538",
+  "active": "c47c51ced36e0c0b",
   "lastOpenFiles": [
+    "HTB/Linux Fundamentals/System Management/Network Configuration.md",
     "HTB/Linux Fundamentals/System Management/Containerization.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Linux Fundamentals/System Management/File System Management.md",
     "HTB/Linux Fundamentals/System Management/Backup and Restore.md",
     "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
     "HTB/Linux Fundamentals/Linux Cheat Sheet.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Linux Fundamentals/System Management/Network Services.md",
     "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connections.md",
     "HTB/Useful Links.md",
@@ -188,7 +201,6 @@
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing/Parameter Fuzzing - GET.md",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing/Parameter Fuzzing - POST.md",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing/Value Fuzzing.md",
-    "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing/Skills Assessment - Web Fuzzing.md",
     "HTB/Introduction to Networking/Protocols & Terminology",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing",

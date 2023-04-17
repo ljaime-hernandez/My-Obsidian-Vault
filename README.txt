@@ -115,6 +115,7 @@
 │   │   ├── Backup and Restore.md
 │   │   ├── Containerization.md
 │   │   ├── File System Management.md
+│   │   ├── Network Configuration.md
 │   │   ├── Network Services.md
 │   │   ├── Package Management.md
 │   │   ├── Service and Process Management.md
@@ -257,4 +258,5 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-66 directories, 192 files
+
+66 directories, 193 files
