@@ -26,3 +26,44 @@ Besides, there are different applications and services such as [Snort](https://
 -   Disable all unwanted SUID/SGID binaries
 
 This list is incomplete, as safety is not a product but a process. This means that specific steps must always be taken to protect the systems better, and it depends on the administrators how well they know their operating systems. The better the administrators are familiar with the system, and the more they are trained, the better and more secure their security precautions and security measures will be.
+
+## TCP Wrappers
+
+TCP wrapper is a security mechanism used in Linux systems that allows the system administrator to control which services are allowed access to the system. It works by restricting access to certain services based on the hostname or IP address of the user requesting access. When a client attempts to connect to a service the system will first consult the rules defined in the TCP wrappers configuration files to determine the IP address of the client. If the IP address matches the criteria specified in the configuration files, the system will then grant the client access to the service. However, if the criteria are not met, the connection will be denied, providing an additional layer of security for the service. TCP wrappers use the following configuration files:
+
+-   `/etc/hosts.allow`
+-   `/etc/hosts.deny`
+
+In short, the `/etc/hosts.allow` file specifies which services and hosts are allowed access to the system, whereas the `/etc/hosts.deny` file specifies which services and hosts are not allowed access. These files can be configured by adding specific rules to the files.
+
+#### /etc/hosts.allow
+
+```shell-session
+Luis Miguel Jaime Hernandez@htb[/htb]$ cat /etc/hosts.allow
+
+# Allow access to SSH from the local network
+sshd : 10.129.14.0/24
+
+# Allow access to FTP from a specific host
+ftpd : 10.129.14.10
+
+# Allow access to Telnet from any host in the inlanefreight.local domain
+telnetd : .inlanefreight.local
+```
+
+#### /etc/hosts.deny
+
+```shell-session
+Luis Miguel Jaime Hernandez@htb[/htb]$ cat /etc/hosts.deny
+
+# Deny access to all services from any host in the inlanefreight.com domain
+ALL : .inlanefreight.com
+
+# Deny access to SSH from a specific host
+sshd : 10.129.22.22
+
+# Deny access to FTP from hosts with IP addresses in the range of 10.129.22.0 to 10.129.22.255
+ftpd : 10.129.22.0/24
+```
+
+It is important to remember that the order of the rules in the files is important. The first rule that matches the requested service and host is the one that will be applied. It is also important to note that TCP wrappers are not a replacement for a firewall, as they are limited by the fact that they can only control access to services and not to ports.

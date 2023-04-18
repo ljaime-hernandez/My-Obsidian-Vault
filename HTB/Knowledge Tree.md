@@ -111,11 +111,16 @@
 │   │   ├── Linux Distributions.md
 │   │   └── Linux structure.md
 │   ├── Linux Cheat Sheet.md
+│   ├── Linux Hardening
+│   │   ├── Firewall Setup.md
+│   │   └── Linux security.md
+│   ├── Linux Networking
+│   │   ├── Network Configuration.md
+│   │   └── Remote Desktop Protocols in Linux.md
 │   ├── System Management
 │   │   ├── Backup and Restore.md
 │   │   ├── Containerization.md
 │   │   ├── File System Management.md
-│   │   ├── Network Configuration.md
 │   │   ├── Network Services.md
 │   │   ├── Package Management.md
 │   │   ├── Service and Process Management.md
@@ -127,7 +132,6 @@
 │   │   ├── Prompt Description.md
 │   │   └── System information.md
 │   ├── Tips and tricks
-│   │   ├── Linux security.md
 │   │   └── Shortcuts.md
 │   └── Workflow
 │       ├── Editing files.md
@@ -258,4 +262,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-66 directories, 193 files
+68 directories, 195 files
