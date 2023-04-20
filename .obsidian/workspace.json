@@ -37,6 +37,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "696f974f15c386a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -184,18 +196,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "311a7b27143baf0f",
+  "active": "696f974f15c386a3",
   "lastOpenFiles": [
+    "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
     "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
+    "HTB/Linux Fundamentals/Tips and tricks/Shortcuts.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Linux Fundamentals/Linux Hardening/Linux security.md",
     "HTB/Linux Fundamentals/Linux Hardening",
-    "HTB/Linux Fundamentals/Tips and tricks/Shortcuts.md",
     "HTB/Linux Fundamentals/Linux Networking/Remote Desktop Protocols in Linux.md",
     "HTB/Linux Fundamentals/Linux Networking/Network Configuration.md",
     "HTB/Linux Fundamentals/Linux Networking",
     "HTB/Linux Fundamentals/System Management/Network Services.md",
     "HTB/Linux Fundamentals/System Management/Containerization.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Linux Fundamentals/System Management/File System Management.md",
     "HTB/Linux Fundamentals/System Management/Backup and Restore.md",
     "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
@@ -214,7 +227,6 @@
     "HTB/Introduction to Networking/Connection Establishment",
     "HTB/Introduction to Networking/Protocols & Terminology/Virtual Private Networks.md",
     "HTB/Introduction to Networking/Protocols & Terminology/Wireless Networks.md",
-    "HTB/Introduction to Networking/Protocols & Terminology/Common Protocols.md",
     "HTB/Introduction to Networking/Protocols & Terminology",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing",

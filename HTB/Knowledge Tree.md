@@ -113,7 +113,8 @@
 │   ├── Linux Cheat Sheet.md
 │   ├── Linux Hardening
 │   │   ├── Firewall Setup.md
-│   │   └── Linux security.md
+│   │   ├── Linux security.md
+│   │   └── System Logs.md
 │   ├── Linux Networking
 │   │   ├── Network Configuration.md
 │   │   └── Remote Desktop Protocols in Linux.md
@@ -262,4 +263,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-68 directories, 195 files
+68 directories, 196 files
