@@ -80,8 +80,6 @@ Each rule consists of a set of criteria or matches and a target specifying the a
 
 Let us illustrate a rule and consider that we want to add a new entry to the INPUT chain that allows incoming TCP traffic on port 22 (SSH) to be accepted. The command for that would look like the following:
 
-  Rules and Targets
-
 ```shell-session
 Luis Miguel Jaime Hernandez@htb[/htb]$ sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 ```
@@ -109,8 +107,6 @@ Luis Miguel Jaime Hernandez@htb[/htb]$ sudo iptables -A INPUT -p tcp --dport 22 
 | `-m iprange`            | Matches packets based on a range of IP addresses                   |
 
 In general, matches are specified using the '-m' option in iptables. For example, the following command adds a rule to the 'INPUT' chain in the 'filter' table that matches incoming TCP traffic on port 80:
-
-  Matches
 
 ```shell-session
 Luis Miguel Jaime Hernandez@htb[/htb]$ sudo iptables -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT

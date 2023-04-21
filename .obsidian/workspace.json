@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7ef3cd3a6c6e9d9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Linux Fundamentals/Linux Networking/Network Configuration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5de80a8f6508be77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Linux Fundamentals/Linux Hardening/Linux security.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "311a7b27143baf0f",
             "type": "leaf",
             "state": {
@@ -49,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c47c51ced36e0c0b",
+            "id": "eb0d5b25256b0695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Linux Fundamentals/System Management/Network Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "254d7d5b04e84a2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -196,43 +184,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "696f974f15c386a3",
+  "active": "254d7d5b04e84a2d",
   "lastOpenFiles": [
-    "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
-    "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
-    "HTB/Linux Fundamentals/Tips and tricks/Shortcuts.md",
-    "HTB/Knowledge Tree.md",
-    "HTB/Linux Fundamentals/Linux Hardening/Linux security.md",
-    "HTB/Linux Fundamentals/Linux Hardening",
-    "HTB/Linux Fundamentals/Linux Networking/Remote Desktop Protocols in Linux.md",
-    "HTB/Linux Fundamentals/Linux Networking/Network Configuration.md",
-    "HTB/Linux Fundamentals/Linux Networking",
+    "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
     "HTB/Linux Fundamentals/System Management/Network Services.md",
-    "HTB/Linux Fundamentals/System Management/Containerization.md",
-    "HTB/Linux Fundamentals/System Management/File System Management.md",
-    "HTB/Linux Fundamentals/System Management/Backup and Restore.md",
+    "HTB/Introduction to Bash Scripting/Introduction",
+    "HTB/Introduction to Bash Scripting",
     "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
-    "HTB/Linux Fundamentals/Linux Cheat Sheet.md",
-    "HTB/Introduction to Networking/Connection Establishment/TCP-UDP Connections.md",
-    "HTB/Useful Links.md",
-    "HTB/Attacking Web Applications With FFUF/Basic Fuzzing/Directory Fuzzing.md",
     "HTB/Linux Fundamentals/System Management/Service and Process Management.md",
     "HTB/Linux Fundamentals/System Management/Package Management.md",
-    "HTB/Introduction to Networking/Connection Establishment/Authentication Protocols.md",
-    "HTB/Introduction to Networking/Connection Establishment/Cryptography.md",
+    "HTB/Linux Fundamentals/System Management/User Management.md",
+    "HTB/Linux Fundamentals/Workflow/Permission Management.md",
+    "HTB/Linux Fundamentals/Workflow/Filter Contents.md",
+    "HTB/Linux Fundamentals/Workflow/File descriptors and redirections.md",
+    "HTB/Linux Fundamentals/Workflow/Find files and directories.md",
+    "HTB/Linux Fundamentals/Workflow/Editing files.md",
+    "HTB/Linux Fundamentals/Workflow/Working with Files and Directories.md",
+    "HTB/Linux Fundamentals/Workflow/Navigation.md",
+    "HTB/Linux Fundamentals/The Shell/System information.md",
+    "HTB/Linux Fundamentals/The Shell/Getting help.md",
+    "HTB/Useful Links.md",
+    "HTB/Linux Fundamentals/The Shell/Prompt Description.md",
+    "HTB/Linux Fundamentals/Introduction/Introduction to Shell.md",
     "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
-    "HTB/Linux Fundamentals/Workflow/Regular Expressions.md",
-    "HTB/Introduction to Networking/Connection Establishment/Key Exchange Mechanisms.md",
-    "HTB/Introduction to Networking/Protocols & Terminology/Vendor Specific Information.md",
+    "HTB/Linux Fundamentals/Introduction/Linux structure.md",
+    "HTB/Linux Fundamentals/Linux Distributions vs Solaris/Solaris.md",
+    "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
+    "HTB/Linux Fundamentals/Linux Distributions vs Solaris",
+    "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
+    "HTB/Knowledge Tree.md",
+    "HTB/Linux Fundamentals/Linux Hardening/Linux security.md",
+    "HTB/Linux Fundamentals/Linux Networking/Network Configuration.md",
+    "HTB/Linux Fundamentals/Linux Hardening",
+    "HTB/Linux Fundamentals/Linux Networking",
     "HTB/Introduction to Networking/Connection Establishment",
-    "HTB/Introduction to Networking/Protocols & Terminology/Virtual Private Networks.md",
-    "HTB/Introduction to Networking/Protocols & Terminology/Wireless Networks.md",
     "HTB/Introduction to Networking/Protocols & Terminology",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing",
     "HTB/Attacking Web Applications With FFUF/Domain Fuzzing",
-    "HTB/Attacking Web Applications With FFUF/Basic Fuzzing",
-    "HTB/Attacking Web Applications With FFUF/Introduction",
-    "HTB/Attacking Web Applications With FFUF",
-    "HTB/Using The Metasploit Framework/Additional Features"
+    "HTB/Attacking Web Applications With FFUF/Basic Fuzzing"
   ]
 }

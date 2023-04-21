@@ -34,3 +34,15 @@ Here is a list that will help us to better understand and deal with user managem
 
 User management is essential in any operating system, and the best way to become familiar with it is to try out the individual commands in conjunction with their various options.
 
+
+Which option needs to be set to create a home directory for a new user using "useradd" command?
+
+`-m`
+
+Which option needs to be set to lock a user account using the "usermod" command? (long version of the option)
+
+`--lock`
+
+Which option needs to be set to execute a command as a different user using the "su" command? (long version of the option)
+
+`--command`

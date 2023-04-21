@@ -1,5 +1,6 @@
 ## Pentesting
 
+[Bash Prompt editor](https://bashrcgenerator.com) Generate your .bashrc/PS1 bash prompt easily  with a drag and drop interface
 [nmap manual](https://nmap.org/book/man-nse.html) brief reference to nmap scripts 
 
 [GTFOBins](https://gtfobins.github.io/) curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.

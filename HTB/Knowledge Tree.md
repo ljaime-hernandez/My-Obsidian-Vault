@@ -38,6 +38,9 @@
 │   └── Introduction
 │       ├── Active Directory Research Over the Years.md
 │       └── Why Active Directory.md
+├── Introduction to Bash Scripting
+│   └── Introduction
+│       └── Bourne Again Shell.md
 ├── Introduction to Networking
 │   ├── Addressing
 │   │   ├── IP Addresses.md
@@ -111,6 +114,8 @@
 │   │   ├── Linux Distributions.md
 │   │   └── Linux structure.md
 │   ├── Linux Cheat Sheet.md
+│   ├── Linux Distributions vs Solaris
+│   │   └── Solaris.md
 │   ├── Linux Hardening
 │   │   ├── Firewall Setup.md
 │   │   ├── Linux security.md
@@ -263,4 +268,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-68 directories, 196 files
+71 directories, 198 files

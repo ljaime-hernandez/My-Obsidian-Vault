@@ -131,3 +131,27 @@ SSH Login
 Luis Miguel Jaime Hernandez@htb[/htb]$ ssh [username]@[IP address]
 ```
 
+
+Find out the machine hardware name and submit it as the answer.
+
+`x86_64`
+
+What is the path to htb-student's home directory?
+
+`/home/htb-student`
+
+What is the path to the htb-student's mail?
+
+`/var/mail/htb-student`
+
+Which shell is specified for the htb-student user?
+
+`/bin/bash`
+
+Which kernel version is installed on the system? (Format: 1.22.3)
+
+`4.15.0`
+
+What is the name of the network interface that MTU is set to 1500?
+
+`ens192`

@@ -214,11 +214,22 @@ Luis Miguel Jaime Hernandez@htb[/htb]$ cat /etc/passwd | grep -v "false\|nologin
 
 It may be a bit overwhelming at first to deal with so many different tools and their functions if we are not familiar with them. Take your time and experiment with the tools. Have a look at the man pages (`man <tool>`) or call the help for it (`<tool> -h` / `<tool> --help`). The best way to become familiar with all the tools is to practice. Try to use them as often as possible, and we will be able to filter many things intuitively after a short time.
 
+Here are a few optional exercises we can use to improve our filtering skills and get more familiar with the terminal and the commands. The file we will need to work with is the `/etc/passwd` file on our `target` and we can use any shown command above. Our goal is to filter and display only specific contents. Read the file and filter its contents in such a way that we see only:
+
+1. A line with the username `cry0l1t3`.
+2. The usernames.
+3. The username `cry0l1t3` and his UID.
+4. The username `cry0l1t3` and his UID separated by a comma (`,`).
+5. The username `cry0l1t3`, his UID, and the set shell separated by a comma (`,`).
+6. All usernames with their UID and set shells separated by a comma (`,`).
+7. All usernames with their UID and set shells separated by a comma (`,`) and exclude the ones that contain `nologin` or `false`.
+8. All usernames with their UID and set shells separated by a comma (`,`) and exclude the ones that contain `nologin` and count all lines of the filtered output.
+
+
 How many services are listening on the target system on all interfaces? (Not on localhost and IPv4 only)
 
 `7 (code below)`
 `ss -l -4 | grep -v "127\.0\.0" | grep "LISTEN" | wc -l`
-
 -   **-l**: show only listening services
 -   **-4**: show only ipv4
 -   **-grep -v "127.0.0"**: exclude all localhost results

@@ -146,3 +146,13 @@ Luis Miguel Jaime Hernandez@htb[/htb]$ tree .
 4 directories, 4 files
 ```
 
+
+What is the name of the last modified file in the "/var/backups" directory?
+
+`apt.extended_states.0`
+
+What is the inode number of the "shadow.bak" file in the "/var/backups" directory?
+
+`265293`
+
+

@@ -92,3 +92,13 @@ Since our shell is filled with some records, we can clean the shell with the com
 cry0l1t3@htb[/dev]$ cd shm && clear
 ```
 
+Another way to clean up our terminal is to use the shortcut `[Ctrl] + [L]`. We can also use the arrow keys (`↑` or `↓`) to scroll through the command history, which will show us the commands that we have used before. But we also can search through the command history using the shortcut `[Ctrl] + [R]` and type some of the text that we are looking for.
+
+
+What is the name of the hidden "history" file in the htb-user's home directory?
+
+`.bash_history`
+
+What is the index number of the "sudoers" file in the "/etc" directory?
+
+`147627`
