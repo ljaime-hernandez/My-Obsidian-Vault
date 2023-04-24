@@ -39,8 +39,10 @@
 │       ├── Active Directory Research Over the Years.md
 │       └── Why Active Directory.md
 ├── Introduction to Bash Scripting
-│   └── Introduction
-│       └── Bourne Again Shell.md
+│   ├── Introduction
+│   │   └── Bourne Again Shell.md
+│   └── Working Components
+│       └── Conditional Execution.md
 ├── Introduction to Networking
 │   ├── Addressing
 │   │   ├── IP Addresses.md
@@ -268,4 +270,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-71 directories, 198 files
+72 directories, 199 files

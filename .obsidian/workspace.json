@@ -49,6 +49,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e250630eb5a78567",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -184,9 +196,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "254d7d5b04e84a2d",
+  "active": "e250630eb5a78567",
   "lastOpenFiles": [
+    "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
     "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
+    "HTB/Introduction to Bash Scripting/Working Components",
+    "HTB/Knowledge Tree.md",
     "HTB/Linux Fundamentals/System Management/Network Services.md",
     "HTB/Introduction to Bash Scripting/Introduction",
     "HTB/Introduction to Bash Scripting",
@@ -212,15 +227,12 @@
     "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
     "HTB/Linux Fundamentals/Linux Distributions vs Solaris",
     "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Linux Fundamentals/Linux Hardening/Linux security.md",
-    "HTB/Linux Fundamentals/Linux Networking/Network Configuration.md",
     "HTB/Linux Fundamentals/Linux Hardening",
     "HTB/Linux Fundamentals/Linux Networking",
     "HTB/Introduction to Networking/Connection Establishment",
     "HTB/Introduction to Networking/Protocols & Terminology",
     "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing",
-    "HTB/Attacking Web Applications With FFUF/Domain Fuzzing",
-    "HTB/Attacking Web Applications With FFUF/Basic Fuzzing"
+    "HTB/Attacking Web Applications With FFUF/Domain Fuzzing"
   ]
 }
