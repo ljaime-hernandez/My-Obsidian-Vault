@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "311a7b27143baf0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "696f974f15c386a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb0d5b25256b0695",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Linux Fundamentals/System Management/Network Services.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "254d7d5b04e84a2d",
             "type": "leaf",
             "state": {
@@ -61,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13267fdabaad1a1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
@@ -68,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,13 +172,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e250630eb5a78567",
+  "active": "13267fdabaad1a1d",
   "lastOpenFiles": [
+    "HTB/Introduction to Bash Scripting/Working Components/Arguments, Variables, and Arrays.md",
     "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
     "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
-    "HTB/Introduction to Bash Scripting/Working Components",
     "HTB/Knowledge Tree.md",
+    "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
+    "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
     "HTB/Linux Fundamentals/System Management/Network Services.md",
+    "HTB/Introduction to Bash Scripting/Working Components",
     "HTB/Introduction to Bash Scripting/Introduction",
     "HTB/Introduction to Bash Scripting",
     "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
@@ -224,10 +203,7 @@
     "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
     "HTB/Linux Fundamentals/Introduction/Linux structure.md",
     "HTB/Linux Fundamentals/Linux Distributions vs Solaris/Solaris.md",
-    "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
     "HTB/Linux Fundamentals/Linux Distributions vs Solaris",
-    "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
-    "HTB/Linux Fundamentals/Linux Hardening/Linux security.md",
     "HTB/Linux Fundamentals/Linux Hardening",
     "HTB/Linux Fundamentals/Linux Networking",
     "HTB/Introduction to Networking/Connection Establishment",
