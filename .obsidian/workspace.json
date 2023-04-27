@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "37adf7f524885472",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB/Knowledge Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -172,12 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13267fdabaad1a1d",
+  "active": "37adf7f524885472",
   "lastOpenFiles": [
+    "HTB/Introduction to Bash Scripting/Working Components/Comparison Operators.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Introduction to Bash Scripting/Working Components/Arguments, Variables, and Arrays.md",
     "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
     "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
     "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
     "HTB/Linux Fundamentals/System Management/Network Services.md",
@@ -202,7 +215,6 @@
     "HTB/Linux Fundamentals/Introduction/Introduction to Shell.md",
     "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
     "HTB/Linux Fundamentals/Introduction/Linux structure.md",
-    "HTB/Linux Fundamentals/Linux Distributions vs Solaris/Solaris.md",
     "HTB/Linux Fundamentals/Linux Distributions vs Solaris",
     "HTB/Linux Fundamentals/Linux Hardening",
     "HTB/Linux Fundamentals/Linux Networking",
