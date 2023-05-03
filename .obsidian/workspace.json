@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "254d7d5b04e84a2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e250630eb5a78567",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13267fdabaad1a1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Knowledge Tree.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37adf7f524885472",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Knowledge Tree.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5b4c0de8338aa7ee",
             "type": "leaf",
             "state": {
@@ -67,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,11 +149,14 @@
   },
   "active": "5b4c0de8338aa7ee",
   "lastOpenFiles": [
-    "HTB/Introduction to Bash Scripting/Working Components/Arithmetic.md",
+    "HTB/Introduction to Bash Scripting/Script Control/Input and Output.md",
+    "HTB/Introduction to Bash Scripting/Script Control.md",
+    "HTB/Introduction to Bash Scripting/Script Control",
+    "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
     "HTB/Knowledge Tree.md",
+    "HTB/Introduction to Bash Scripting/Working Components/Arithmetic.md",
     "HTB/Introduction to Bash Scripting/Working Components/Comparison Operators.md",
     "HTB/Introduction to Bash Scripting/Working Components/Arguments, Variables, and Arrays.md",
-    "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
     "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
     "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
     "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
@@ -224,15 +178,11 @@
     "HTB/Linux Fundamentals/The Shell/System information.md",
     "HTB/Linux Fundamentals/The Shell/Getting help.md",
     "HTB/Useful Links.md",
-    "HTB/Linux Fundamentals/The Shell/Prompt Description.md",
-    "HTB/Linux Fundamentals/Introduction/Introduction to Shell.md",
-    "HTB/Linux Fundamentals/Introduction/Linux Distributions.md",
     "HTB/Linux Fundamentals/Linux Distributions vs Solaris",
     "HTB/Linux Fundamentals/Linux Hardening",
     "HTB/Linux Fundamentals/Linux Networking",
     "HTB/Introduction to Networking/Connection Establishment",
     "HTB/Introduction to Networking/Protocols & Terminology",
-    "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing",
-    "HTB/Attacking Web Applications With FFUF/Domain Fuzzing"
+    "HTB/Attacking Web Applications With FFUF/Parameter Fuzzing"
   ]
 }

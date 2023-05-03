@@ -41,6 +41,8 @@
 ├── Introduction to Bash Scripting
 │   ├── Introduction
 │   │   └── Bourne Again Shell.md
+│   ├── Script Control
+│   │   └── Input and Output.md
 │   └── Working Components
 │       ├── Arguments, Variables, and Arrays.md
 │       ├── Arithmetic.md
@@ -273,4 +275,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-72 directories, 202 files
+73 directories, 203 files
