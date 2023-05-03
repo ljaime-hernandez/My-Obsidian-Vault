@@ -43,6 +43,7 @@
 │   │   └── Bourne Again Shell.md
 │   └── Working Components
 │       ├── Arguments, Variables, and Arrays.md
+│       ├── Arithmetic.md
 │       ├── Comparison Operators.md
 │       └── Conditional Execution.md
 ├── Introduction to Networking
@@ -272,4 +273,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-72 directories, 201 files
+72 directories, 202 files
