@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Knowledge Tree.md"
+                "file": "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md"
               }
             }
           }
@@ -149,14 +149,14 @@
   },
   "active": "5b4c0de8338aa7ee",
   "lastOpenFiles": [
+    "HTB/Introduction to Bash Scripting/Working Components/Arguments, Variables, and Arrays.md",
+    "HTB/Introduction to Bash Scripting/Working Components/Comparison Operators.md",
+    "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Introduction to Bash Scripting/Script Control/Input and Output.md",
     "HTB/Introduction to Bash Scripting/Script Control.md",
     "HTB/Introduction to Bash Scripting/Script Control",
-    "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Introduction to Bash Scripting/Working Components/Arithmetic.md",
-    "HTB/Introduction to Bash Scripting/Working Components/Comparison Operators.md",
-    "HTB/Introduction to Bash Scripting/Working Components/Arguments, Variables, and Arrays.md",
     "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
     "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
     "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",

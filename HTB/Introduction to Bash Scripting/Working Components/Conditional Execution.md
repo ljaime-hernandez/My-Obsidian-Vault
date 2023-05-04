@@ -177,3 +177,38 @@ do
         var=$(echo $var | base64)
 done
 ```
+
+
+Create an "If-Else" condition in the "For"-Loop of the "Exercise Script" that prints you the number of characters of the 35th generated value of the variable "var". Submit the number as the answer.
+
+`1197735`
+
+Ans:
+```bash 
+#!/bin/bash
+
+# Count number of characters in a variable:
+#     echo $variable | wc -c
+
+# Variable to encode
+var="nef892na9s1p9asn2aJs71nIsm"
+counter=0 
+
+for counter in {1..40}
+do
+   var=$(echo $var | base64)
+   ((counter=counter+1))
+
+if [[ "$counter" == 36 ]]; then
+    encode=$var
+    echo $encode | wc -c
+fi
+done
+```
+
+* declare a counter variable and increase it plus one in every iteration
+* iterations start from 1!!!! means the answer will be found in the iteration number 36, instead of 35
+* apply condition as `if [[ "$counter" == 36 ]]; then` 
+* use the encoded variable as `encode=$var`
+* count the characters on the string as `$encode | wc -c` and echo them on the script
+* dont forget to use `fi` to complete the conditional execution

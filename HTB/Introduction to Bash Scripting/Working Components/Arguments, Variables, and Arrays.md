@@ -148,3 +148,8 @@ Luis Miguel Jaime Hernandez@htb[/htb]$ ./Arrays.sh
 www.inlanefreight.com ftp.inlanefreight.com vpn.inlanefreight.com
 ```
 
+
+
+Submit the echo statement that would print "www2.inlanefreight.com" when running the last "Arrays.sh" script.
+
+`echo ${domains[1]}`
