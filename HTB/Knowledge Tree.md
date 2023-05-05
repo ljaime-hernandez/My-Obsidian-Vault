@@ -42,6 +42,7 @@
 │   ├── Introduction
 │   │   └── Bourne Again Shell.md
 │   ├── Script Control
+│   │   ├── Flow Control - Loops.md
 │   │   └── Input and Output.md
 │   └── Working Components
 │       ├── Arguments, Variables, and Arrays.md
@@ -275,4 +276,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-73 directories, 203 files
+73 directories, 204 files
