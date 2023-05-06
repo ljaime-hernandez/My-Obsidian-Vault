@@ -39,9 +39,12 @@
 │       ├── Active Directory Research Over the Years.md
 │       └── Why Active Directory.md
 ├── Introduction to Bash Scripting
+│   ├── Execution Flow
+│   │   └── Functions.md
 │   ├── Introduction
 │   │   └── Bourne Again Shell.md
 │   ├── Script Control
+│   │   ├── Flow Control - Branches.md
 │   │   ├── Flow Control - Loops.md
 │   │   └── Input and Output.md
 │   └── Working Components
@@ -276,4 +279,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-73 directories, 204 files
+74 directories, 206 files

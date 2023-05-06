@@ -230,3 +230,37 @@ else
 	exit 1
 fi
 ```
+
+
+Create a "For" loop that encodes the variable "var" 28 times in "base64". The number of characters in the 28th hash is the value that must be assigned to the "salt" variable.
+
+`HTBL00p5r0x`
+
+Ans:
+```bash
+var="9M"
+salt=""
+hash="VTJGc2RHVmtYMTl2ZnYyNTdUeERVRnBtQWVGNmFWWVUySG1wTXNmRi9rQT0K"
+
+for counter in {1..28}
+do
+   var=$(echo $var | base64)
+done
+
+salt=$(echo $var | wc -c)
+
+if [[ ! -z "$salt" ]]
+then
+    decrypt
+    echo $flag
+else
+    exit 1
+fi
+```
+
+* line 5: made a for loop which will iterate 28 times as requested
+* line 7: `var` string will be encoded on base64 each time the loop comes back to itself
+* line 10: assign the number of characters in the `var` encoded string to `salt` variable
+* line 12: checks if `salt` variable is null, if its not null then it will access the condition
+* line 14: runs `decrypt` function
+* line 15: prints the flag produced in the `decrypt` function
