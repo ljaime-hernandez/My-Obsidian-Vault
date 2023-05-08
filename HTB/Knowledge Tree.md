@@ -40,6 +40,7 @@
 │       └── Why Active Directory.md
 ├── Introduction to Bash Scripting
 │   ├── Execution Flow
+│   │   ├── Debugging.md
 │   │   └── Functions.md
 │   ├── Introduction
 │   │   └── Bourne Again Shell.md
@@ -279,4 +280,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-74 directories, 206 files
+74 directories, 207 files
