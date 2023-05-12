@@ -191,6 +191,9 @@
 │       ├── Getting Started with a Pentest Distro.md
 │       ├── Infosec Overview.md
 │       └── Staying Organized.md
+├── Penetration Testing Process
+│   └── Using Academy Effectively
+│       └── Introduction to the Penetration Tester Path.md
 ├── Setting up
 │   ├── Introduction
 │   │   ├── Containers.md
@@ -280,4 +283,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-74 directories, 207 files
+76 directories, 208 files

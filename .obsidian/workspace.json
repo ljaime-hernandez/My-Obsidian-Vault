@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "HTB/Introduction to Bash Scripting/Execution Flow/Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab1eaa0451cbb204",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,11 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9c55719f18a41d4",
+  "active": "ab1eaa0451cbb204",
   "lastOpenFiles": [
-    "HTB/Introduction to Bash Scripting/Execution Flow/Debugging.md",
+    "HTB/Penetration Testing Process/Using Academy Effectively/Introduction to the Penetration Tester Path.md",
+    "HTB/Penetration Testing Process/Using Academy Effectively",
     "HTB/Introduction to Bash Scripting/Execution Flow/Functions.md",
+    "HTB/Penetration Testing Process",
     "HTB/Knowledge Tree.md",
+    "HTB/Introduction to Bash Scripting/Execution Flow/Debugging.md",
     "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
     "HTB/Introduction to Bash Scripting/Script Control/Flow Control - Branches.md",
     "HTB/Introduction to Bash Scripting/Execution Flow",
@@ -191,12 +206,8 @@
     "HTB/Linux Fundamentals/Workflow/File descriptors and redirections.md",
     "HTB/Linux Fundamentals/Workflow/Find files and directories.md",
     "HTB/Linux Fundamentals/Workflow/Editing files.md",
-    "HTB/Linux Fundamentals/Workflow/Working with Files and Directories.md",
-    "HTB/Linux Fundamentals/Workflow/Navigation.md",
     "HTB/Linux Fundamentals/Linux Distributions vs Solaris",
     "HTB/Linux Fundamentals/Linux Hardening",
-    "HTB/Linux Fundamentals/Linux Networking",
-    "HTB/Introduction to Networking/Connection Establishment",
-    "HTB/Introduction to Networking/Protocols & Terminology"
+    "HTB/Linux Fundamentals/Linux Networking"
   ]
 }
