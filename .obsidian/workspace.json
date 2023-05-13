@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction to Bash Scripting/Execution Flow/Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9c55719f18a41d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Bash Scripting/Execution Flow/Functions.md",
+                "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,9 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e819154354c1f139",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,6 +84,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "9747619d53b95843",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -172,13 +177,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ab1eaa0451cbb204",
+  "active": "661bb4f912057fd7",
   "lastOpenFiles": [
+    "HTB/Network Enumeration With Nmap/Host Enumeration/Host Discovery.md",
+    "HTB/Network Enumeration With Nmap/Introduction/Introduction to Nmap.md",
+    "HTB/Network Enumeration With Nmap/Host Enumeration",
+    "HTB/Network Enumeration With Nmap/Introduction/Enumeration.md",
+    "HTB/Introduction to Bash Scripting/Execution Flow/Functions.md",
+    "HTB/Network Enumeration With Nmap/Introduction",
+    "HTB/Network Enumeration With Nmap",
+    "HTB/Knowledge Tree.md",
     "HTB/Penetration Testing Process/Using Academy Effectively/Introduction to the Penetration Tester Path.md",
     "HTB/Penetration Testing Process/Using Academy Effectively",
-    "HTB/Introduction to Bash Scripting/Execution Flow/Functions.md",
     "HTB/Penetration Testing Process",
-    "HTB/Knowledge Tree.md",
     "HTB/Introduction to Bash Scripting/Execution Flow/Debugging.md",
     "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
     "HTB/Introduction to Bash Scripting/Script Control/Flow Control - Branches.md",
@@ -203,11 +214,6 @@
     "HTB/Linux Fundamentals/System Management/User Management.md",
     "HTB/Linux Fundamentals/Workflow/Permission Management.md",
     "HTB/Linux Fundamentals/Workflow/Filter Contents.md",
-    "HTB/Linux Fundamentals/Workflow/File descriptors and redirections.md",
-    "HTB/Linux Fundamentals/Workflow/Find files and directories.md",
-    "HTB/Linux Fundamentals/Workflow/Editing files.md",
-    "HTB/Linux Fundamentals/Linux Distributions vs Solaris",
-    "HTB/Linux Fundamentals/Linux Hardening",
-    "HTB/Linux Fundamentals/Linux Networking"
+    "HTB/Linux Fundamentals/Workflow/File descriptors and redirections.md"
   ]
 }
