@@ -168,3 +168,5 @@ We have already mentioned in the "`Learning Process`," and at the beginning of t
 
 Based on the last result, find out which operating system it belongs to. Submit the name of the operating system as result.
 
+`windows`
+* we got the OS information from the IP TTL (time to live), it differs on all OS, please review [this link](https://subinsb.com/default-device-ttl-values/) for more information.

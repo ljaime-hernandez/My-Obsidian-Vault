@@ -162,10 +162,12 @@
 │       └── Working with Files and Directories.md
 ├── Network Enumeration With Nmap
 │   ├── Host Enumeration
-│   │   └── Host Discovery.md
-│   └── Introduction
-│       ├── Enumeration.md
-│       └── Introduction to Nmap.md
+│   │   ├── Host Discovery.md
+│   │   └── Host and Port Scanning.md
+│   ├── Introduction
+│   │   ├── Enumeration.md
+│   │   └── Introduction to Nmap.md
+│   └── Nmap Cheat Sheet.md
 ├── Penetration Testing Fundamentals
 │   ├── Attacking Your First Box
 │   │   ├── Nibbles - Alternate User Method - Metasploit.md
@@ -289,4 +291,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-79 directories, 211 files
+79 directories, 213 files

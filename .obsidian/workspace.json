@@ -179,14 +179,17 @@
   },
   "active": "661bb4f912057fd7",
   "lastOpenFiles": [
+    "HTB/Network Enumeration With Nmap/Host Enumeration/Host and Port Scanning.md",
+    "HTB/Useful Links.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Host Discovery.md",
+    "HTB/Network Enumeration With Nmap/Nmap Cheat Sheet.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Introduction/Introduction to Nmap.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration",
     "HTB/Network Enumeration With Nmap/Introduction/Enumeration.md",
     "HTB/Introduction to Bash Scripting/Execution Flow/Functions.md",
     "HTB/Network Enumeration With Nmap/Introduction",
     "HTB/Network Enumeration With Nmap",
-    "HTB/Knowledge Tree.md",
     "HTB/Penetration Testing Process/Using Academy Effectively/Introduction to the Penetration Tester Path.md",
     "HTB/Penetration Testing Process/Using Academy Effectively",
     "HTB/Penetration Testing Process",
@@ -211,9 +214,6 @@
     "HTB/Linux Fundamentals/System Management/Task Scheduling.md",
     "HTB/Linux Fundamentals/System Management/Service and Process Management.md",
     "HTB/Linux Fundamentals/System Management/Package Management.md",
-    "HTB/Linux Fundamentals/System Management/User Management.md",
-    "HTB/Linux Fundamentals/Workflow/Permission Management.md",
-    "HTB/Linux Fundamentals/Workflow/Filter Contents.md",
-    "HTB/Linux Fundamentals/Workflow/File descriptors and redirections.md"
+    "HTB/Linux Fundamentals/System Management/User Management.md"
   ]
 }

@@ -31,6 +31,8 @@
 [Modifying Metasploit x64 template for AV evasion](https://www.blackhillsinfosec.com/modifying-metasploit-x64-template-for-av-evasion/) Modifying Metasploit x64 template for AV evasion
 [SNG article](https://www.mandiant.com/resources/blog/shikata-ga-nai-encoder-still-going-strong) Shikata Ga Nai article
 
+[TTL](https://subinsb.com/default-device-ttl-values/) Default TTL (Time To Live) Values of Different OS
+
 #### Pentesting Assessment Standards
 
 [PCI DSS](https://www.pcisecuritystandards.org/pci_security/)Payment Card Industry Data Security Standard (PCI DSS)
