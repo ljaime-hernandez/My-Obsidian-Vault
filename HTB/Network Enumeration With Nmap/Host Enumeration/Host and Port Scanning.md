@@ -351,3 +351,15 @@ Nmap done: 1 IP address (1 host up) scanned in 6.55 seconds
 
 More information about port scanning techniques we can find at: [https://nmap.org/book/man-port-scanning-techniques.html](https://nmap.org/book/man-port-scanning-techniques.html)
 
+
+
+Find all TCP ports on your target. Submit the total number of found TCP ports as the answer.
+
+`7`
+* run command `nmap 10.129.87.211`
+* count all results with a TCP port
+
+Enumerate the hostname of your target and submit it as the answer. (case-sensitive)
+
+`nix-nmap-default`
+* 
