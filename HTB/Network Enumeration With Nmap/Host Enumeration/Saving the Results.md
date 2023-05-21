@@ -114,3 +114,12 @@ If we now open the HTML file in our browser, we see a clear and structured prese
 ![image](https://academy.hackthebox.com/storage/modules/19/nmap-report.png)
 
 More information about the output formats can be found at: [https://nmap.org/book/output.html](https://nmap.org/book/output.html)
+
+
+
+Perform a full TCP port scan on your target and create an HTML report. Submit the number of the highest port as the answer.
+
+`31337`
+* run command `nmap -p- 10.129.87.211 -oX <your file name>`, `-p-` to scan all ports, `-oX` to format the output as an XML file and name it as you want
+* run command `xsltproc <your file name> -o <your file name>.html`, `xsltproc` to reformat your XML file to HTML, `-o` to output the result in another file with `.html` extension
+* run command `<your browser> <your file name>.html` and check for the port with the largest number after the page opens up in the browser

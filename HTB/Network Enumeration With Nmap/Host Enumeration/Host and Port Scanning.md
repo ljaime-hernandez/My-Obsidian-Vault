@@ -362,4 +362,5 @@ Find all TCP ports on your target. Submit the total number of found TCP ports as
 Enumerate the hostname of your target and submit it as the answer. (case-sensitive)
 
 `nix-nmap-default`
-* 
+* run command `nmap -A 10.129.87.211`, it will do a full scan so it will take longer than usual
+* check at the end of the response for the `Computer name` or `Service info: Host:` for the response
