@@ -151,3 +151,7 @@ The scripts used for the last scan interact with the webserver and its web appli
 
 Use NSE and its scripts to find the flag that one of the services contain and submit it as the answer.
 
+`HTB{873nniuc71bu6usbs1i96as6dsv26}`
+* run command `sudo nmap <ip given> -p80 -sV --script http-enum`, theres a hint on the quiestion stating `web servers are the msot vulnerable and prone to targets`, thats why i chose port 80 to ve enumerated. `-sV`  is for us to get additional info about the service versions, finally we use the NSE script `http-enum` which `Enumerates directories used by popular web applications and servers.`
+* the result will lead us to a file called `robots.txt`, which we can access by typing the path in a browser
+* open Firefox, then type `http://<ip given>/robots.txt` and retrieve your answer

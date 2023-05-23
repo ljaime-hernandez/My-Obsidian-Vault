@@ -165,6 +165,7 @@
 │   │   ├── Host Discovery.md
 │   │   ├── Host and Port Scanning.md
 │   │   ├── Nmap Scripting Engine.md
+│   │   ├── Performance.md
 │   │   ├── Saving the Results.md
 │   │   └── Service Enumeration.md
 │   ├── Introduction
@@ -294,4 +295,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-79 directories, 216 files
+79 directories, 217 files

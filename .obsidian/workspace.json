@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6e4491149a3fe66a",
+        "id": "b1bf81e40d90a49a",
         "type": "tabs",
         "children": [
           {
-            "id": "661bb4f912057fd7",
+            "id": "22c9e07345f1c9a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,28 +16,6 @@
                 "file": "HTB/Knowledge Tree.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ab1eaa0451cbb204",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Knowledge Tree.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e819154354c1f139",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.8"
               }
             }
           }
@@ -177,14 +155,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "661bb4f912057fd7",
+  "active": "22c9e07345f1c9a4",
   "lastOpenFiles": [
+    "HTB/Network Enumeration With Nmap/Host Enumeration/Performance.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Nmap Scripting Engine.md",
-    "HTB/Network Enumeration With Nmap/Host Enumeration/Service Enumeration.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Saving the Results.md",
+    "HTB/Network Enumeration With Nmap/Host Enumeration/Service Enumeration.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Host and Port Scanning.md",
     "HTB/Network Enumeration With Nmap/Nmap Cheat Sheet.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Untitled",
     "HTB/Useful Links.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Host Discovery.md",
@@ -213,7 +192,6 @@
     "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
     "HTB/Linux Fundamentals/System Management/Network Services.md",
     "HTB/Introduction to Bash Scripting/Working Components",
-    "HTB/Introduction to Bash Scripting/Introduction",
-    "HTB/Linux Fundamentals/System Management/Task Scheduling.md"
+    "HTB/Introduction to Bash Scripting/Introduction"
   ]
 }
