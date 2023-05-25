@@ -161,6 +161,8 @@
 │       ├── Regular Expressions.md
 │       └── Working with Files and Directories.md
 ├── Network Enumeration With Nmap
+│   ├── Bypass Security Measures
+│   │   └── Firewall and IDS-IPS Evasion.md
 │   ├── Host Enumeration
 │   │   ├── Host Discovery.md
 │   │   ├── Host and Port Scanning.md
@@ -295,4 +297,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-79 directories, 217 files
+80 directories, 218 files

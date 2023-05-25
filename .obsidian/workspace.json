@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1bf81e40d90a49a",
+        "id": "d72cd0d7d5833b22",
         "type": "tabs",
         "children": [
           {
-            "id": "22c9e07345f1c9a4",
+            "id": "208e720fe68d9504",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,13 +155,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22c9e07345f1c9a4",
+  "active": "208e720fe68d9504",
   "lastOpenFiles": [
+    "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion.md",
+    "HTB/Network Enumeration With Nmap/Bypass Security Measures",
+    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Performance.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Nmap Scripting Engine.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Saving the Results.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Service Enumeration.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Host and Port Scanning.md",
     "HTB/Network Enumeration With Nmap/Nmap Cheat Sheet.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Untitled",
@@ -190,8 +192,6 @@
     "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
     "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
     "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
-    "HTB/Linux Fundamentals/System Management/Network Services.md",
-    "HTB/Introduction to Bash Scripting/Working Components",
-    "HTB/Introduction to Bash Scripting/Introduction"
+    "HTB/Introduction to Bash Scripting/Working Components"
   ]
 }
