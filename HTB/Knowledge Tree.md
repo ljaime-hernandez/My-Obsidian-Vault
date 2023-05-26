@@ -162,6 +162,7 @@
 │       └── Working with Files and Directories.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
+│   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
 │   │   └── Firewall and IDS-IPS Evasion.md
 │   ├── Host Enumeration
 │   │   ├── Host Discovery.md
@@ -297,4 +298,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-80 directories, 218 files
+80 directories, 219 files

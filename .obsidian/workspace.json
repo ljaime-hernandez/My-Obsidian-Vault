@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 273
   },
   "right": {
     "id": "2b6450240cf10d06",
@@ -157,9 +157,10 @@
   },
   "active": "208e720fe68d9504",
   "lastOpenFiles": [
+    "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Easy Lab.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion.md",
     "HTB/Network Enumeration With Nmap/Bypass Security Measures",
-    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Performance.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Nmap Scripting Engine.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Saving the Results.md",
@@ -191,7 +192,6 @@
     "HTB/Introduction to Bash Scripting/Script Control",
     "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
     "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
-    "HTB/Linux Fundamentals/Linux Hardening/System Logs.md",
     "HTB/Introduction to Bash Scripting/Working Components"
   ]
 }
