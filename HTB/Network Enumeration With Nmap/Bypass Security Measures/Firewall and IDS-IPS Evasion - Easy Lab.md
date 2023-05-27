@@ -9,3 +9,6 @@ This page shows us the number of alerts. We know that if we receive a specific a
 
 
 Our client wants to know if we can identify which operating system their provided machine is running on. Submit the OS name as the answer.
+
+`Ubuntu`
+* run command `sudo nmap <ip given> -sV` to get service versions, the answer can be found at `port 22` 

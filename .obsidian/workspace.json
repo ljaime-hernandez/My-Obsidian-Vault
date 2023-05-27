@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Easy Lab.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Easy Lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Easy Lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Knowledge Tree.md"
+                "file": "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Easy Lab.md"
               }
             }
           }
@@ -157,14 +157,15 @@
   },
   "active": "208e720fe68d9504",
   "lastOpenFiles": [
-    "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Easy Lab.md",
-    "HTB/Knowledge Tree.md",
-    "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion.md",
-    "HTB/Network Enumeration With Nmap/Bypass Security Measures",
-    "HTB/Network Enumeration With Nmap/Host Enumeration/Performance.md",
-    "HTB/Network Enumeration With Nmap/Host Enumeration/Nmap Scripting Engine.md",
-    "HTB/Network Enumeration With Nmap/Host Enumeration/Saving the Results.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Service Enumeration.md",
+    "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Medium Lab.md",
+    "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion.md",
+    "HTB/Network Enumeration With Nmap/Host Enumeration/Performance.md",
+    "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Easy Lab.md",
+    "HTB/Network Enumeration With Nmap/Host Enumeration/Saving the Results.md",
+    "HTB/Knowledge Tree.md",
+    "HTB/Network Enumeration With Nmap/Bypass Security Measures",
+    "HTB/Network Enumeration With Nmap/Host Enumeration/Nmap Scripting Engine.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Host and Port Scanning.md",
     "HTB/Network Enumeration With Nmap/Nmap Cheat Sheet.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Untitled",
@@ -191,7 +192,6 @@
     "HTB/Introduction to Bash Scripting/Script Control.md",
     "HTB/Introduction to Bash Scripting/Script Control",
     "HTB/Introduction to Bash Scripting/Introduction/Bourne Again Shell.md",
-    "HTB/Linux Fundamentals/Linux Hardening/Firewall Setup.md",
     "HTB/Introduction to Bash Scripting/Working Components"
   ]
 }

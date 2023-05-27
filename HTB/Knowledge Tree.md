@@ -1,3 +1,4 @@
+.
 ├── Attacking Web Applications With FFUF
 │   ├── Basic Fuzzing
 │   │   ├── Directory Fuzzing.md
@@ -163,6 +164,7 @@
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
+│   │   ├── Firewall and IDS-IPS Evasion - Medium Lab.md
 │   │   └── Firewall and IDS-IPS Evasion.md
 │   ├── Host Enumeration
 │   │   ├── Host Discovery.md
@@ -298,4 +300,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-80 directories, 219 files
+80 directories, 220 files
