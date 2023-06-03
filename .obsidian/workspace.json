@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python3",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273
+    "width": 313.5
   },
   "right": {
     "id": "2b6450240cf10d06",
@@ -157,14 +157,17 @@
   },
   "active": "208e720fe68d9504",
   "lastOpenFiles": [
+    "HTB/Incident Handling Process/Introduction/Incident Handling.md",
+    "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Medium Lab.md",
+    "HTB/Incident Handling Process/Introduction",
+    "HTB/Incident Handling Process",
+    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Hard Lab.md",
     "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Easy Lab.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Service Enumeration.md",
-    "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Medium Lab.md",
     "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Performance.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Saving the Results.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Bypass Security Measures",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Nmap Scripting Engine.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Host and Port Scanning.md",
@@ -189,9 +192,6 @@
     "HTB/Introduction to Bash Scripting/Working Components/Comparison Operators.md",
     "HTB/Introduction to Bash Scripting/Script Control/Input and Output.md",
     "HTB/Introduction to Bash Scripting/Working Components/Arguments, Variables, and Arrays.md",
-    "HTB/Introduction to Bash Scripting/Working Components/Arithmetic.md",
-    "HTB/Introduction to Bash Scripting/Script Control.md",
-    "HTB/Introduction to Bash Scripting/Script Control",
-    "HTB/Introduction to Bash Scripting/Working Components"
+    "HTB/Introduction to Bash Scripting/Working Components/Arithmetic.md"
   ]
 }

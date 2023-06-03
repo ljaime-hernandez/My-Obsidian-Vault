@@ -16,6 +16,9 @@
 │       ├── Parameter Fuzzing - POST.md
 │       ├── Skills Assessment - Web Fuzzing.md
 │       └── Value Fuzzing.md
+├── Incident Handling Process
+│   └── Introduction
+│       └── Incident Handling.md
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -197,7 +200,6 @@
 │   │   ├── Public Exploits.md
 │   │   ├── Service Scanning.md
 │   │   ├── Transferring Files.md
-│   │   ├── Types of Shells.md
 │   │   └── Web Enumeration.md
 │   ├── Pentesting Cheat Sheet.md
 │   ├── Problem Solving
@@ -300,4 +302,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-80 directories, 221 files
+82 directories, 221 files
