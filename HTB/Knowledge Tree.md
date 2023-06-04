@@ -1,3 +1,4 @@
+.
 ├── Attacking Web Applications With FFUF
 │   ├── Basic Fuzzing
 │   │   ├── Directory Fuzzing.md
@@ -17,8 +18,11 @@
 │       ├── Skills Assessment - Web Fuzzing.md
 │       └── Value Fuzzing.md
 ├── Incident Handling Process
-│   └── Introduction
-│       └── Incident Handling.md
+│   ├── Introduction
+│   │   ├── Cyber Kill Chain.md
+│   │   └── Incident Handling.md
+│   └── The Incident Handling Process
+│       └── Incident Handling Process Overview.md
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -302,4 +306,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-82 directories, 221 files
+83 directories, 223 files

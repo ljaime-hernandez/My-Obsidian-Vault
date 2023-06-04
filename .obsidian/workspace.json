@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Incident Handling Process/The Incident Handling Process/Incident Handling Process Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Incident Handling Process/The Incident Handling Process/Incident Handling Process Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Incident Handling Process/The Incident Handling Process/Incident Handling Process Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Knowledge Tree.md"
+                "file": "HTB/Incident Handling Process/The Incident Handling Process/Incident Handling Process Overview.md"
               }
             }
           }
@@ -157,11 +157,14 @@
   },
   "active": "208e720fe68d9504",
   "lastOpenFiles": [
+    "HTB/Incident Handling Process/Introduction/Cyber Kill Chain.md",
+    "HTB/Incident Handling Process/The Incident Handling Process/Incident Handling Process Overview.md",
+    "HTB/Incident Handling Process/The Incident Handling Process",
+    "HTB/Knowledge Tree.md",
     "HTB/Incident Handling Process/Introduction/Incident Handling.md",
     "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Medium Lab.md",
     "HTB/Incident Handling Process/Introduction",
     "HTB/Incident Handling Process",
-    "HTB/Knowledge Tree.md",
     "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Hard Lab.md",
     "HTB/Network Enumeration With Nmap/Bypass Security Measures/Firewall and IDS-IPS Evasion - Easy Lab.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Service Enumeration.md",
@@ -187,11 +190,8 @@
     "HTB/Introduction to Bash Scripting/Execution Flow/Debugging.md",
     "HTB/Introduction to Bash Scripting/Working Components/Conditional Execution.md",
     "HTB/Introduction to Bash Scripting/Script Control/Flow Control - Branches.md",
-    "HTB/Introduction to Bash Scripting/Execution Flow",
     "HTB/Introduction to Bash Scripting/Script Control/Flow Control - Loops.md",
     "HTB/Introduction to Bash Scripting/Working Components/Comparison Operators.md",
-    "HTB/Introduction to Bash Scripting/Script Control/Input and Output.md",
-    "HTB/Introduction to Bash Scripting/Working Components/Arguments, Variables, and Arrays.md",
-    "HTB/Introduction to Bash Scripting/Working Components/Arithmetic.md"
+    "HTB/Introduction to Bash Scripting/Script Control/Input and Output.md"
   ]
 }
