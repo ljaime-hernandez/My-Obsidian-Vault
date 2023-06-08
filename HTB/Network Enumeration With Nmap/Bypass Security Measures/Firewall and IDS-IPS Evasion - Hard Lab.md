@@ -1,6 +1,8 @@
 With our second test's help, our client was able to gain new insights and sent one of its administrators to a `training course` for `IDS/IPS` systems. As our client told us, the training would last `one week`. Now the administrator has taken all the necessary precautions and wants us to test this again because specific services must be changed, and the communication for the provided software had to be modified.
 
-
-
-
 Now our client wants to know if it is possible to find out the version of the running services. Identify the version of service our client was talking about and submit the flag as the answer.
+
+`HTB{kjnsdf2n982n1827eh76238s98di1w6}`
+
+* run command `sudo nmap <ip given> -p- -sS -Pn -n -T3 --disable-arp-ping --source-port 53`. The command will scan for all ports `-p-` and will do SYN scans `-sS`  disabling DNS resolutions `-n`, Disabling ARP ping `--disable-arp-ping` and disabling ICMP Echo requests `-Pn` which might trigger firewalls or protocols from checking opened ports. Finally we induce a timing for responses as 'normal' `-T3` and make use of the port 53 as the source port where the scan is done as the attacked system firewall seems to accept connections from it. As a result, three ports will be shown as open, including default services but one uncommon one displaying an `ibm-db` in port 50000, which we will further scan.
+* run command `sudo nc -nv -p 53 10.129.155.216 50000`, you can see we use the `-p` command to specify the source port used by the scan as 53, again because thats the port being accepted by the attacked system firewall, the `-nv` together will skip DNS lookups and warnings while returning the output with verbosity, finally we specify the 50000 port at the end for the `nc` program to stablish a connection with the port, returning the desired flag.
