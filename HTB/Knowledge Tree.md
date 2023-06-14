@@ -21,7 +21,8 @@
 │   │   ├── Cyber Kill Chain.md
 │   │   └── Incident Handling.md
 │   └── The Incident Handling Process
-│       └── Incident Handling Process Overview.md
+│       ├── Incident Handling Process Overview.md
+│       └── Preparation Stage (Part 1).md
 ├── Introduction to Active Directory
 │   ├── Active Directory Fundamentals
 │   │   ├── Active Directory Functionality.md
@@ -305,4 +306,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-83 directories, 223 files
+83 directories, 224 files

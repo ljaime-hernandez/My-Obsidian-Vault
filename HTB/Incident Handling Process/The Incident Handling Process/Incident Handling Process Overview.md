@@ -19,3 +19,7 @@ Following the investigation, the recovery activity involves creating and impleme
 When an incident is fully handled, a report is issued that details the cause and cost of the incident. Additionally, "lessons learned" activities are performed, among others, to understand what the organization should do to prevent incidents of similar type from occurring again.
 
 Let us now walk you through all stages of the `incident handling process`.
+
+
+
+True or False: Incident handling contains two main activities. These are investigating and reporting.
