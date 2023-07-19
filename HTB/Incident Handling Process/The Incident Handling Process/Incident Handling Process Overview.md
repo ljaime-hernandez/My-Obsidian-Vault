@@ -23,3 +23,6 @@ Let us now walk you through all stages of the `incident handling process`.
 
 
 True or False: Incident handling contains two main activities. These are investigating and reporting.
+
+`false` 
+* Its recovering instead of reporting

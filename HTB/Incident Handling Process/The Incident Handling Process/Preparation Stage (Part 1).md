@@ -56,10 +56,10 @@ Finally, we want to stress the importance of having your documentation system co
 
 
 
-
 What should we have prepared and always ready to 'grab and go'?
 
-
-
+`jump bag`
 
 True or False: Using baselines, we can discover deviations from the golden image, which aids us in discovering suspicious or unwanted changes to the configuration.
+
+`true` 
