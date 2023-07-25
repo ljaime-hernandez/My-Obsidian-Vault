@@ -33,7 +33,7 @@ The path simulates a penetration test against the company Inlanefreight broken d
 
 **`Reconnaissance, Enumeration & Attack Planning`**
 
-1.  [Network Enumeration with Nmap](https://academy.hackthebox.com/module/details/19)
+1. [Network Enumeration with Nmap](https://academy.hackthebox.com/module/details/19)
 2. [Footprinting](https://academy.hackthebox.com/module/details/112)
 3. [Information Gathering - Web Edition](https://academy.hackthebox.com/module/details/144)
 4. [Vulnerability Assessment](https://academy.hackthebox.com/module/details/108)
