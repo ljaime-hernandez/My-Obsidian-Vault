@@ -16,12 +16,22 @@
 │       ├── Parameter Fuzzing - POST.md
 │       ├── Skills Assessment - Web Fuzzing.md
 │       └── Value Fuzzing.md
+├── Footprinting
+│   ├── Infrastructure Based Enumeration
+│   │   └── Domain Information.md
+│   └── Introduction
+│       ├── Enumeration Methodology.md
+│       └── Enumeration Principles.md
 ├── Incident Handling Process
 │   ├── Introduction
 │   │   ├── Cyber Kill Chain.md
 │   │   └── Incident Handling.md
 │   └── The Incident Handling Process
+│       ├── Containment, Eradication, and Recovery Stage.md
+│       ├── Detection and Analysis Stage (Part 1).md
+│       ├── Detection and Analysis Stage (Part 2).md
 │       ├── Incident Handling Process Overview.md
+│       ├── Post-Incident Activity Stage.md
 │       ├── Preparation Stage (Part 1).md
 │       └── Preparation Stage (Part 2).md
 ├── Introduction to Active Directory
@@ -307,4 +317,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-83 directories, 225 files
+86 directories, 232 files
