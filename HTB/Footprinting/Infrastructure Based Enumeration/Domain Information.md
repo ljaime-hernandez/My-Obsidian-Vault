@@ -257,11 +257,11 @@ DNS Records
 
 What we could see so far were entries on the DNS server, which at first glance did not look very interesting (except for the additional IP addresses). However, we could not see the third-party providers behind the entries shown at first glance. The core information we can see now is:
 
-||||
-|---|---|---|
-|[Atlassian](https://www.atlassian.com/)|[Google Gmail](https://www.google.com/gmail/)|[LogMeIn](https://www.logmein.com/)|
-|[Mailgun](https://www.mailgun.com/)|[Outlook](https://outlook.live.com/owa/)|[INWX](https://www.inwx.com/en) ID/Username|
-|10.129.24.8|10.129.27.2|10.72.82.106|
+|                                         |                                               |                                             |
+| --------------------------------------- | --------------------------------------------- | ------------------------------------------- |
+| [Atlassian](https://www.atlassian.com/) | [Google Gmail](https://www.google.com/gmail/) | [LogMeIn](https://www.logmein.com/)         |
+| [Mailgun](https://www.mailgun.com/)     | [Outlook](https://outlook.live.com/owa/)      | [INWX](https://www.inwx.com/en) ID/Username |
+| 10.129.24.8                             | 10.129.27.2                                   | 10.72.82.106                                |
 
 For example, [Atlassian](https://www.atlassian.com/) states that the company uses this solution for software development and collaboration. If we are not familiar with this platform, we can try it for free to get acquainted with it.
 

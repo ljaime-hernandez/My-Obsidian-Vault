@@ -17,8 +17,12 @@
 │       ├── Skills Assessment - Web Fuzzing.md
 │       └── Value Fuzzing.md
 ├── Footprinting
+│   ├── Host Based Enumeration
+│   │   └── FTP.md
 │   ├── Infrastructure Based Enumeration
-│   │   └── Domain Information.md
+│   │   ├── Cloud Resources.md
+│   │   ├── Domain Information.md
+│   │   └── Staff.md
 │   └── Introduction
 │       ├── Enumeration Methodology.md
 │       └── Enumeration Principles.md
@@ -317,4 +321,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-86 directories, 232 files
+87 directories, 235 files
