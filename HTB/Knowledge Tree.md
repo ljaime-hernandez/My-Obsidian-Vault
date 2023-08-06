@@ -1,3 +1,4 @@
+.
 ├── Attacking Web Applications With FFUF
 │   ├── Basic Fuzzing
 │   │   ├── Directory Fuzzing.md
@@ -18,7 +19,8 @@
 │       └── Value Fuzzing.md
 ├── Footprinting
 │   ├── Host Based Enumeration
-│   │   └── FTP.md
+│   │   ├── FTP.md
+│   │   └── SMB.md
 │   ├── Infrastructure Based Enumeration
 │   │   ├── Cloud Resources.md
 │   │   ├── Domain Information.md
@@ -321,4 +323,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-87 directories, 235 files
+87 directories, 236 files

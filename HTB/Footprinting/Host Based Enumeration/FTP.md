@@ -526,9 +526,20 @@ This is because the SSL certificate allows us to recognize the `hostname`, for 
 
 Which version of the FTP server is running on the target system? Submit the entire banner as the answer.
 
-
+`InFreight FTP v1.1`
+* run command `nc -nv <ip given> 21`
+* the number 220 will popup, indicating a response from the FTP server, the banner is then given
 
 
 Enumerate the FTP server and find the flag.txt file. Submit the contents of it as the answer.
 
 
+`HTB{b7skjr4c76zhsds7fzhd4k3ujg7nhdjre}`
+* make sure you have both `vsftpd` and `ftp` downloaded with `sudo apt install`
+* connect via ftp port running the command `ftp <ip given>`
+* you will be prompted to connect with a user, write `anonymous` as user and youll be told to use an email as password to connect, type anything
+	- (if you want to make sure you can connect as an anonymous user before trying the ftp connection, run the command `sudo nmap -sV -sC -p21 <ip given> --script ftp-anon`, the response will state if the connection is possible or not)
+* run `ls` command and look for the `flag.txt` document
+* run `get flag.txt` command
+* run `exit` command
+* from your local computer open the `flag.txt` command 
