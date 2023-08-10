@@ -748,3 +748,59 @@ Completed after 0.61 seconds
 ```
 
 We need to use more than two tools for enumeration. Because it can happen that due to the programming of the tools, we get different information that we have to check manually. Therefore, we should never rely only on automated tools where we do not know precisely how they were written.
+
+
+
+
+
+What version of the SMB server is running on the target system? Submit the entire banner as the answer.
+
+`Samba smbd 4.6.2`
+* run command `nmap -sC -sV -p139,445 <ip given>`
+* check under `VERSION` tab
+
+What is the name of the accessible share on the target?
+
+`sambashare`
+* run command `rpcclient -U "" <ip given>`
+* you will be prompted for a password, just press enter
+* run command `netshareenumall`
+* copy the `netname` which is not default (without the `$` symbol)
+
+Connect to the discovered share and find the flag.txt file. Submit the contents as the answer.
+
+`HTB{o873nz4xdo873n4zo873zn4fksuhldsf}`
+* run command `smbclient //<ip given>/sambashare` (or whatever share is public for you)
+* run command `ls`, there will be a directory with the name `contents` so run `cd` to get to it
+* run command `ls` there will be a `flag.txt` document
+* run command `get flag.txt`
+* run command `!cat flag.txt` to see its contents without disconnecting from the server
+
+Find out which domain the server belongs to.
+
+`DEVOPS`
+* install the enum4linux program by doing these 3 steps: 
+	* git clone https://github.com/cddmp/enum4linux-ng.git
+	* cd enum4linux-ng
+	* pip3 install -r requirements.txt
+* run command `./enum4linux-ng.py <ip given> -A`
+* check under the `Domain Information via RPC for <ip given>`  header
+* copy the domain name
+
+Find additional information about the specific share we found previously and submit the customized version of that specific share as the answer.
+
+`InFreight SMB v3.1`
+* install the enum4linux program by doing these 3 steps: 
+	* git clone https://github.com/cddmp/enum4linux-ng.git
+	* cd enum4linux-ng
+	* pip3 install -r requirements.txt
+* run command `./enum4linux-ng.py <ip given> -A`
+* check under the `Shares via RPC on <ip given>`  header
+* copy the `sambashare` comment
+
+What is the full system path of that specific share?
+
+`/home/sambauser`
+* run command `rpcclient -U "" <ip given>`
+* run command `netshareenumall`
+* the path for `sambashare` will be given in a windows format, change it to linux format
