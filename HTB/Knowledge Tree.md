@@ -18,6 +18,7 @@
 │       └── Value Fuzzing.md
 ├── Footprinting
 │   ├── Host Based Enumeration
+│   │   ├── DNS.md
 │   │   ├── FTP.md
 │   │   ├── NFS.md
 │   │   └── SMB.md
@@ -323,4 +324,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-87 directories, 237 files
+87 directories, 238 files
