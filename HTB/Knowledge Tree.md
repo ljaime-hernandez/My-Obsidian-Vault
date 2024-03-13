@@ -1,3 +1,4 @@
+.
 ├── Attacking Web Applications With FFUF
 │   ├── Basic Fuzzing
 │   │   ├── Directory Fuzzing.md
@@ -188,6 +189,10 @@
 │       ├── Permission Management.md
 │       ├── Regular Expressions.md
 │       └── Working with Files and Directories.md
+├── Linux Privilege Escalation
+│   ├── Information Gathering
+│   │   └── Environment Enumeration.md
+│   └── Introduction to Linux Privilege Escalation.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
@@ -327,4 +332,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-87 directories, 241 files
+89 directories, 243 files
