@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Penetration Testing Process/Using Academy Effectively/Academy Modules Layout.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Penetration Testing Process/Using Academy Effectively/Academy Modules Layout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Penetration Testing Process/Using Academy Effectively/Academy Modules Layout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Knowledge Tree.md"
+                "file": "HTB/Penetration Testing Process/Using Academy Effectively/Academy Modules Layout.md"
               }
             }
           },
@@ -179,10 +179,25 @@
   "active": "e9db95449defe42b",
   "lastOpenFiles": [
     "HTB/Linux Privilege Escalation/Information Gathering/Environment Enumeration.md",
-    "HTB/Linux Privilege Escalation/Introduction to Linux Privilege Escalation.md",
-    "HTB/Linux Fundamentals/Linux Cheat Sheet.md",
-    "HTB/Useful Links.md",
     "HTB/Knowledge Tree.md",
+    "HTB/Penetration Testing Process/Using Academy Effectively/Academy Modules Layout.md",
+    "Knowledge Tree.md",
+    "HTB/Penetration Testing Process/Using Academy Effectively/Introduction to the Penetration Tester Path.md",
+    "HTB/Images/Pasted image 20230204151958.png",
+    "HTB/Images/Pasted image 20230204151929.png",
+    "HTB/Images/Pasted image 20230201140801.png",
+    "HTB/Images/Pasted image 20230201140747.png",
+    "HTB/Images/Pasted image 20230201140727.png",
+    "HTB/Images/Pasted image 20230201140640.png",
+    "HTB/Images/Pasted image 20230201131402.png",
+    "HTB/Useful Links.md",
+    "HTB/Linux Fundamentals/Linux Cheat Sheet.md",
+    "HTB/Linux Privilege Escalation/Introduction to Linux Privilege Escalation.md",
+    "HTB/Footprinting/Host Based Enumeration/FTP.md",
+    "HTB/Footprinting/Host Based Enumeration/DNS.md",
+    "HTB/Attacking Web Applications With FFUF/Domain Fuzzing/DNS Records.md",
+    "HTB/test.md",
+    "HTB/Linux Fundamentals/Introduction/Introduction to Shell.md",
     "HTB/Linux Fundamentals/Workflow/Filter Contents.md",
     "HTB/Using The Metasploit Framework/Introduction/Introduction to MSFconsole.md",
     "HTB/Using The Metasploit Framework/MSF Components/Modules.md",
@@ -192,8 +207,6 @@
     "HTB/Introduction to Networking/Connection Establishment/Authentication Protocols.md",
     "HTB/Footprinting/Host Based Enumeration/SNMP.md",
     "HTB/Footprinting/Host Based Enumeration/IMAP - POP3.md",
-    "HTB/Footprinting/Host Based Enumeration/DNS.md",
-    "HTB/Footprinting/Host Based Enumeration/FTP.md",
     "HTB/Footprinting/Host Based Enumeration/Untitled",
     "HTB/Footprinting/Host Based Enumeration/SMB.md",
     "HTB/Footprinting/Host Based Enumeration/SMTP.md",
@@ -202,15 +215,9 @@
     "HTB/Penetration Testing Fundamentals/Next Steps/Knowledge Check.md",
     "HTB/Network Enumeration With Nmap/Host Enumeration/Nmap Scripting Engine.md",
     "HTB/Footprinting/Host Based Enumeration",
-    "HTB/Footprinting/Infrastructure Based Enumeration/Staff.md",
-    "HTB/Footprinting/Infrastructure Based Enumeration/Cloud Resources.md",
-    "HTB/Footprinting/Infrastructure Based Enumeration/Domain Information.md",
-    "HTB/Footprinting/Introduction/Enumeration Methodology.md",
     "HTB/Footprinting/Infrastructure Based Enumeration/Untitled",
     "HTB/Footprinting/Infrastructure Based Enumeration",
-    "HTB/Footprinting/Introduction/Enumeration Principles.md",
     "HTB/Footprinting/Introduction",
-    "HTB/Penetration Testing Process/Using Academy Effectively/Introduction to the Penetration Tester Path.md",
     "HTB/Footprinting",
     "HTB/Incident Handling Process/The Incident Handling Process",
     "HTB/Incident Handling Process/Introduction"

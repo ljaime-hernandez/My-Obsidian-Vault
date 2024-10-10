@@ -242,6 +242,7 @@
 │       └── Staying Organized.md
 ├── Penetration Testing Process
 │   └── Using Academy Effectively
+│       ├── Academy Modules Layout.md
 │       └── Introduction to the Penetration Tester Path.md
 ├── Setting up
 │   ├── Introduction
@@ -332,4 +333,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-89 directories, 243 files
+89 directories, 244 files

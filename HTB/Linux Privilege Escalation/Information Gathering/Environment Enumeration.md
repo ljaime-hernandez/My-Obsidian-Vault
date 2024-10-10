@@ -155,7 +155,7 @@ sr0                        11:0    1  908M  0 rom
 
 The command `lpstat` can be used to find information about any printers attached to the system. If there are active or queued print jobs can we gain access to some sort of sensitive information?
 
-We should also checked for mounted drives and unmounted drives. Can we mount an umounted drive and gain access to sensitive data? Can we find any types of credentials in `fstab` for mounted drives by grepping for common words such as password, username, credential, etc in `/etc/fstab`?
+We should also check for mounted drives and unmounted drives. Can we mount an unmounted drive and gain access to sensitive data? Can we find any types of credentials in `fstab` for mounted drives by grepping for common words such as password, username, credential, etc. in `/etc/fstab`?
 
 ```shell-session
 Luis Miguel Jaime Hernandez@htb[/htb]$ cat /etc/fstab
