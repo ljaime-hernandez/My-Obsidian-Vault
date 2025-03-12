@@ -151,14 +151,25 @@
 ├── Knowledge Tree.md
 ├── Learning Process
 │   ├── Learning Dependencies
+│   │   ├── Decision Making.md
 │   │   ├── Learning Efficiency.md
 │   │   ├── Learning Types.md
+│   │   ├── The Brain.md
+│   │   ├── The Goal.md
+│   │   ├── The Will.md
 │   │   └── Way Of Learning.md
-│   └── Mindset
-│       ├── Occam's Razor.md
-│       ├── Talent.md
-│       ├── Think Outside the Box.md
-│       └── Way of Thinking.md
+│   ├── Learning Overview
+│   │   ├── Documentation.md
+│   │   └── Organization.md
+│   ├── Mindset
+│   │   ├── Occam's Razor.md
+│   │   ├── Talent.md
+│   │   ├── Think Outside the Box.md
+│   │   └── Way of Thinking.md
+│   └── The Process
+│       ├── Attention.md
+│       ├── Comfort.md
+│       └── Focus.md
 ├── Linux Fundamentals
 │   ├── Introduction
 │   │   ├── Introduction to Shell.md
@@ -343,4 +354,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-92 directories, 251 files
+94 directories, 260 files
