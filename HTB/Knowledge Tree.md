@@ -149,6 +149,16 @@
 │       ├── Skills Assessment.md
 │       └── Summary.md
 ├── Knowledge Tree.md
+├── Learning Process
+│   ├── Learning Dependencies
+│   │   ├── Learning Efficiency.md
+│   │   ├── Learning Types.md
+│   │   └── Way Of Learning.md
+│   └── Mindset
+│       ├── Occam's Razor.md
+│       ├── Talent.md
+│       ├── Think Outside the Box.md
+│       └── Way of Thinking.md
 ├── Linux Fundamentals
 │   ├── Introduction
 │   │   ├── Introduction to Shell.md
@@ -333,4 +343,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-89 directories, 244 files
+92 directories, 251 files
