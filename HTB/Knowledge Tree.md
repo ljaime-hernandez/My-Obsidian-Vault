@@ -169,7 +169,8 @@
 │   └── The Process
 │       ├── Attention.md
 │       ├── Comfort.md
-│       └── Focus.md
+│       ├── Focus.md
+│       └── Obstacles.md
 ├── Linux Fundamentals
 │   ├── Introduction
 │   │   ├── Introduction to Shell.md
@@ -354,4 +355,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-94 directories, 260 files
+94 directories, 261 files
