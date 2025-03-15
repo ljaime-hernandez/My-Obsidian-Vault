@@ -170,7 +170,9 @@
 │       ├── Attention.md
 │       ├── Comfort.md
 │       ├── Focus.md
-│       └── Obstacles.md
+│       ├── Handling Frustration.md
+│       ├── Obstacles.md
+│       └── Questioning.md
 ├── Linux Fundamentals
 │   ├── Introduction
 │   │   ├── Introduction to Shell.md
@@ -355,4 +357,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-94 directories, 261 files
+94 directories, 263 files

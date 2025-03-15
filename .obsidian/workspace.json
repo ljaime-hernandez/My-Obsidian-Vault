@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Learning Process/The Process/Questioning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Knowledge Tree"
+              "title": "Questioning"
             }
           },
           {
@@ -230,6 +230,9 @@
   },
   "active": "d3c96a092f5ae4ed",
   "lastOpenFiles": [
+    "HTB/Learning Process/The Process/Handling Frustration.md",
+    "HTB/Learning Process/The Process/Questioning.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Learning Process/The Process/Obstacles.md",
     "HTB/Learning Process/The Process/Comfort.md",
     "HTB/Learning Process/The Process/Attention.md",
@@ -244,7 +247,6 @@
     "HTB/Learning Process/Learning Dependencies/The Will.md",
     "HTB/Learning Process/Learning Dependencies/The Brain.md",
     "HTB/Learning Process/Learning Dependencies/Learning Types.md",
-    "HTB/Knowledge Tree.md",
     "HTB/Learning Process/Learning Dependencies/Learning Efficiency.md",
     "HTB/Footprinting/Host Based Enumeration/DNS.md",
     "HTB/Footprinting/Infrastructure Based Enumeration/Staff.md",
@@ -256,9 +258,7 @@
     "HTB/Introduction to Bash Scripting/Execution Flow/Debugging.md",
     "Professional Career Path Journal/Career Achievements Journal.md",
     "HTB/Learning Process/Learning Dependencies/Way Of Learning.md",
-    "HTB/Learning Process/Mindset/Talent.md",
     "HTB/Learning Process/Learning Dependencies",
-    "HTB/Learning Process/Mindset/Occam's Razor.md",
     "HTB/Learning Process/Mindset",
     "HTB/Learning Process",
     "Professional Career Path Journal",
