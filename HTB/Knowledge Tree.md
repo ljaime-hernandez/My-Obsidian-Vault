@@ -171,6 +171,7 @@
 │       ├── Comfort.md
 │       ├── Focus.md
 │       ├── Handling Frustration.md
+│       ├── Learning Progress.md
 │       ├── Obstacles.md
 │       └── Questioning.md
 ├── Linux Fundamentals
@@ -234,6 +235,13 @@
 │   │   ├── Enumeration.md
 │   │   └── Introduction to Nmap.md
 │   └── Nmap Cheat Sheet.md
+├── Network Foundations
+│   ├── Network Communication and Addressing
+│   │   └── Network Communication.md
+│   └── Networking Fundamentals
+│       ├── Components of a Network.md
+│       ├── Introduction to Networks.md
+│       └── Network Concepts.md
 ├── Penetration Testing Fundamentals
 │   ├── Attacking Your First Box
 │   │   ├── Nibbles - Alternate User Method - Metasploit.md
@@ -357,4 +365,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-94 directories, 263 files
+97 directories, 268 files
