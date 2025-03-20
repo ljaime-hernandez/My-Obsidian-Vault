@@ -236,7 +236,12 @@
 │   │   └── Introduction to Nmap.md
 │   └── Nmap Cheat Sheet.md
 ├── Network Foundations
+│   ├── Internet Architecture and Wireless Technologies
+│   │   └── Internet Architecture.md
 │   ├── Network Communication and Addressing
+│   │   ├── Domain Name System (DNS).md
+│   │   ├── Dynamic Host Configuration Protocol (DHCP).md
+│   │   ├── Network Address Translation (NAT).md
 │   │   └── Network Communication.md
 │   └── Networking Fundamentals
 │       ├── Components of a Network.md
@@ -365,4 +370,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-97 directories, 268 files
+98 directories, 272 files
