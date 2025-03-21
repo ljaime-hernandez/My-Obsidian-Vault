@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Network Foundations/Network Security and Data Flow Analysis/Network Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Knowledge Tree"
+              "title": "Network Security"
             }
           },
           {
@@ -230,14 +230,18 @@
   },
   "active": "d3c96a092f5ae4ed",
   "lastOpenFiles": [
+    "HTB/Network Foundations/Internet Architecture and Wireless Technologies/Wireless Networks.md",
+    "HTB/Network Foundations/Network Security and Data Flow Analysis/Network Security.md",
+    "HTB/Network Foundations/Network Security and Data Flow Analysis",
     "HTB/Network Foundations/Internet Architecture and Wireless Technologies/Internet Architecture.md",
+    "SQL Tutorial with MODE/Basic SQL/SQL SELECT.md",
+    "SQL Tutorial with MODE/Basic SQL/Using SQL in Mode.md",
+    "HTB/Knowledge Tree.md",
     "HTB/Network Foundations/Network Communication and Addressing/Domain Name System (DNS).md",
     "HTB/Network Foundations/Internet Architecture and Wireless Technologies",
     "HTB/Network Foundations/Network Communication and Addressing/Network Address Translation (NAT).md",
     "HTB/Network Foundations/Network Communication and Addressing/Dynamic Host Configuration Protocol (DHCP).md",
     "HTB/Network Foundations/Network Communication and Addressing/Network Communication.md",
-    "HTB/Knowledge Tree.md",
-    "SQL Tutorial with MODE/Basic SQL/Using SQL in Mode.md",
     "SQL Tutorial with MODE/Basic SQL/The SQL Tutorial for Data Analysis.md",
     "Professional Career Path Journal/Career Achievements Journal.md",
     "SQL Tutorial with MODE/Basic SQL",
@@ -260,12 +264,8 @@
     "HTB/Learning Process/The Process/Focus.md",
     "HTB/Learning Process/Learning Overview/Organization.md",
     "HTB/Learning Process/The Process",
-    "HTB/Learning Process/Learning Overview/Documentation.md",
-    "HTB/Footprinting/Host Based Enumeration/FTP.md",
-    "HTB/Learning Process/Learning Dependencies/Decision Making.md",
     "HTB/Learning Process/Learning Overview",
     "HTB/Learning Process/Learning Dependencies",
-    "HTB/Learning Process/Mindset",
     "HTB/Images/Pasted image 20230204151958.png",
     "HTB/Images/Pasted image 20230204151929.png",
     "HTB/Images/Pasted image 20230201140801.png",
