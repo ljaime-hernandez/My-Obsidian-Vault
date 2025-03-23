@@ -245,11 +245,14 @@
 │   │   ├── Network Address Translation (NAT).md
 │   │   └── Network Communication.md
 │   ├── Network Security and Data Flow Analysis
+│   │   ├── Data Flow Example.md
 │   │   └── Network Security.md
-│   └── Networking Fundamentals
-│       ├── Components of a Network.md
-│       ├── Introduction to Networks.md
-│       └── Network Concepts.md
+│   ├── Networking Fundamentals
+│   │   ├── Components of a Network.md
+│   │   ├── Introduction to Networks.md
+│   │   └── Network Concepts.md
+│   └── Skills Assessment
+│       └── Skills Assessment.md
 ├── Penetration Testing Fundamentals
 │   ├── Attacking Your First Box
 │   │   ├── Nibbles - Alternate User Method - Metasploit.md
@@ -373,4 +376,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-99 directories, 274 files
+100 directories, 276 files
