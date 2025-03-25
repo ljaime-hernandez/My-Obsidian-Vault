@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Network Foundations/Skills Assessment/Skills Assessment.md",
+                "file": "HTB/Network Foundations/Skills Assessment/Keep me in the Loop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Skills Assessment"
+              "title": "Keep me in the Loop"
             }
           },
           {
@@ -228,10 +228,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3c96a092f5ae4ed",
+  "active": "56b8d94bfb5772d8",
   "lastOpenFiles": [
     "HTB/Network Foundations/Network Security and Data Flow Analysis/Data Flow Example.md",
-    "HTB/Network Foundations/Skills Assessment/Skills Assessment.md",
+    "HTB/Network Foundations/Skills Assessment/Keep me in the Loop.md",
     "HTB/Network Foundations/Skills Assessment",
     "HTB/Network Foundations/Network Security and Data Flow Analysis/Network Security.md",
     "HTB/Network Foundations/Internet Architecture and Wireless Technologies/Wireless Networks.md",
