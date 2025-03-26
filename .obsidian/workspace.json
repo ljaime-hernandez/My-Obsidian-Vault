@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Network Foundations/Skills Assessment/Keep me in the Loop.md",
+                "file": "HTB/Introduction to Information Security/Introduction/Structure of InfoSec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Keep me in the Loop"
+              "title": "Structure of InfoSec"
             }
           },
           {
@@ -228,10 +228,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56b8d94bfb5772d8",
+  "active": "d3c96a092f5ae4ed",
   "lastOpenFiles": [
-    "HTB/Network Foundations/Network Security and Data Flow Analysis/Data Flow Example.md",
+    "HTB/Network Foundations/Skills Assessment/Target Acquired.md",
+    "HTB/Introduction to Information Security/Introduction/Structure of InfoSec.md",
+    "HTB/Introduction to Information Security/Introduction",
+    "HTB/Introduction to Information Security",
+    "HTB/Network Foundations/Skills Assessment/Having Tuns of Fun.md",
     "HTB/Network Foundations/Skills Assessment/Keep me in the Loop.md",
+    "HTB/Network Foundations/Network Security and Data Flow Analysis/Data Flow Example.md",
     "HTB/Network Foundations/Skills Assessment",
     "HTB/Network Foundations/Network Security and Data Flow Analysis/Network Security.md",
     "HTB/Network Foundations/Internet Architecture and Wireless Technologies/Wireless Networks.md",
@@ -261,11 +266,6 @@
     "HTB/Network Foundations",
     "HTB/Learning Process/The Process/Handling Frustration.md",
     "HTB/Learning Process/The Process/Questioning.md",
-    "HTB/Learning Process/The Process/Obstacles.md",
-    "HTB/Learning Process/The Process/Comfort.md",
-    "HTB/Learning Process/The Process/Attention.md",
-    "HTB/Learning Process/The Process",
-    "HTB/Learning Process/Learning Overview",
     "HTB/Images/Pasted image 20230204151958.png",
     "HTB/Images/Pasted image 20230204151929.png",
     "HTB/Images/Pasted image 20230201140801.png",

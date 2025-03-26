@@ -82,6 +82,9 @@
 │       ├── Arithmetic.md
 │       ├── Comparison Operators.md
 │       └── Conditional Execution.md
+├── Introduction to Information Security
+│   └── Introduction
+│       └── Structure of InfoSec.md
 ├── Introduction to Networking
 │   ├── Addressing
 │   │   ├── IP Addresses.md
@@ -252,7 +255,9 @@
 │   │   ├── Introduction to Networks.md
 │   │   └── Network Concepts.md
 │   └── Skills Assessment
-│       └── Keep me in the Loop.md
+│       ├── Having Tuns of Fun.md
+│       ├── Keep me in the Loop.md
+│       └── Target Acquired.md
 ├── Penetration Testing Fundamentals
 │   ├── Attacking Your First Box
 │   │   ├── Nibbles - Alternate User Method - Metasploit.md
@@ -376,4 +381,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-100 directories, 276 files
+102 directories, 279 files
