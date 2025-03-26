@@ -84,6 +84,7 @@
 │       └── Conditional Execution.md
 ├── Introduction to Information Security
 │   └── Introduction
+│       ├── Principles of Information Security.md
 │       └── Structure of InfoSec.md
 ├── Introduction to Networking
 │   ├── Addressing
@@ -381,4 +382,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-102 directories, 279 files
+102 directories, 280 files
