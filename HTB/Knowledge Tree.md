@@ -83,6 +83,12 @@
 │       ├── Comparison Operators.md
 │       └── Conditional Execution.md
 ├── Introduction to Information Security
+│   ├── InfoSec Domains
+│   │   ├── Application Security.md
+│   │   ├── Cloud Security.md
+│   │   ├── Disaster Recovery and Business Continuity.md
+│   │   ├── Network Security.md
+│   │   └── Operational Security.md
 │   └── Introduction
 │       ├── Principles of Information Security.md
 │       └── Structure of InfoSec.md
@@ -382,4 +388,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-102 directories, 280 files
+103 directories, 285 files

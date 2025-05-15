@@ -1,0 +1,19 @@
+Disaster Recovery (`DR`) and Business Continuity (`BC`) are critical components of an organization's resilience strategy, designed to ensure that a company can continue to operate in the face of significant disruptions. While often mentioned together, these two concepts have distinct focuses and methodologies. It primarily deals with the restoration of critical systems and data following a catastrophic event. This could include natural disasters like earthquakes or floods, man-made disasters such as fires or terrorist attacks, or technological failures like major system crashes or cyberattacks. The goal of DR is to minimize downtime and data loss, ensuring that an organization can quickly resume its essential functions. A typical DR plan includes detailed procedures for backing up data, replicating systems, and failover to alternate sites or cloud environments.
+
+Imagine you're organizing a big concert in a park. You've planned everything—the stage, the sound system, the performers, and the audience seating. But what if it suddenly starts pouring rain or there's a power outage? Disaster Recovery and Business Continuity are like your backup plans to keep the show going despite unexpected problems.
+
+#### Disaster Recovery
+
+Think of `Disaster Recovery` (`DR`) as bringing an umbrella and a generator to the concert. If it starts raining, you quickly set up the umbrella over the stage to protect the equipment. If the power goes out, you switch on the generator to keep the lights and sound running. DR focuses on restoring the critical parts that have failed so the event can continue with minimal interruption. In a business, DR involves steps to recover important systems and data after something bad happens, like a cyberattack or a natural disaster. It's about getting the essential pieces back up and running as fast as possible.
+
+#### Business Continuity
+
+`Business Continuity` (`BC`) is a broader plan. It's like having a contingency for moving the concert indoors if the weather forecast looks bad or arranging for an acoustic performance if all else fails. BC ensures that, no matter what happens, the concert (the business) can keep going, even if adjustments are needed. For companies, BC means figuring out how to maintain operations during and after a disruption. This could involve employees working from home, using alternative suppliers, or relocating to a temporary office.
+
+A well-developed DR/BC strategy can mean the difference between an organization weathering a crisis or succumbing to it. These plans not only protect against financial losses but also help maintain customer trust, meet regulatory requirements, and safeguard an organization's reputation.
+
+## Responsibility
+
+Responsibility for `DR` and `BC` typically falls to a dedicated team within an organization, often led by a Business Continuity Manager or a similar role. This team works closely with IT, operations, and executive leadership to develop, implement, and maintain the DR/BC plans. They conduct risk assessments, identify critical business functions, set `Recovery Time Objectives` (`RTOs`) and `Recovery Point Objectives` (`RPOs`), and design strategies to meet these goals.
+
+Penetration testers can play a valuable role in this process, helping to identify vulnerabilities that could compromise DR and BC efforts and testing the effectiveness of recovery procedures. Testing of DR and BC plans is a crucial and ongoing process. Regular tests and exercises ensure that the plans are effective and that staff are familiar with their roles in a crisis. These tests can range from tabletop exercises, where team members walk through their responses to a simulated scenario, to full-scale simulations that involve actually failing over to backup systems or alternate sites. The frequency and scope of testing depend on the organization's size, complexity, and regulatory requirements, but annual testing is common for many businesses.
