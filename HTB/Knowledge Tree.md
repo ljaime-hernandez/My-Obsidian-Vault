@@ -87,8 +87,11 @@
 │   │   ├── Application Security.md
 │   │   ├── Cloud Security.md
 │   │   ├── Disaster Recovery and Business Continuity.md
+│   │   ├── Internet of Things Security.md
+│   │   ├── Mobile Security.md
 │   │   ├── Network Security.md
-│   │   └── Operational Security.md
+│   │   ├── Operational Security.md
+│   │   └── Physical Security.md
 │   └── Introduction
 │       ├── Principles of Information Security.md
 │       └── Structure of InfoSec.md
@@ -388,4 +391,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-103 directories, 285 files
+103 directories, 288 files

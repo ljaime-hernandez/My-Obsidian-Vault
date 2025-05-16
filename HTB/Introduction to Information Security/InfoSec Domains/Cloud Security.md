@@ -6,8 +6,6 @@ As more people use these shared storage facilities (cloud services), making sure
 
 In this shared storage facility, several things could potentially jeopardize the safety of your belongings. For example, someone might pick the lock to your unit and steal your items, which is similar to a `data breach` in cloud security where unauthorized individuals access your sensitive information. The facility's access system might have flaws that allow unauthorized people to enter, similar to `insecure APIs` in cloud services that can be exploited by hackers. You might accidentally forget to lock your storage unit properly, leaving it open to anyone. This mirrors `misconfigured cloud storage`, where improper settings expose data to the public unintentionally. Additionally, someone could steal your access card or code and pretend to be you, leading to `account hijacking` where attackers gain control over your account and access your data without permission.
 
----
-
 ## Key Areas of Cloud Security
 
 To protect against these threats, cloud security focuses on several key areas.
@@ -20,18 +18,16 @@ To protect against these threats, cloud security focuses on several key areas.
 
 Lastly, `compliance` and `governance` involve adhering to rules that everyone must follow, like not storing illegal items in the facility. In business terms, this means following laws and regulations about how data is handled and secured, ensuring that all practices meet industry standards and legal requirements.
 
----
-
 ## Responsibility
 
 The responsibility for security in this shared environment is divided among various parties.
 
 1. `Cloud service providers` are like the facility management, they ensure that the building is secure, surveillance cameras are operational, and security personnel are on duty. They handle the overall security infrastructure of the cloud, providing a safe environment for everyone.
-    
+
 2. `You / Administrator`, the customer, are responsible for securing your individual storage unit by locking it properly and keeping your key or access code safe. In a business context, this means implementing strong passwords, managing user access, and safeguarding your data within the cloud.
-    
+
 3. `Security teams` within organizations plan and oversee these measures, much like a head of security at the storage facility would coordinate safety protocols. They develop strategies, conduct risk assessments, and ensure that both the technical and human elements of security are addressed effectively.
-    
+
 
 Ensuring that these security measures are effective requires regular testing and vigilance. Just as you might hire someone to test the facility's security by attempting to breach it (with permission, of course), businesses employ penetration testers to assess their cloud security. These professionals simulate attacks to identify weaknesses before malicious actors can exploit them, helping to strengthen the defenses. Ongoing management and staying updated are crucial because new threats can emerge, like someone inventing a new lock-picking tool.
 
