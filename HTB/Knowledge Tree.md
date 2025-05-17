@@ -83,6 +83,8 @@
 │       ├── Comparison Operators.md
 │       └── Conditional Execution.md
 ├── Introduction to Information Security
+│   ├── Cybersecurity Teams
+│   │   └── Threat Actors.md
 │   ├── InfoSec Domains
 │   │   ├── Application Security.md
 │   │   ├── Cloud Security.md
@@ -92,9 +94,15 @@
 │   │   ├── Network Security.md
 │   │   ├── Operational Security.md
 │   │   └── Physical Security.md
-│   └── Introduction
-│       ├── Principles of Information Security.md
-│       └── Structure of InfoSec.md
+│   ├── Introduction
+│   │   ├── Principles of Information Security.md
+│   │   └── Structure of InfoSec.md
+│   └── Threats
+│       ├── Advanced Persistent Threats.md
+│       ├── Distributed Denial of Service.md
+│       ├── Insider Threat.md
+│       ├── Ransomware.md
+│       └── Social Engineering.md
 ├── Introduction to Networking
 │   ├── Addressing
 │   │   ├── IP Addresses.md
@@ -391,4 +399,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-103 directories, 288 files
+105 directories, 294 files

@@ -1,0 +1,25 @@
+Ransomware is a type of malicious software (or malware) that infiltrates servers, computers, and networks, encrypting valuable files so they become inaccessible. The attackers then demand a ransom payment, often in cryptocurrency like Bitcoin, in exchange for a decryption key that promises to restore access to the locked data. It's similar to a digital hostage situation, where your important files are held captive.
+
+The primary purpose of ransomware is, typically, fairly straightforward. For cybercriminals, their goal is almost always financial gain. By targeting individuals, businesses, hospitals, or even governments, attackers aim to extort money by exploiting the victim's need to access their own data. However, the impact of ransomware extends beyond just the immediate financial cost. It can disrupt essential services, erode trust, damage reputations, and in critical sectors like healthcare, it can even endanger lives.
+
+Imagine you own a small art gallery filled with priceless paintings and sculptures. One morning, you arrive to find that all your artwork has been locked away behind impenetrable glass cases installed overnight. A note is left on the door demanding a hefty sum of money in exchange for the keys to unlock the cases. Until you pay, you can't access or display your art, and your business grinds to a halt. This unsettling scenario mirrors what happens during a **ransomware attack** in the digital world.
+
+## How it works
+
+In May 2017, a massive ransomware attack known as **WannaCry** spread rapidly across the globe, affecting over 200,000 computers in more than 150 countries. Hospitals in the UK's National Health Service were particularly hard-hit. Staff were locked out of patient records, leading to canceled surgeries and diverted ambulances. The attackers demanded payments of $300 to $600 in Bitcoin to restore access.
+
+A ransomware attack is a sophisticated cybercrime that typically unfolds in several stages. Initially, the attacker gains access to the victim's system, often through deceptive phishing emails that appear to be from trusted sources. These emails may contain malicious links or attachments that, when clicked or opened, install the ransomware on the victim's computer. Once infiltrated, the ransomware begins encrypting files such as documents, photos, and databases using complex algorithms, effectively scrambling the data and making it unreadable without a decryption key.
+
+After the encryption process is complete, the ransomware displays a message informing the victim of the situation and providing instructions on how to pay the ransom, usually with a deadline to prevent permanent data loss. If the victim decides to pay the ransom, there's no guarantee that the attackers will provide the decryption key or that it will successfully restore access to the files. Moreover, paying the ransom may mark the victim as a target for future attacks, perpetuating the cycle of cybercrime.
+
+WannaCry exploited a vulnerability in Microsoft Windows operating systems, particularly on computers that hadn't installed recent security updates. The attack caused billions of dollars in damages worldwide and highlighted the vulnerabilities in critical infrastructure.
+
+## Impact
+
+Ransomware poses a significant threat due to its potential for widespread disruption across various sectors. The impacts of a ransomware attack can be severe and far-reaching. Organizations may face `operational shutdowns`, bringing businesses and services to a standstill. In critical sectors like healthcare, this could mean the inability to access patient records or schedule treatments, potentially endangering lives. `Financial losses` extend beyond the ransom itself, encompassing costs associated with downtime, recovery efforts, and the implementation of new security measures.
+
+`Data loss` is another critical concern, especially if backups are unavailable or compromised, potentially resulting in the permanent loss of important information. High-profile breaches can lead to substantial `reputation damage`, eroding customer trust and potentially causing long-term revenue decline. Perhaps most insidiously, paying ransoms can perpetuate the cycle of cybercrime, encouraging attackers to continue their malicious activities and potentially marking the victim as a target for future attacks.
+
+Let’s consider another example. Imagine a public library that serves as a vital resource for the community. One day, all the books are found locked in special cases with codes, and a note demands payment for the codes to unlock them. Until the ransom is paid, no one can borrow books, study, or access information. This not only affects the library but also students, researchers, and anyone who relies on its resources.
+
+Similarly, ransomware doesn't just impact the immediate victim. It can have ripple effects on everyone who depends on the services provided by the compromised organization. The annual cost of cybercrime is in the trillions of dollars per year by 2025 accordingly to [CybersecurityVentures](https://cybersecurityventures.com/hackerpocalypse-cybercrime-report-2016/).
