@@ -84,6 +84,9 @@
 │       └── Conditional Execution.md
 ├── Introduction to Information Security
 │   ├── Cybersecurity Teams
+│   │   ├── Blue Team.md
+│   │   ├── Purple Team.md
+│   │   ├── Red Team.md
 │   │   └── Threat Actors.md
 │   ├── InfoSec Domains
 │   │   ├── Application Security.md
@@ -97,6 +100,11 @@
 │   ├── Introduction
 │   │   ├── Principles of Information Security.md
 │   │   └── Structure of InfoSec.md
+│   ├── Job Roles
+│   │   ├── Bug Bounty Hunter.md
+│   │   ├── Chief Information Security Officer.md
+│   │   ├── Penetration Testers.md
+│   │   └── Security Operations Center.md
 │   └── Threats
 │       ├── Advanced Persistent Threats.md
 │       ├── Distributed Denial of Service.md
@@ -399,4 +407,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-105 directories, 294 files
+106 directories, 301 files
