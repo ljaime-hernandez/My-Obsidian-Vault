@@ -463,7 +463,15 @@ We've gotten an initial lay of the land and (hopefully) some sensitive or useful
 Though we are focusing on manual enumeration in this module, its worth running the [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) script at this point in a real-world assessment so we have as much data to dig through as possible. Oftentimes we can find an easy win but having this output handy can sometimes uncover nuanced issues that our manual enumeration missed. We should, though, practice our manual enumeration as much as possible and create (and continue to add to) our own cheat sheet of key commands (and alternatives for different Linux operating systems). We'll start to develop our own style, command preference, and even see some areas that we can begin to script out ourselves. Tools are great and have their place but where many fall short is being able to perform a given task when a tool fails or we cannot get it onto the system.
 
 
+
+
 #### Questions
 
 Enumerate the Linux environment and look for interesting files that might contain sensitive data. Submit the flag as the answer.
 
+* Download the VPN file from the HTB Academy webpage
+* Open your VM and go to your Downloads page from the terminal
+* Run the command " openvpn academy-regular.ovpn " (if it doesnt work try running the same command with sudo)
+* Use the user and password given by HTB and then SSH to the target system spawned for you by running this command "ssh htb-student@\<ip given>\"
+* (easy fix) run " grep / -r "HTB{" " 
+* Paste the solution "HTB{1nt3rn4l_5cr1p7_l34k}"

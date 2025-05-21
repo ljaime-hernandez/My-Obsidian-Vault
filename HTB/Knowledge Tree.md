@@ -244,8 +244,10 @@
 │       ├── Regular Expressions.md
 │       └── Working with Files and Directories.md
 ├── Linux Privilege Escalation
+│   ├── Cheat Sheet.md
 │   ├── Information Gathering
-│   │   └── Environment Enumeration.md
+│   │   ├── Environment Enumeration.md
+│   │   └── Linux Services & Internals Enumeration.md
 │   └── Introduction to Linux Privilege Escalation.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
@@ -407,4 +409,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-106 directories, 301 files
+106 directories, 303 files
