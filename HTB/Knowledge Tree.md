@@ -254,8 +254,12 @@
 │   │   ├── Environment Enumeration.md
 │   │   └── Linux Services & Internals Enumeration.md
 │   ├── Introduction to Linux Privilege Escalation.md
-│   └── Permissions-based Privilege Escalation
-│       └── Special Permissions.md
+│   ├── Permissions-based Privilege Escalation
+│   │   ├── Capabilities.md
+│   │   ├── Privileged Groups.md
+│   │   ├── Special Permissions.md
+│   │   └── Sudo Rights Abuse.md
+│   └── Service-based Privilege Escalation
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
@@ -416,4 +420,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-108 directories, 308 files
+109 directories, 311 files

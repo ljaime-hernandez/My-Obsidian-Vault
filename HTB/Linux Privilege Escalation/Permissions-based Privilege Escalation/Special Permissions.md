@@ -52,8 +52,6 @@ This [resource](https://linuxconfig.org/how-to-use-special-permissions-the-setu
 
 The [GTFOBins](https://gtfobins.github.io/) project is a curated list of binaries and scripts that can be used by an attacker to bypass security restrictions. Each page details the program's features that can be used to break out of restricted shells, escalate privileges, spawn reverse shell connections, and transfer files. For example, `apt-get` can be used to break out of restricted environments and spawn a shell by adding a Pre-Invoke command:
 
-  Special Permissions
-
 ```shell-session
 KaoruRyusaki@htb[/htb]$ sudo apt-get update -o APT::Update::Pre-Invoke::=/bin/sh
 
@@ -69,9 +67,20 @@ It is worth familiarizing ourselves with as many GTFOBins as possible to quickly
 
 Find a file with the setuid bit set that was not shown in the section command output (full path to the binary).
 
-
-
+* Download the VPN file from the HTB Academy webpage
+* Open your VM and go to your Downloads page from the terminal
+* Run the command " openvpn academy-regular.ovpn " (if it doesnt work try running the same command with sudo)
+* Use the user and password given by HTB and then SSH to the target system spawned for you by running this command "ssh htb-student@\<ip given>\"
+* Run command " find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null "
+* the binary thats not on the documents output is " /bin/sed "
 
 
 
 Find a file with the setgid bit set that was not shown in the section command output (full path to the binary).
+
+* Download the VPN file from the HTB Academy webpage
+* Open your VM and go to your Downloads page from the terminal
+* Run the command " openvpn academy-regular.ovpn " (if it doesnt work try running the same command with sudo)
+* Use the user and password given by HTB and then SSH to the target system spawned for you by running this command "ssh htb-student@\<ip given>\"
+* Run command " find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null "
+* the binary thats not on the documents output is " /usr/bin/facter "
