@@ -245,10 +245,17 @@
 │       └── Working with Files and Directories.md
 ├── Linux Privilege Escalation
 │   ├── Cheat Sheet.md
+│   ├── Environment-based Privilege Escalation
+│   │   ├── Escaping Restricted Shells.md
+│   │   ├── Path Abuse.md
+│   │   └── Wildcard Abuse.md
 │   ├── Information Gathering
+│   │   ├── Credential Hunting.md
 │   │   ├── Environment Enumeration.md
 │   │   └── Linux Services & Internals Enumeration.md
-│   └── Introduction to Linux Privilege Escalation.md
+│   ├── Introduction to Linux Privilege Escalation.md
+│   └── Permissions-based Privilege Escalation
+│       └── Special Permissions.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
@@ -409,4 +416,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-106 directories, 303 files
+108 directories, 308 files

@@ -436,6 +436,13 @@ This would give us a pretty good overview of our target system, so we can go int
 
 #### Question
 
-Enumerate the Linux environment and look for interesting files that might contain sensitive data. Submit the flag as the answer
+What is the latest Python version that is installed on the target?
 
-* 
+* Download the VPN file from the HTB Academy webpage
+* Open your VM and go to your Downloads page from the terminal
+* Run the command " openvpn academy-regular.ovpn " (if it doesnt work try running the same command with sudo)
+* Use the user and password given by HTB and then SSH to the target system spawned for you by running this command "ssh htb-student@\<ip given>\"
+* Run command " apt list --installed | tr "/" " " | cut -d" " -f1,3 | sed 's/[0-9]://g' | tee -a installed_pkgs.list "
+* Read the file with command " cat installed_pkgs.list"
+* check for different python versions and read the latest one
+* " 3.11 "
