@@ -77,4 +77,9 @@ NIX02
 
 What command can the htb-student user run as root?
 
-* 
+* Download the VPN file from the HTB Academy webpage
+* Open your VM and go to your Downloads page from the terminal
+* Run the command " openvpn academy-regular.ovpn " (if it doesnt work try running the same command with sudo)
+* Use the user and password given by HTB and then SSH to the target system spawned for you by running this command "ssh htb-student@\<ip given>\"
+* run command " sudo -l "
+* /usr/bin/openssl

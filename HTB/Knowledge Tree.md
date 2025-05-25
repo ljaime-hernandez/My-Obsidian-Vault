@@ -260,6 +260,9 @@
 │   │   ├── Special Permissions.md
 │   │   └── Sudo Rights Abuse.md
 │   └── Service-based Privilege Escalation
+│       ├── Containers.md
+│       ├── Cron Job Abuse.md
+│       └── Vulnerable Services.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
@@ -420,4 +423,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-109 directories, 311 files
+109 directories, 314 files
