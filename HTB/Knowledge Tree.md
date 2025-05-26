@@ -262,6 +262,9 @@
 │   └── Service-based Privilege Escalation
 │       ├── Containers.md
 │       ├── Cron Job Abuse.md
+│       ├── Docker.md
+│       ├── Kubernetes.md
+│       ├── Logrotate.md
 │       └── Vulnerable Services.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
@@ -423,4 +426,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-109 directories, 314 files
+109 directories, 317 files
