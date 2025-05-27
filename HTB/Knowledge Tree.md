@@ -254,6 +254,8 @@
 │   │   ├── Environment Enumeration.md
 │   │   └── Linux Services & Internals Enumeration.md
 │   ├── Introduction to Linux Privilege Escalation.md
+│   ├── Linux Internals-based Privilege Escalation
+│   │   └── Kernel Exploits.md
 │   ├── Permissions-based Privilege Escalation
 │   │   ├── Capabilities.md
 │   │   ├── Privileged Groups.md
@@ -265,6 +267,7 @@
 │       ├── Docker.md
 │       ├── Kubernetes.md
 │       ├── Logrotate.md
+│       ├── Miscellaneous Techniques.md
 │       └── Vulnerable Services.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
@@ -426,4 +429,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-109 directories, 317 files
+110 directories, 319 files
