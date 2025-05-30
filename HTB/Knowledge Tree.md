@@ -256,7 +256,8 @@
 │   ├── Introduction to Linux Privilege Escalation.md
 │   ├── Linux Internals-based Privilege Escalation
 │   │   ├── Kernel Exploits.md
-│   │   └── Shared Libraries.md
+│   │   ├── Shared Libraries.md
+│   │   └── Shared Object Hijacking.md
 │   ├── Permissions-based Privilege Escalation
 │   │   ├── Capabilities.md
 │   │   ├── Privileged Groups.md
@@ -430,4 +431,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-110 directories, 320 files
+110 directories, 321 files
