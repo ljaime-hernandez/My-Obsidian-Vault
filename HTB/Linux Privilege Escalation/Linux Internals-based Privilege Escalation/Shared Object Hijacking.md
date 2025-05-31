@@ -96,4 +96,12 @@ uid=0(root) gid=1000(mrb3n) groups=1000(mrb3n)
 
 Follow the examples in this section to escalate privileges, recreate all examples (don't just run the payroll binary). Practice using ldd and readelf. Submit the version of glibc (i.e. 2.30) in use to move on to the next section.
 
-* 
+* Download the VPN file from the HTB Academy webpage
+* Open your VM and go to your Downloads page from the terminal
+* Run the command " openvpn academy-regular.ovpn " (if it doesnt work try running the same command with sudo)
+* Use the user and password given by HTB and then SSH to the target system spawned for you by running this command "ssh htb-student@\<ip given>\"
+* go to the " shared_obj_hijack "
+* Run Command " ldd payroll ", you will see the paths to its dependencies, one of those will be "  libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 " and that path is the one you will use to check for the libc version
+* Run command " ./payroll "
+* Go to the previous path mentioned and do an " ls -l " command, look for the " libc " version and you will find it
+* 2.27

@@ -256,6 +256,7 @@
 │   ├── Introduction to Linux Privilege Escalation.md
 │   ├── Linux Internals-based Privilege Escalation
 │   │   ├── Kernel Exploits.md
+│   │   ├── Python Library Hijacking.md
 │   │   ├── Shared Libraries.md
 │   │   └── Shared Object Hijacking.md
 │   ├── Permissions-based Privilege Escalation
@@ -431,4 +432,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-110 directories, 321 files
+110 directories, 322 files
