@@ -249,6 +249,8 @@
 │   │   ├── Escaping Restricted Shells.md
 │   │   ├── Path Abuse.md
 │   │   └── Wildcard Abuse.md
+│   ├── Hardening Considerations
+│   │   └── Linux Hardening.md
 │   ├── Information Gathering
 │   │   ├── Credential Hunting.md
 │   │   ├── Environment Enumeration.md
@@ -265,15 +267,20 @@
 │   │   ├── Special Permissions.md
 │   │   └── Sudo Rights Abuse.md
 │   ├── Recent 0-Days
+│   │   ├── Dirty Pipe.md
+│   │   ├── Netfilter.md
+│   │   ├── Polkit.md
 │   │   └── Sudo.md
-│   └── Service-based Privilege Escalation
-│       ├── Containers.md
-│       ├── Cron Job Abuse.md
-│       ├── Docker.md
-│       ├── Kubernetes.md
-│       ├── Logrotate.md
-│       ├── Miscellaneous Techniques.md
-│       └── Vulnerable Services.md
+│   ├── Service-based Privilege Escalation
+│   │   ├── Containers.md
+│   │   ├── Cron Job Abuse.md
+│   │   ├── Docker.md
+│   │   ├── Kubernetes.md
+│   │   ├── Logrotate.md
+│   │   ├── Miscellaneous Techniques.md
+│   │   └── Vulnerable Services.md
+│   └── Skills Assessment
+│       └── Linux Local Privilege Escalation - Skills Assessment.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
@@ -434,4 +441,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-111 directories, 323 files
+113 directories, 328 files
