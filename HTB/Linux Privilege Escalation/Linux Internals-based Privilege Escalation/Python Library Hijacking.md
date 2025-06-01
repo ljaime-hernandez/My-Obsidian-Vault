@@ -260,10 +260,12 @@ Follow along with the examples in this section to escalate privileges. Try to pr
 * Use the user and password given by HTB and then SSH to the target system spawned for you by running this command "ssh htb-student@\<ip given>\"
 * For this method we will do a python library hijack, so from the lecture we notice that the " mem_status.py " file has an import for the " psutil " library, so we will create a file with the same name under our own library
 * Write the following script on a file called " psutil.py"  in our folder: 
+
 ```
 import pty
 pty.spawn("/bin/bash")
 ```
+
 * After running the " sudo -l " command we can see that we have 2 permissions: " (ALL) NOPASSWD: /usr/bin/python3 /home/htb-student/mem_status.py " so we are going to run a sudo command with BOTH ABSOLUTE PATHS, this will make the code look for the closest dependencies required and our folder has a library with the same name as the import that the mem_status.py needs, so if everything goes well it will do a reverse code
 * After getting root access, go to the root folder and open the flag file
 * HTB{3xpl0i7iNG_Py7h0n_lI8R4ry_HIjiNX}

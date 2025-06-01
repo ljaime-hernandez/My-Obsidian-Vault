@@ -264,6 +264,8 @@
 │   │   ├── Privileged Groups.md
 │   │   ├── Special Permissions.md
 │   │   └── Sudo Rights Abuse.md
+│   ├── Recent 0-Days
+│   │   └── Sudo.md
 │   └── Service-based Privilege Escalation
 │       ├── Containers.md
 │       ├── Cron Job Abuse.md
@@ -432,4 +434,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-110 directories, 322 files
+111 directories, 323 files
