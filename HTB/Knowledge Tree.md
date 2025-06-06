@@ -164,7 +164,8 @@
 │   ├── CMD
 │   │   ├── Command Prompt Basics.md
 │   │   ├── Getting Help.md
-│   │   └── System Navigation.md
+│   │   ├── System Navigation.md
+│   │   └── Working with Directories and Files - CMD.md
 │   ├── Introduction.md
 │   └── UntitledUntitled.md
 ├── Javascript Deobfuscation
@@ -448,4 +449,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-115 directories, 333 files
+115 directories, 334 files
