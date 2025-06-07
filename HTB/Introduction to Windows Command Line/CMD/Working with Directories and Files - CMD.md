@@ -988,3 +988,17 @@ C:\Users\student\Desktop>dir C:\Users\student\Downloads
 ```
 
 Above, we took the `bio.txt` file and moved it to the Downloads folder. Manipulating files is as easy as that.
+
+
+
+
+
+#### Questions
+
+What command can display the contents of a file and redirect the contents of the file into another file or to the console?
+
+* type
+
+What command can be used to make the 'apples' directory? (full command as answer, not the alias)
+
+* mkdir apples

@@ -163,11 +163,12 @@
 ├── Introduction to Windows Command Line
 │   ├── CMD
 │   │   ├── Command Prompt Basics.md
+│   │   ├── Gathering System Information.md
 │   │   ├── Getting Help.md
 │   │   ├── System Navigation.md
 │   │   └── Working with Directories and Files - CMD.md
-│   ├── Introduction.md
-│   └── UntitledUntitled.md
+│   ├── Cheat Sheet.md
+│   └── Introduction.md
 ├── Javascript Deobfuscation
 │   ├── Deobfuscation Cheat Sheet.md
 │   ├── Deobfuscation Examples
@@ -449,4 +450,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-115 directories, 334 files
+115 directories, 335 files

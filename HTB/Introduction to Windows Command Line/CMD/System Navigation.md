@@ -180,13 +180,13 @@ From this example, we can quickly get a feel for the system and see some juicy f
 
 As promised, we have nearly reached the end of this section. With our current skill set, navigating the system should be much more approachable now than initially seemed. Let us take a minute to discuss some directories that can come in handy from an attacker's perspective on a system. Below is a table of common directories that an attacker can abuse to drop files to disk, perform reconnaissance, and help facilitate attack surface mapping on a target host.
 
-|Name:|Location:|Description:|
-|---|---|---|
-|%SYSTEMROOT%\Temp|`C:\Windows\Temp`|Global directory containing temporary system files accessible to all users on the system. All users, regardless of authority, are provided full read, write, and execute permissions in this directory. Useful for dropping files as a low-privilege user on the system.|
-|%TEMP%|`C:\Users\<user>\AppData\Local\Temp`|Local directory containing a user's temporary files accessible only to the user account that it is attached to. Provides full ownership to the user that owns this folder. Useful when the attacker gains control of a local/domain joined user account.|
-|%PUBLIC%|`C:\Users\Public`|Publicly accessible directory allowing any interactive logon account full access to read, write, modify, execute, etc., files and subfolders within the directory. Alternative to the global Windows Temp Directory as it's less likely to be monitored for suspicious activity.|
-|%ProgramFiles%|`C:\Program Files`|folder containing all 64-bit applications installed on the system. Useful for seeing what kind of applications are installed on the target system.|
-|%ProgramFiles(x86)%|`C:\Program Files (x86)`|Folder containing all 32-bit applications installed on the system. Useful for seeing what kind of applications are installed on the target system.|
+| Name:               | Location:                            | Description:                                                                                                                                                                                                                                                                     |
+| ------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| %SYSTEMROOT%\Temp   | `C:\Windows\Temp`                    | Global directory containing temporary system files accessible to all users on the system. All users, regardless of authority, are provided full read, write, and execute permissions in this directory. Useful for dropping files as a low-privilege user on the system.         |
+| %TEMP%              | `C:\Users\<user>\AppData\Local\Temp` | Local directory containing a user's temporary files accessible only to the user account that it is attached to. Provides full ownership to the user that owns this folder. Useful when the attacker gains control of a local/domain joined user account.                         |
+| %PUBLIC%            | `C:\Users\Public`                    | Publicly accessible directory allowing any interactive logon account full access to read, write, modify, execute, etc., files and subfolders within the directory. Alternative to the global Windows Temp Directory as it's less likely to be monitored for suspicious activity. |
+| %ProgramFiles%      | `C:\Program Files`                   | folder containing all 64-bit applications installed on the system. Useful for seeing what kind of applications are installed on the target system.                                                                                                                               |
+| %ProgramFiles(x86)% | `C:\Program Files (x86)`             | Folder containing all 32-bit applications installed on the system. Useful for seeing what kind of applications are installed on the target system.                                                                                                                               |
 
 The table provided above is by no means an all-encompassing list of all interesting directories on a Windows host. However, these will likely be targeted as they are useful to attackers.
 
@@ -201,8 +201,8 @@ With the end of this section, we have become proficient at moving around the Win
 
 What command will give us a listing of all files and folders in a specified path?
 
-* 
+* tree /F
 
 What command will print my current working directory onto the console?
 
-* 
+* cd
