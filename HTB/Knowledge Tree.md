@@ -163,6 +163,8 @@
 ├── Introduction to Windows Command Line
 │   ├── CMD
 │   │   ├── Command Prompt Basics.md
+│   │   ├── Environment Variables.md
+│   │   ├── Finding Files and Directories.md
 │   │   ├── Gathering System Information.md
 │   │   ├── Getting Help.md
 │   │   ├── System Navigation.md
@@ -450,4 +452,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-115 directories, 335 files
+115 directories, 337 files
