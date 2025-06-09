@@ -167,10 +167,14 @@
 │   │   ├── Finding Files and Directories.md
 │   │   ├── Gathering System Information.md
 │   │   ├── Getting Help.md
+│   │   ├── Managing Services.md
 │   │   ├── System Navigation.md
+│   │   ├── Working With Scheduled Tasks.md
 │   │   └── Working with Directories and Files - CMD.md
 │   ├── Cheat Sheet.md
-│   └── Introduction.md
+│   ├── Introduction.md
+│   └── PowerShell
+│       └── Untitled.md
 ├── Javascript Deobfuscation
 │   ├── Deobfuscation Cheat Sheet.md
 │   ├── Deobfuscation Examples
@@ -452,4 +456,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-115 directories, 337 files
+116 directories, 340 files
