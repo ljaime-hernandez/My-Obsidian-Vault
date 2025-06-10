@@ -6,12 +6,12 @@ PowerShell and CMD are included natively on any Windows host, so we may ask ours
 
 #### PowerShell and CMD Compared
 
-|**Feature**|**CMD**|**PowerShell**|
-|---|---|---|
-|Language|Batch and basic CMD commands only.|PowerShell can interpret Batch, CMD, PS cmdlets, and aliases.|
-|Command utilization|The output from one command cannot be passed into another directly as a structured object, due to the limitation of handling the text output.|The output from one command can be passed into another directly as a structured object resulting in more sophisticated commands.|
-|Command Output|Text only.|PowerShell outputs in object formatting.|
-|Parallel Execution|CMD must finish one command before running another.|PowerShell can multi-thread commands to run in parallel.|
+| **Feature**         | **CMD**                                                                                                                                       | **PowerShell**                                                                                                                   |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Language            | Batch and basic CMD commands only.                                                                                                            | PowerShell can interpret Batch, CMD, PS cmdlets, and aliases.                                                                    |
+| Command utilization | The output from one command cannot be passed into another directly as a structured object, due to the limitation of handling the text output. | The output from one command can be passed into another directly as a structured object resulting in more sophisticated commands. |
+| Command Output      | Text only.                                                                                                                                    | PowerShell outputs in object formatting.                                                                                         |
+| Parallel Execution  | CMD must finish one command before running another.                                                                                           | PowerShell can multi-thread commands to run in parallel.                                                                         |
 
 Most notably, PowerShell has been built to be `extensible` and to integrate with many other tools and functionality as needed. Most think of it as just another CLI, but it is much more. Did you know it is also a `scripting language`? While CMD has been the default command-line interpreter for Windows hosts only, PowerShell has been released as an [open-source project](https://github.com/PowerShell/PowerShell) and has an extensive offering of capabilities that support its use with Linux-based systems as well. Using the `.NET` framework has also made PowerShell capable of utilizing an object base model of interaction and output instead of text-based only.
 
@@ -414,15 +414,15 @@ Unless we are working in the CLI from a GUI environment, our mouse will `not` 
 
 #### Hotkeys
 
-|**HotKey**|**Description**|
-|---|---|
-|`CTRL+R`|It makes for a searchable history. We can start typing after, and it will show us results that match previous commands.|
-|`CTRL+L`|Quick screen clear.|
-|`CTRL+ALT+Shift+?`|This will print the entire list of keyboard shortcuts PowerShell will recognize.|
-|`Escape`|When typing into the CLI, if you wish to clear the entire line, instead of holding backspace, you can just hit `escape`, which will erase the line.|
-|`↑`|Scroll up through our previous history.|
-|`↓`|Scroll down through our previous history.|
-|`F7`|Brings up a TUI with a scrollable interactive history from our session.|
+| **HotKey**         | **Description**                                                                                                                                     |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `CTRL+R`           | It makes for a searchable history. We can start typing after, and it will show us results that match previous commands.                             |
+| `CTRL+L`           | Quick screen clear.                                                                                                                                 |
+| `CTRL+ALT+Shift+?` | This will print the entire list of keyboard shortcuts PowerShell will recognize.                                                                    |
+| `Escape`           | When typing into the CLI, if you wish to clear the entire line, instead of holding backspace, you can just hit `escape`, which will erase the line. |
+| `↑`                | Scroll up through our previous history.                                                                                                             |
+| `↓`                | Scroll down through our previous history.                                                                                                           |
+| `F7`               | Brings up a TUI with a scrollable interactive history from our session.                                                                             |
 
 This list is not all of the functionality we can use in PowerShell but those we find ourselves using the most.
 
@@ -521,12 +521,12 @@ This section has been a bit long, and for a good reason. We covered all the esse
 
 What command string can we use to view the help documentation for the command Get-Location? (full string)
 
-* 
+* Get-Help Get-Location
 
 What command can we use to show us our current location on the host system?
 
-* 
+* Get-Location
 
 What hotkey can be used to clear our input line completely?
 
-* 
+* escape
