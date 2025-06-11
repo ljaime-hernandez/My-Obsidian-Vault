@@ -176,7 +176,9 @@
 │   └── PowerShell
 │       ├── All About Cmdlets and Modules.md
 │       ├── CMD Vs. PowerShell.md
-│       └── User and Group Management.md
+│       ├── Finding & Filtering Content.md
+│       ├── User and Group Management.md
+│       └── Working with Files and Directories - PowerShell.md
 ├── Javascript Deobfuscation
 │   ├── Deobfuscation Cheat Sheet.md
 │   ├── Deobfuscation Examples
@@ -458,4 +460,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-116 directories, 342 files
+116 directories, 344 files
