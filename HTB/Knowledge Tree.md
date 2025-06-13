@@ -177,6 +177,9 @@
 │       ├── All About Cmdlets and Modules.md
 │       ├── CMD Vs. PowerShell.md
 │       ├── Finding & Filtering Content.md
+│       ├── Interacting With The Web.md
+│       ├── Networking Management from The CLI.md
+│       ├── PowerShell Scripting and Automation.md
 │       ├── User and Group Management.md
 │       ├── Working with Files and Directories - PowerShell.md
 │       ├── Working with Services.md
@@ -463,4 +466,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-116 directories, 347 files
+116 directories, 350 files
