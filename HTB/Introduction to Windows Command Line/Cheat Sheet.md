@@ -241,16 +241,16 @@
 
 #### CMD.exe
 
-|**Command**|**Description**|
-|---|---|
-|`sc query`|Lists all `running` services and provides additional information for each service.|
-|`sc query <Name>`|Lists details about a specific service by name.|
-|`sc start <Name>`|Start a service by name.|
-|`sc stop <Name>`|Stop a service by name.|
-|`sc config <Name> start= disabled`|Change settings of the service specified.|
-|`tasklist /svc`|Provide a list of services running under each process on the system.|
-|`net start`|List all `running` services.|
-|`wmic service list brief`|List all services on the system using `WMIC`. Includes information such as: `ExitCode`, `Name`, `ProcessID`, `StartMode`, `State`, and `Status`.|
+| **Command**                        | **Description**                                                                                                                                  |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `sc query`                         | Lists all `running` services and provides additional information for each service.                                                               |
+| `sc query <Name>`                  | Lists details about a specific service by name.                                                                                                  |
+| `sc start <Name>`                  | Start a service by name.                                                                                                                         |
+| `sc stop <Name>`                   | Stop a service by name.                                                                                                                          |
+| `sc config <Name> start= disabled` | Change settings of the service specified.                                                                                                        |
+| `tasklist /svc`                    | Provide a list of services running under each process on the system.                                                                             |
+| `net start`                        | List all `running` services.                                                                                                                     |
+| `wmic service list brief`          | List all services on the system using `WMIC`. Includes information such as: `ExitCode`, `Name`, `ProcessID`, `StartMode`, `State`, and `Status`. |
 
 #### PowerShell
 
@@ -297,15 +297,15 @@
 
 # Event Log
 
-|**Command**|**Description**|
-|---|---|
-|`wevtutil el`|Uses the Windows Events Commandline utility to enumerate all log sources.|
-|`wevtutil gl "name"`|Will gather config information about the log specified.|
-|`wevtutil qe <Name> /c:5 /rd:true /f:text`|Query a log for events.|
-|`wevtutil epl <Name> C:\system_export.evtx`|Export a Log.|
-|`Get-WinEvent -ListLog *`|List all logging facilities using PowerShell cmdlets.|
-|`Get-WinEvent -LogName 'Name' -MaxEvents 5 <PIPE> Select-Object -ExpandProperty Message`|View the messages of a specific log.|
-|`Get-WinEvent -FilterHashTable @{LogName='Security';ID='4625 '}`|Query for a specific log by eventID.|
+| **Command**                                                                              | **Description**                                                           |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `wevtutil el`                                                                            | Uses the Windows Events Commandline utility to enumerate all log sources. |
+| `wevtutil gl "name"`                                                                     | Will gather config information about the log specified.                   |
+| `wevtutil qe <Name> /c:5 /rd:true /f:text`                                               | Query a log for events.                                                   |
+| `wevtutil epl <Name> C:\system_export.evtx`                                              | Export a Log.                                                             |
+| `Get-WinEvent -ListLog *`                                                                | List all logging facilities using PowerShell cmdlets.                     |
+| `Get-WinEvent -LogName 'Name' -MaxEvents 5 <PIPE> Select-Object -ExpandProperty Message` | View the messages of a specific log.                                      |
+| `Get-WinEvent -FilterHashTable @{LogName='Security';ID='4625 '}`                         | Query for a specific log by eventID.                                      |
 
 ---
 

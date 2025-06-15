@@ -589,7 +589,7 @@ What common protocol is used to resolve names to IP addresses.
 
 What PowerShell cmdlet will show us the IP configurations of the hosts network adapters.
 
-* ipconfig
+* Get-NetIPAddress
 
 What command can enable and configure Windows Remote Management on a host?
 

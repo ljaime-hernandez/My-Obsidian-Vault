@@ -161,6 +161,7 @@
 │       ├── Introduction.md
 │       └── Web Application Layout.md
 ├── Introduction to Windows Command Line
+│   ├── Beyond this Module.md
 │   ├── CMD
 │   │   ├── Command Prompt Basics.md
 │   │   ├── Environment Variables.md
@@ -173,18 +174,20 @@
 │   │   └── Working with Directories and Files - CMD.md
 │   ├── Cheat Sheet.md
 │   ├── Introduction.md
-│   └── PowerShell
-│       ├── All About Cmdlets and Modules.md
-│       ├── CMD Vs. PowerShell.md
-│       ├── Finding & Filtering Content.md
-│       ├── Interacting With The Web.md
-│       ├── Networking Management from The CLI.md
-│       ├── PowerShell Scripting and Automation.md
-│       ├── User and Group Management.md
-│       ├── Working with Files and Directories - PowerShell.md
-│       ├── Working with Services.md
-│       ├── Working with the Registry.md
-│       └── Working with the Windows Event Log.md
+│   ├── PowerShell
+│   │   ├── All About Cmdlets and Modules.md
+│   │   ├── CMD Vs. PowerShell.md
+│   │   ├── Finding & Filtering Content.md
+│   │   ├── Interacting With The Web.md
+│   │   ├── Networking Management from The CLI.md
+│   │   ├── PowerShell Scripting and Automation.md
+│   │   ├── User and Group Management.md
+│   │   ├── Working with Files and Directories - PowerShell.md
+│   │   ├── Working with Services.md
+│   │   ├── Working with the Registry.md
+│   │   └── Working with the Windows Event Log.md
+│   ├── Resources.md
+│   └── Skills Assessment.md
 ├── Javascript Deobfuscation
 │   ├── Deobfuscation Cheat Sheet.md
 │   ├── Deobfuscation Examples
@@ -466,4 +469,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-116 directories, 350 files
+116 directories, 353 files

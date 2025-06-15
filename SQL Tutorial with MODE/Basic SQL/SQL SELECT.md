@@ -30,13 +30,15 @@ SELECT *
 
 Write a query to select all of the columns in the `tutorial.us_housing_units` table without using `*`.
 
-[Try it out](https://app.mode.com/editor/reports/new) [See the answer](https://app.mode.com/tutorial/reports/cc50612804ae/queries/8c6475f3a667)
+[Try it out](https://app.mode.com/editor/reports/new) 
 
-_Note: Practice problems will appear in boxes like the one above throughout this tutorial._
+ANSWER
+```
+SELECT year, month, month_name, south, west, midwest, northeast
+  FROM tutorial.us_housing_units
+```
 
-When you've completed the above practice problem, check your answer by clicking "See the answer." Following the link will show you our solution SQL query. To see the results produced by this solution query, click "Results" in the left sidebar:
-
-[![](https://mode.com/resources/images/the-basics/results-highlight.png)](https://mode.com/resources/images/the-basics/results-highlight.png "Results tab in Mode")
+When you've completed the above practice problem, check your answer by clicking "See the answer." Following the link will show you our solution SQL query. To see the results produced by this solution query, click "Data" in the left sidebar:
 
 This will show you a table of query results that should be the same as your query results (if your answer is correct):
 
@@ -70,7 +72,7 @@ Let's get back to it! When you run a query, what do you get back? As you can see
 
 ## [](https://mode.com/sql-tutorial/sql-select-statement#formatting-convention)Formatting convention
 
-You might have noticed that the `SELECT` and `FROM' commands are capitalized. This isn't actually necessary—SQL will understand these commands if you type them in lowercase. Capitalizing commands is simply a convention that makes queries easier to read. Similarly, SQL treats one space, multiple spaces, or a line break as being the same thing. For example, SQL treats this the same way it does the previous query:
+You might have noticed that the `SELECT` and `FROM' commands are capitalized. This isn't actually necessary, SQL will understand these commands if you type them in lowercase. Capitalizing commands is simply a convention that makes queries easier to read. Similarly, SQL treats one space, multiple spaces, or a line break as being the same thing. For example, SQL treats this the same way it does the previous query:
 
 ```
 SELECT *        FROM tutorial.us_housing_units
@@ -103,3 +105,26 @@ SELECT west AS West_Region,
        south AS South_Region
   FROM tutorial.us_housing_units
 ```
+
+
+## Practice Problem
+
+Write a query to select all of the columns in `tutorial.us_housing_units` and rename them so that their first letters are capitalized.
+
+[Try it out](https://app.mode.com/editor/reports/new) 
+
+ANSWER
+```
+SELECT  year as "Year", 
+		month as "Month", 
+		month_name as "Month Name", 
+		south as "South", 
+		west as "West", 
+		midwest as "Midwest", 
+		northeast as "Northeast"
+  FROM tutorial.us_housing_units
+```
+
+### [](https://mode.com/sql-tutorial/sql-select-statement#find-the-report-but-not-the-sql)Find the report but not the SQL?
+
+Once you've got the report open, see the SQL powering it by clicking on "View Details" at the top, then clicking "SQL" in the sidebar on the left.

@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e9db95449defe42b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Professional Career Path Journal/Career Achievements Journal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Career Achievements Journal"
-            }
-          },
-          {
-            "id": "5308545f34b25648",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Learning Process/The Process/Comfort.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Comfort"
-            }
-          },
-          {
-            "id": "d3c96a092f5ae4ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction to Information Security/InfoSec Domains/Internet of Things Security.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Internet of Things Security"
-            }
-          },
-          {
             "id": "c73ef8a242bc3bf5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Knowledge Tree.md",
+                "file": "HTB/Introduction to Windows Command Line/PowerShell/Networking Management from The CLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Knowledge Tree"
+              "title": "Networking Management from The CLI"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 372.5
   },
   "right": {
     "id": "2b6450240cf10d06",
@@ -210,11 +167,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 202.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -228,44 +185,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56b8d94bfb5772d8",
+  "active": "c73ef8a242bc3bf5",
   "lastOpenFiles": [
-    "HTB/Introduction to Information Security/Cybersecurity Teams/Threat Actors.md",
-    "HTB/Introduction to Information Security/Threats/Advanced Persistent Threats.md",
-    "HTB/Introduction to Information Security/Cybersecurity Teams",
-    "HTB/Introduction to Information Security/Threats/Insider Threat.md",
-    "HTB/Introduction to Information Security/Threats/Social Engineering.md",
-    "HTB/Introduction to Information Security/Threats/Ransomware.md",
-    "HTB/Introduction to Information Security/Threats/Distributed Denial of Service.md",
-    "HTB/Introduction to Information Security/Introduction/Structure of InfoSec.md",
-    "HTB/Introduction to Information Security/Threats",
-    "HTB/Introduction to Information Security/InfoSec Domains/Mobile Security.md",
-    "HTB/Introduction to Information Security/InfoSec Domains/Internet of Things Security.md",
-    "HTB/Introduction to Information Security/InfoSec Domains/Physical Security.md",
-    "HTB/Introduction to Information Security/InfoSec Domains/Cloud Security.md",
-    "HTB/Introduction to Information Security/InfoSec Domains/Disaster Recovery and Business Continuity.md",
-    "HTB/Introduction to Information Security/InfoSec Domains/Operational Security.md",
-    "HTB/Introduction to Information Security/InfoSec Domains/Application Security.md",
-    "HTB/Introduction to Information Security/InfoSec Domains/Network Security.md",
-    "HTB/Introduction to Information Security/Introduction/Principles of Information Security.md",
-    "HTB/Introduction to Information Security/InfoSec Domains",
-    "HTB/Introduction to Networking/Addressing/IP Addresses.md",
-    "HTB/Network Foundations/Skills Assessment/Target Acquired.md",
-    "HTB/Footprinting/Host Based Enumeration/FTP.md",
-    "HTB/Introduction to Information Security/Introduction",
-    "HTB/Introduction to Information Security",
-    "HTB/Network Foundations/Skills Assessment/Having Tuns of Fun.md",
-    "HTB/Network Foundations/Skills Assessment/Keep me in the Loop.md",
-    "HTB/Network Foundations/Network Security and Data Flow Analysis/Data Flow Example.md",
-    "HTB/Network Foundations/Skills Assessment",
-    "HTB/Network Foundations/Network Security and Data Flow Analysis/Network Security.md",
-    "HTB/Network Foundations/Internet Architecture and Wireless Technologies/Wireless Networks.md",
-    "HTB/Network Foundations/Network Security and Data Flow Analysis",
-    "HTB/Network Foundations/Internet Architecture and Wireless Technologies/Internet Architecture.md",
-    "SQL Tutorial with MODE/Basic SQL/SQL SELECT.md",
-    "HTB/Network Foundations/Internet Architecture and Wireless Technologies",
-    "SQL Tutorial with MODE/Basic SQL",
-    "SQL Tutorial with MODE",
+    "HTB/Introduction to Windows Command Line/Beyond this Module.md",
+    "HTB/Introduction to Windows Command Line/Skills Assessment.md",
+    "HTB/Introduction to Windows Command Line/Cheat Sheet.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/User and Group Management.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/Finding & Filtering Content.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/All About Cmdlets and Modules.md",
+    "HTB/Introduction to Windows Command Line/Resources.md",
+    "HTB/Introduction to Windows Command Line/CMD/Working with Directories and Files - CMD.md",
+    "HTB/Introduction to Windows Command Line/CMD/Gathering System Information.md",
+    "HTB/Introduction to Windows Command Line/CMD/Finding Files and Directories.md",
+    "HTB/Introduction to Windows Command Line/CMD/Environment Variables.md",
+    "HTB/Introduction to Windows Command Line/CMD/Command Prompt Basics.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/PowerShell Scripting and Automation.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/Interacting With The Web.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/Networking Management from The CLI.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/Working with the Windows Event Log.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/Working with the Registry.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/Working with Services.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/CMD Vs. PowerShell.md",
+    "HTB/Introduction to Windows Command Line/PowerShell/Working with Files and Directories - PowerShell.md",
+    "HTB/Introduction to Windows Command Line/CMD/Working With Scheduled Tasks.md",
+    "HTB/Introduction to Windows Command Line/PowerShell",
+    "HTB/Introduction to Windows Command Line/CMD/Managing Services.md",
+    "HTB/Introduction to Windows Command Line/CMD/System Navigation.md",
+    "HTB/Introduction to Active Directory/Active Directory Protocols/NTLM Authentication.md",
+    "HTB/Introduction to Windows Command Line/CMD/Getting Help.md",
+    "HTB/Introduction to Windows Command Line/Introduction.md",
+    "HTB/Introduction to Windows Command Line/CMD",
+    "HTB/Introduction to Windows Command Line",
+    "HTB/Linux Privilege Escalation/Skills Assessment",
+    "HTB/Linux Privilege Escalation/Untitled",
+    "HTB/Linux Privilege Escalation/Hardening Considerations",
+    "HTB/Linux Privilege Escalation/Recent 0-Days",
+    "HTB/Linux Privilege Escalation/Linux Internals-based Privilege Escalation",
+    "HTB/Linux Privilege Escalation/Service-based Privilege Escalation",
+    "HTB/Linux Privilege Escalation/Permissions-based Privilege Escalation",
     "HTB/Images/Pasted image 20230204151958.png",
     "HTB/Images/Pasted image 20230204151929.png",
     "HTB/Images/Pasted image 20230201140801.png",
