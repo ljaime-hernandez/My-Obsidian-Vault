@@ -309,6 +309,13 @@
 │   │   └── Vulnerable Services.md
 │   └── Skills Assessment
 │       └── Linux Local Privilege Escalation - Skills Assessment.md
+├── Login Brute Forcing
+│   ├── Brute Force Attacks
+│   │   ├── Brute Force Attacks.md
+│   │   └── Dictionary Attacks.md
+│   └── Introduction
+│       ├── Introduction.md
+│       └── Password Security Fundamentals.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
@@ -469,4 +476,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-116 directories, 353 files
+119 directories, 357 files
