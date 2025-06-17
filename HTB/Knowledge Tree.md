@@ -312,7 +312,12 @@
 ├── Login Brute Forcing
 │   ├── Brute Force Attacks
 │   │   ├── Brute Force Attacks.md
-│   │   └── Dictionary Attacks.md
+│   │   ├── Dictionary Attacks.md
+│   │   └── Hybrid Attacks.md
+│   ├── Hydra
+│   │   ├── Basic HTTP Authentication.md
+│   │   ├── Hydra.md
+│   │   └── Login Forms.md
 │   └── Introduction
 │       ├── Introduction.md
 │       └── Password Security Fundamentals.md
@@ -476,4 +481,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-119 directories, 357 files
+120 directories, 361 files
