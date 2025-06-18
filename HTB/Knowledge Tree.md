@@ -318,9 +318,12 @@
 │   │   ├── Basic HTTP Authentication.md
 │   │   ├── Hydra.md
 │   │   └── Login Forms.md
-│   └── Introduction
-│       ├── Introduction.md
-│       └── Password Security Fundamentals.md
+│   ├── Introduction
+│   │   ├── Introduction.md
+│   │   └── Password Security Fundamentals.md
+│   └── Medusa
+│       ├── Medusa.md
+│       └── Web Services.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
@@ -481,4 +484,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-120 directories, 361 files
+121 directories, 363 files
