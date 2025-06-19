@@ -314,6 +314,8 @@
 │   │   ├── Brute Force Attacks.md
 │   │   ├── Dictionary Attacks.md
 │   │   └── Hybrid Attacks.md
+│   ├── Custom Wordlists
+│   │   └── Custom Wordlists.md
 │   ├── Hydra
 │   │   ├── Basic HTTP Authentication.md
 │   │   ├── Hydra.md
@@ -321,9 +323,11 @@
 │   ├── Introduction
 │   │   ├── Introduction.md
 │   │   └── Password Security Fundamentals.md
-│   └── Medusa
-│       ├── Medusa.md
-│       └── Web Services.md
+│   ├── Medusa
+│   │   ├── Medusa.md
+│   │   └── Web Services.md
+│   └── Skills Assessment
+│       └── Part 1.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
@@ -484,4 +488,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-121 directories, 363 files
+123 directories, 365 files
