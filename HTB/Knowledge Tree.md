@@ -33,6 +33,15 @@
 │   └── Introduction
 │       ├── Enumeration Methodology.md
 │       └── Enumeration Principles.md
+├── Hacking WordPress
+│   ├── Enumeration
+│   │   ├── Directory Indexing.md
+│   │   ├── Plugins and Themes Enumeration.md
+│   │   └── WordPress Core Version Enumeration.md
+│   └── Introduction
+│       ├── Intro.md
+│       ├── WordPress Structure.md
+│       └── WordPress User Roles.md
 ├── Incident Handling Process
 │   ├── Introduction
 │   │   ├── Cyber Kill Chain.md
@@ -327,7 +336,8 @@
 │   │   ├── Medusa.md
 │   │   └── Web Services.md
 │   └── Skills Assessment
-│       └── Part 1.md
+│       ├── Part 1.md
+│       └── Part 2.md
 ├── Network Enumeration With Nmap
 │   ├── Bypass Security Measures
 │   │   ├── Firewall and IDS-IPS Evasion - Easy Lab.md
@@ -488,4 +498,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-123 directories, 365 files
+126 directories, 372 files
