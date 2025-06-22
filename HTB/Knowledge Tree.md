@@ -39,6 +39,7 @@
 │   │   ├── Login.md
 │   │   ├── Plugins and Themes Enumeration.md
 │   │   ├── User Enumeration.md
+│   │   ├── WPScan Enumeration.md
 │   │   ├── WPScan Overview.md
 │   │   └── WordPress Core Version Enumeration.md
 │   └── Introduction
@@ -501,4 +502,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-126 directories, 375 files
+126 directories, 376 files
