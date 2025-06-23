@@ -36,6 +36,7 @@
 ├── Hacking WordPress
 │   ├── Enumeration
 │   │   ├── Directory Indexing.md
+│   │   ├── Exploiting a Vulnerable Plugin.md
 │   │   ├── Login.md
 │   │   ├── Plugins and Themes Enumeration.md
 │   │   ├── User Enumeration.md
@@ -502,4 +503,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-126 directories, 376 files
+126 directories, 377 files
