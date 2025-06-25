@@ -82,4 +82,5 @@ WPScan uses various passive and active methods to determine versions and vulnera
 
 Enumerate the provided WordPress instance for all installed plugins. Perform a scan with WPScan against the target and submit the version of the vulnerable plugin named “photo-gallery”.
 
-* 
+* Run command " wpscan --enumerate ap --url http:\//\<ip given>:\<port given> ", then search for the plugin address on the result
+* 1.5.34

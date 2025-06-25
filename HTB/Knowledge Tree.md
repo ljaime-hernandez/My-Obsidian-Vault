@@ -36,13 +36,16 @@
 ├── Hacking WordPress
 │   ├── Enumeration
 │   │   ├── Directory Indexing.md
-│   │   ├── Exploiting a Vulnerable Plugin.md
 │   │   ├── Login.md
 │   │   ├── Plugins and Themes Enumeration.md
 │   │   ├── User Enumeration.md
 │   │   ├── WPScan Enumeration.md
 │   │   ├── WPScan Overview.md
 │   │   └── WordPress Core Version Enumeration.md
+│   ├── Exploitation
+│   │   ├── Attacking WordPress Users.md
+│   │   ├── Exploiting a Vulnerable Plugin.md
+│   │   └── Remote Code Execution (RCE) via the Theme Editor.md
 │   └── Introduction
 │       ├── Intro.md
 │       ├── WordPress Structure.md
@@ -503,4 +506,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-126 directories, 377 files
+127 directories, 379 files
