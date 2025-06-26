@@ -44,12 +44,17 @@
 │   │   └── WordPress Core Version Enumeration.md
 │   ├── Exploitation
 │   │   ├── Attacking WordPress Users.md
+│   │   ├── Attacking WordPress with Metasploit.md
 │   │   ├── Exploiting a Vulnerable Plugin.md
 │   │   └── Remote Code Execution (RCE) via the Theme Editor.md
-│   └── Introduction
-│       ├── Intro.md
-│       ├── WordPress Structure.md
-│       └── WordPress User Roles.md
+│   ├── Introduction
+│   │   ├── Intro.md
+│   │   ├── WordPress Structure.md
+│   │   └── WordPress User Roles.md
+│   ├── Security Measures
+│   │   └── WordPress Hardening.md
+│   └── Skills Assessment
+│       └── Skills Assessment - WordPress.md
 ├── Incident Handling Process
 │   ├── Introduction
 │   │   ├── Cyber Kill Chain.md
@@ -506,4 +511,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-127 directories, 379 files
+129 directories, 382 files
