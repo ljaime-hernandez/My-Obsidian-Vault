@@ -456,6 +456,12 @@
 │   │   ├── Meterpreter.md
 │   │   └── Sessions.md
 │   └── MSFconsole Cheat Sheet.md
+├── Using Web Proxies
+│   ├── Getting Started
+│   │   ├── Intro to Web Proxies.md
+│   │   └── Setting Up.md
+│   └── Web Proxy
+│       └── Proxy Setup.md
 ├── Vulnerability Assessment
 │   ├── Nessus
 │   │   ├── Advanced Settings.md
@@ -511,4 +517,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-129 directories, 382 files
+132 directories, 385 files
