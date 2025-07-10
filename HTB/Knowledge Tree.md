@@ -461,6 +461,7 @@
 │   │   ├── Intro to Web Proxies.md
 │   │   └── Setting Up.md
 │   └── Web Proxy
+│       ├── Intercepting Web Requests.md
 │       └── Proxy Setup.md
 ├── Vulnerability Assessment
 │   ├── Nessus
@@ -517,4 +518,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-132 directories, 385 files
+132 directories, 386 files
