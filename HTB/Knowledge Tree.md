@@ -461,6 +461,8 @@
 │   │   ├── Intro to Web Proxies.md
 │   │   └── Setting Up.md
 │   └── Web Proxy
+│       ├── Automatic Modification.md
+│       ├── Intercepting Responses.md
 │       ├── Intercepting Web Requests.md
 │       └── Proxy Setup.md
 ├── Vulnerability Assessment
@@ -518,4 +520,4 @@
         ├── Service Permissions.md
         └── Windows Services & Processes.md
 
-132 directories, 386 files
+132 directories, 388 files
